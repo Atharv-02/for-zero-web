@@ -52,6 +52,7 @@ const Section25 = () => {
         <h1 className='lower-h1'>
           We all have a part to play. Take climate action today.
         </h1>
+        <button className='btn lower-btn'>Get Started</button>
       </div>
     </div>
   );

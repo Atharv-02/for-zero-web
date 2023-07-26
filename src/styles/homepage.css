@@ -99,6 +99,7 @@
   font-size: 22px;
   font-weight: 500;
   padding: 13px 36px;
+  color: white;
 }
 .hero-btn {
   margin-top: 1.75rem;
@@ -120,4 +121,8 @@
   font-size: 30px;
   margin: 0 auto;
   text-align: center;
+}
+.lower-btn {
+  display: block;
+  margin: 1rem auto;
 }
