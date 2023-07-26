@@ -1,5 +1,5 @@
 .navbar-full {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 100;
@@ -41,4 +41,26 @@
   color: white;
   font-weight: 600;
   letter-spacing: 1px;
+}
+.line {
+  width: 30px;
+  height: 2px;
+  background-color: white;
+}
+.lines {
+  display: none;
+}
+.line-1 {
+  margin-bottom: 0.2rem;
+}
+.nav-items {
+  justify-self: flex-end;
+}
+@media screen and (max-width: 640px) {
+  .lines {
+    display: block;
+  }
+  .nav-items {
+    display: none;
+  }
 }
