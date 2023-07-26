@@ -1,4 +1,9 @@
 import React from "react";
+import gif1 from '../../assets/1.gif'
+import gif2 from '../../assets/2.gif'
+import gif3 from '../../assets/3.gif'
+
+
 
 const Section4 = () => {
   return (
@@ -41,40 +46,16 @@ const Section4 = () => {
         </div>
         <img
           className="w-[542px] h-[362px] relative rounded-lg border border-green-950"
-          src="https://via.placeholder.com/542x362"
+          src={gif2}
         />
       </div>
-      <div className="w-[1000px] justify-center items-start gap-[65px] inline-flex">
+      <div className="max-w-[1024px] justify-center items-start gap-[65px] inline-flex">
         <div className="w-[542px] h-[362px] relative rounded-lg border border-green-950">
-          <div className="w-[540px] left-[1px] top-[1px] absolute bg-gray-200 rounded-[5px] justify-start items-start inline-flex">
+          <div className="w-[540px] left-[1px] top-[1px] absolute bg-gray-200 rounded-[5px] justify-start items-start flex">
             <img
-              className="w-[540px] h-[460px] relative rounded-[5px]"
-              src="https://via.placeholder.com/540x460"
+              className="relative rounded-[5px]"
+              src={gif1}
             />
-          </div>
-          <div className="w-80 px-4 pt-4 pb-[26px] left-[185px] top-[243.81px] absolute bg-white rounded-[5px] border-b-4 border-green-500 justify-start items-start inline-flex">
-            <div className="h-[30px] p-[7px] bg-green-500 rounded-[30px] justify-center items-center flex">
-              <div className="h-4 justify-center items-start flex">
-                <div className="h-4 pl-[1.42px] pr-[1.88px] pt-px pb-[0.18px] justify-start items-start flex" />
-              </div>
-            </div>
-            <div className="w-72 h-[39.19px] relative">
-              <div className="left-0 top-[-1px] absolute text-neutral-400 text-sm font-normal leading-tight">
-                You planted 🌳
-              </div>
-              <div className="left-[104.33px] top-[-1px] absolute">
-                <span className="text-green-500 text-sm font-bold leading-tight">
-                  8 trees
-                </span>
-                <span className="text-neutral-400 text-sm font-normal leading-tight">
-                  {" "}
-                  this month in East
-                </span>
-              </div>
-              <div className="left-0 top-[18.60px] absolute text-neutral-400 text-sm font-normal leading-tight">
-                Africa and Scotland!
-              </div>
-            </div>
           </div>
         </div>
         <div className="pt-6 pb-20 flex-col justify-between items-start inline-flex">
@@ -144,7 +125,7 @@ const Section4 = () => {
         </div>
         <img
           className="w-[542px] h-[362px] relative rounded-lg border border-green-950"
-          src="https://via.placeholder.com/542x362"
+          src={gif3}
         />
       </div>
     </div>
