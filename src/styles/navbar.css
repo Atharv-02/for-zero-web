@@ -10,10 +10,11 @@
   height: 100%;
   max-width: 1035px;
   margin: 0 auto;
+  padding: 8px 18px;
 }
 .img-nav {
   height: 100%;
-  padding: 0.65rem;
+  padding: 0.25rem;
 }
 .img-nav img {
   height: 100%;
@@ -43,22 +44,26 @@
   letter-spacing: 1px;
 }
 .line {
-  width: 30px;
-  height: 2px;
+  width: 20px;
+  height: 1.6px;
   background-color: white;
 }
-.lines {
+.btn-lines {
   display: none;
 }
 .line-1 {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.3rem;
 }
 .nav-items {
   justify-self: flex-end;
 }
 @media screen and (max-width: 640px) {
-  .lines {
-    display: block;
+  .btn-lines {
+    display: flex;
+    align-items: center;
+  }
+  .btn-cont {
+    margin-right: 1rem;
   }
   .nav-items {
     display: none;

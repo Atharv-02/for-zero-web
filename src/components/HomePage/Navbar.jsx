@@ -16,9 +16,14 @@ const Navbar = () => {
             <button className='btn nav-btn'>Get Started</button>
           </li>
         </ul>
-        <div className='lines'>
-          <div className='line line-1'></div>
-          <div className='line line-2'></div>
+        <div className='btn-lines'>
+          <div className='btn-cont'>
+            <button className='btn nav-btn'>Get Started</button>
+          </div>
+          <div className='lines'>
+            <div className='line line-1'></div>
+            <div className='line line-2'></div>
+          </div>
         </div>
       </nav>
     </div>
