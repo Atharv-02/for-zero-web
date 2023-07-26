@@ -31,6 +31,27 @@ module.exports = {
         darkgray: "#999",
         mediumseagreen: "#27ae60",
       },
+      fontFamily : {
+        Blanco400I : ['Blanco Italic 400', 'sans-serif'],
+        Blanco600I : ['Blanco Italic 600', 'sans-serif'],
+        Blanco: ['Blanco Medium 600', 'sans-serif'],
+        Inter : ['Inter', 'sans-serif'],
+
+      },
+      fontWeight: {
+        normal: 500,
+        bold: 700,
+      },
+      screens: {
+        'sm': '300px',
+        // => @media (min-width: 576px) { ... }
+  
+        'md': '768px',
+        // => @media (min-width: 960px) { ... }
+  
+        'lg': '1024px',
+        // => @media (min-width: 1024px) { ... }
+      },
     },
   },
   plugins: [],

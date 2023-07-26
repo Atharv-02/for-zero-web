@@ -2,6 +2,8 @@ import React from "react";
 import gif1 from '../../assets/1.gif'
 import gif2 from '../../assets/2.gif'
 import gif3 from '../../assets/3.gif'
+import TrustpilotReview from '../../assets/trustpilot-4-9.png'
+import ResearchData from '../../assets/wren-data-and-research-partners.png'
 
 
 
@@ -39,8 +41,8 @@ const Section4 = () => {
               Data & research courtesy of:
             </div>
             <img
-              className="w-[205.50px] h-6 relative"
-              src="https://via.placeholder.com/205x24"
+              className="w-[205.50px] h-6 relative bg-blend-exclusion"
+              src={ResearchData}
             />
           </div>
         </div>
@@ -106,7 +108,7 @@ const Section4 = () => {
               </div>
             </div>
             <div className="w-[393px] pr-[13px] pb-2.5 left-0 top-[144px] absolute justify-start items-start inline-flex">
-              <div className="text-neutral-400 text-xl font-normal leading-7">
+              <div className="text-neutral-400 text-xl font-normal leading-7 font-Blanco400I">
                 Receive updates that show how you’re
                 <br />
                 making a positive impact on the climate.
@@ -119,7 +121,7 @@ const Section4 = () => {
             </div>
             <img
               className="w-[200px] h-10 relative"
-              src="https://via.placeholder.com/200x40"
+              src={TrustpilotReview}
             />
           </div>
         </div>
