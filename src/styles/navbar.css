@@ -69,3 +69,27 @@
     display: none;
   }
 }
+.wh {
+  background-color: white;
+  height: 100vh;
+}
+.do-wh {
+  background-color: white;
+}
+.sm-item {
+  height: 63px;
+  display: flex;
+  margin: 20px 0px;
+}
+.sm-img {
+  height: 100%;
+}
+.sm-img img {
+  height: 100%;
+}
+.sm-img-text {
+  padding-left: 2rem;
+}
+.sm-nav {
+  padding: 12px 20px 16px;
+}

@@ -8,24 +8,23 @@ import Section6 from "../components/HomePage/Section6";
 import Section7 from "../components/HomePage/Section7";
 import Section8 from "../components/HomePage/Section8";
 import Section25 from "../components/HomePage/Section25";
-import Footer from '../components/common/Footer';
+import Footer from "../components/common/Footer";
 import Navbar from "../components/HomePage/Navbar";
-
 
 const HomePage = () => {
   return (
     <div>
-        {/* <Navbar /> */}
-        <Section1 />
-        <Section2 />
-        <Section3 />
-        <Section4 />
-        <Section5 />
-        <Section6 />
-        <Section7 />
-        <Section8 />
-        <Section25 />
-        <Footer />
+      <Navbar />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      <Section6 />
+      <Section7 />
+      <Section8 />
+      <Section25 />
+      <Footer />
     </div>
   );
 };
