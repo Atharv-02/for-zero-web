@@ -160,9 +160,7 @@
     z-index: 1000;
     clip-path: ellipse(500px 500px at 50% -270px);
   }
-  .navbar-full {
-    z-index: 3001 !important;
-  }
+
   .hero-text {
     z-index: 10001;
     margin: 0 auto;
