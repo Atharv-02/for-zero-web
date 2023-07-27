@@ -30,6 +30,9 @@ module.exports = {
         steelblue: "#3789c7",
         darkgray: "#999",
         mediumseagreen: "#27ae60",
+        for_zero_blue : "#073356",
+        for_zero_light_blue : "#21d1f2",
+        for_zero_green : "#12E2A4",
       },
       fontFamily : {
         Blanco400I : ['Blanco Italic 400', 'sans-serif'],
@@ -43,7 +46,7 @@ module.exports = {
         bold: 700,
       },
       screens: {
-        'sm': '300px',
+        'sm': '320px',
         // => @media (min-width: 576px) { ... }
   
         'md': '768px',
