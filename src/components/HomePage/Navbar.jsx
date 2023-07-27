@@ -25,13 +25,17 @@ const Navbar = () => {
             <button className='btn nav-btn'>Get Started</button>
           </div>
           <div
-            className='lines'
+            className={`lines `}
             onClick={() => {
               setNavShow(!navShow);
             }}
           >
-            <div className='line line-1'></div>
-            <div className='line line-2'></div>
+            <div
+              className={`line line-1  ${navShow ? "black cross" : null}`}
+            ></div>
+            <div
+              className={`line line-2  ${navShow ? "black rev-cross" : null}`}
+            ></div>
           </div>
         </div>
       </nav>
@@ -55,7 +59,11 @@ const Navbar = () => {
               <div className='sm-img'>
                 <img src={aboutIcon} alt='' />
               </div>
-              <div className='sm-img-text'>Contact Us</div>
+              <div className='sm-img-text'>
+                Contact Us
+                <br />
+                Understanding the impact of offsets
+              </div>
             </li>
 
             <li className='sm-btn-item sm-item'>

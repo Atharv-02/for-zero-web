@@ -134,6 +134,19 @@
     width: 80vw;
     margin: 0 auto;
   }
+  .faq-only h1 {
+    font-size: 28px;
+  }
+  .faq-only {
+    width: 100%;
+  }
+  .header-single-faq h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .header-single-faq h3 {
+    text-align: left;
+  }
 }
 @media screen and (max-width: 431px) {
   .hero-img {
