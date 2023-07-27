@@ -6,7 +6,7 @@ import Wired from "../..//assets/wren-press-wired.jpeg";
 
 const Section2 = () => {
   return (
-    <div class="w-full lg:px-5 pt-[23.05px] bg-white justify-center items-start flex">
+    <div class="w-full lg:px-5 pt-[23.05px] bg-white justify-center items-start sm:hidden md:flex">
       <div class="pr-6 max-w-[1024px] mx-auto justify-between items-center gap-6 flex">
         {/* News #1  */}
         <div class="px-3 max-w-[23%] justify-start items-start flex">
