@@ -89,6 +89,8 @@
 }
 .bg-rainforest {
   background-image: url("./assets//rainforest.jpeg");
+  object-fit: contain;
+
 }
 .bg-basalt {
   background-image: url("https://projectwren.imgix.net/scotland-valley-bright.jpg?auto=format%2Ccompress&q=35&h=800");
