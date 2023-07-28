@@ -1,8 +1,8 @@
 import React from "react";
-import Bloomberg from "../..//assets/wren-press-bloomberg.jpeg";
-import Forbes from "../..//assets/wren-press-forbes-small.jpeg";
-import NYT from "../..//assets/wren-press-nyt.jpeg";
-import Wired from "../..//assets/wren-press-wired.jpeg";
+import Bloomberg from "../..//assets/hindu.png";
+import Forbes from "../..//assets/et-logo.webp";
+import NYT from "../..//assets/toi.png";
+import Wired from "../..//assets/ht-logo.png";
 
 const Section2 = () => {
   return (
@@ -11,7 +11,7 @@ const Section2 = () => {
         {/* News #1  */}
         <div class="px-3 max-w-[23%] justify-start items-start flex">
           <div class="pb-2.5  flex-col justify-start items-center gap-0.5 inline-flex">
-            <img class="h-[35.34px] opacity-80" src={NYT} />
+            <img class="h-[35.34px] scale-y-150 scale-x-125 mb-1 opacity-80" src={NYT} />
             <div class="lg:pl-[4.13px] lg:pr-[5.87px] pt-0.5 opacity-60 flex-col justify-start items-center flex">
               <div class="text-center text-zinc-800 text-[13px] font-normal leading-none">
                 “For Zero asks a series of questions to determine how much carbon you emit.”
@@ -23,7 +23,7 @@ const Section2 = () => {
         <div class="px-3 justify-start items-start flex">
           <div class="pb-2.5 flex-col justify-start items-center gap-2.5 flex">
             <img
-              class="h-[27.89px] opacity-80"
+              class="h-[27.89px] scale-150 opacity-80"
               src={Wired}
               alt="wired"
             />
@@ -52,7 +52,7 @@ const Section2 = () => {
         <div class="px-3 justify-start items-start flex">
           <div class="pb-2.5 flex-col justify-start items-center  flex">
             <img
-              class="h-[28.50px] opacity-80"
+              class="h-[28.50px] opacity-80 scale-150 mb-1"
               src={Bloomberg}
             />
             <div class="lg:pl-[3.58px] lg:pr-[3.42px] pt-0.5 opacity-60 flex-col justify-start items-center flex">

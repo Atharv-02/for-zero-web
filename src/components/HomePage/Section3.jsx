@@ -8,7 +8,7 @@ const Section3 = () => {
         <div className="w-[700px] pl-[83.75px] pr-[84.25px] pb-[11px] justify-center items-start inline-flex">
           <div className="text-center">
             <span className="text-zinc-800 text-4xl font-semibold font-Inter leading-[48px]">
-              Wren is your{" "}
+              ForZero is your{" "}
             </span>
             <span className="text-zinc-800 text-4xl font-semibold leading-[48px]">
               all-in-one

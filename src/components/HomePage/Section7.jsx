@@ -4,7 +4,7 @@ const Section7 = () => {
   return (
     <div className=" w-full">
       {/* Desktop View */}
-      <div className="max-w-[1024px] mx-auto pt-[89px] sm:hidden md:flex flex-col  ">
+      <div className="max-w-[1024px] mx-auto pt-[89px] sm:hidden lg:flex flex-col  ">
         <div className=" left-0 top-0 bg-white justify-center items-start  flex">
           <div className="w-[600px] pb-[11px] flex-col justify-start items-center flex">
             <div className="text-center text-zinc-800 text-4xl font-semibold leading-[48px]">
@@ -213,8 +213,250 @@ const Section7 = () => {
         </div>
       </div>
 
+      {/* Tablet View */}
+      <div className="max-w-[768px] mx-auto sm:hidden md:flex flex-col lg:hidden">
+        {/* Heading  */}
+        <div className="pt-[89px] bg-white justify-center items-start flex">
+          <div className="pb-[11px] flex-col justify-start items-center flex">
+            <div className="text-center text-zinc-800 text-4xl font-semibold leading-[48px]">
+              Our goal is to make climate action
+            </div>
+            <div className="text-center">
+              <span className="text-zinc-800 text-[33px] font-semibold leading-[48px]">
+                simple & effective
+              </span>
+              <span className="text-zinc-800 text-[33px] font-semibold leading-[48px]">
+                .
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* 1st Section  */}
+        <div className="justify-start max-w-[768px] mt-7 mx-auto items-start gap-[50px] flex">
+          <div className="pb-[151.63px] justify-start items-start flex">
+            <div className="w-[329.59px] pl-[46px] pr-[110px] pt-[220.85px] pb-[45.99px] ml-8 bg-rainforest rounded flex-col justify-end items-start inline-flex">
+              <div className="w-[173.59px] h-[383.16px] relative">
+                <div className="w-[173.59px] pb-2.5 left-0 top-0 absolute justify-start items-start inline-flex">
+                  <div className="text-white text-[37px] font-semibold leading-[37px]">
+                    Protect
+                    <br />
+                    rainforest
+                    <br />
+                    in the
+                    <br />
+                    Amazon
+                  </div>
+                </div>
+                <div className="w-[173.59px] h-[5px] left-0 top-[166px] absolute bg-white bg-opacity-50 rounded-[20px]" />
+                <div className="w-[173.59px] pr-[7.59px] pb-[0.16px] left-0 top-[182px] absolute opacity-80 justify-start items-start inline-flex">
+                  <div className="text-white text-lg font-normal leading-7">
+                    Wren members
+                    <br />
+                    fund a project that
+                    <br />
+                    works with
+                    <br />
+                    indigenous peoples
+                    <br />
+                    to protect their
+                    <br />
+                    land, a natural
+                    <br />
+                    carbon sink.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="max-w-[311.59px] h-[801.63px]">
+            <div className="w-[311.59px] pb-[11px]justify-start items-start inline-flex">
+              <div className="text-zinc-800 text-[35px] font-semibold leading-[46px]">
+                We search the
+                <br />
+                globe for climate
+                <br />
+                projects with the
+                <br />
+                biggest potential.
+              </div>
+            </div>
+            <div className="w-[311.59px] justify-start items-start inline-flex">
+              <div className="text-neutral-400 text-lg font-normal leading-relaxed">
+                All Wren projects meet three
+                <br />
+                rigorous criteria:
+              </div>
+            </div>
+            <div className="w-[311.59px] pb-[41.75px] justify-start items-start gap-4 flex">
+              <div className="h-5 pb-px justify-start items-start flex" />
+              <div className="flex-col justify-start items-start gap-[5px] inline-flex">
+                <div className="text-zinc-800 text-lg font-semibold">
+                  Precise tracking
+                </div>
+                <div className="w-[276.59px] pr-[1.59px] justify-start items-start inline-flex">
+                  <div className="text-neutral-400 text-lg font-normal leading-relaxed">
+                    We carefully check how much
+                    <br />
+                    CO₂ is offset by each project, so
+                    <br />
+                    we can promise you lasting
+                    <br />
+                    impact.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pb-[41.75px] justify-start items-start gap-4 inline-flex">
+              <div className="h-[19px] pb-[0.94px] justify-start items-start flex" />
+              <div className="flex-col justify-start items-start gap-[5px] inline-flex">
+                <div className="text-zinc-800 text-lg font-semibold">
+                  Regular updates
+                </div>
+                <div className="justify-start items-start inline-flex">
+                  <div className="text-neutral-400 text-lg font-normal leading-relaxed">
+                    We get data straight from
+                    <br />
+                    projects on the ground, so you
+                    <br />
+                    can track your impact, month by
+                    <br />
+                    month.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className=" pb-[41.75px] left-0 justify-start items-start gap-4 inline-flex">
+              <div className="h-[19px] pb-[0.05px] justify-start items-start flex" />
+              <div className="flex-col justify-start items-start gap-[5px] inline-flex">
+                <div className="text-zinc-800 text-lg font-semibold">
+                  Every dollar makes a difference
+                </div>
+                <div className="justify-start items-start inline-flex">
+                  <div className="text-neutral-400 text-lg font-normal leading-tight">
+                    Our projects wouldn't happen
+                    <br />
+                    without your support. With
+                    <br />
+                    Wren, your money makes a real
+                    <br />
+                    impact.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* 2nd Section  */}
+        <div className="justify-start items-start gap-[50px] ml-7 flex">
+          <div className="w-[320.59px] h-[751.25px] relative">
+            <div className="w-[320.59px] pb-[11px] justify-start items-start inline-flex">
+              <div className="text-zinc-800 text-[35px] font-semibold leading-[46px]">
+                Then, we send
+                <br />
+                you personalized
+                <br />
+                updates every
+                <br />
+                month.
+              </div>
+            </div>
+            <div className="left-0 top-[209px] absolute text-neutral-400 text-lg font-normal leading-relaxed">
+              Each update is filled with:
+            </div>
+            <div className="w-[320.59px] pb-[42px] left-0 top-[267.18px] absolute justify-start items-start gap-4 inline-flex">
+              <div className="h-[17px] pl-[0.33px] py-[0.80px] justify-start items-start flex" />
+              <div className="flex-col justify-start items-start gap-1 inline-flex">
+                <div className="text-zinc-800 text-lg font-semibold">
+                  Pictures
+                </div>
+                <div className="w-[285.59px] pr-[23.59px] pb-[0.56px] justify-start items-start inline-flex">
+                  <div className="text-neutral-400 text-lg font-normal leading-tight">
+                    You don't have to imagine your
+                    <br />
+                    impact. You can see it each
+                    <br />
+                    month.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-[320.59px] pb-[42px] left-0 top-[380.18px] absolute justify-start items-start gap-4 inline-flex">
+              <div className="h-[17px] pl-[0.33px] py-[0.80px] justify-start items-start flex" />
+              <div className="flex-col justify-start items-start gap-1 inline-flex">
+                <div className="text-zinc-800 text-lg font-semibold">
+                  Data
+                </div>
+                <div className="w-[285.59px] pr-[23.59px] pb-[0.56px] justify-start items-start inline-flex">
+                  <div className="text-neutral-400 text-lg font-normal leading-tight">
+                    We share the details with you
+                    <br />
+                    Count, evry tree planted
+                    <br />
+                    acre reforested, every ton of
+                    <br />
+                    carbon offset.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-[320.59px] pb-[41.75px] left-0 top-[521.50px] absolute justify-start items-start gap-4 inline-flex">
+              <div className="h-4 pr-[0.55px] pt-[0.03px] pb-[0.88px] justify-start items-start gap-[2.08px] flex" />
+              <div className="flex-col justify-start items-start gap-[5px] inline-flex">
+                <div className="text-zinc-800 text-lg font-semibold">
+                  Stories
+                </div>
+                <div className="w-[286.59px] pr-[21.59px] justify-start items-start inline-flex">
+                  <div className="text-neutral-400 text-lg font-normal leading-tight">
+                    Read stories fresh from farm or
+                    <br />
+                    forest. See how your choices
+                    <br />
+                    don't just help the earth. They
+                    <br />
+                    change lives too.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="h-[751.25px] pb-[101.25px] justify-start items-start flex">
+            <div className="w-[320.59px] pl-[46px] pr-[110px] pt-[278.03px] pb-[46px] bg-basalt rounded flex-col justify-end items-start inline-flex">
+              <div className="w-[164.59px] h-[325.97px] relative">
+                <div className="w-[164.59px] pr-[12.59px] pb-2.5 left-0 top-0 absolute justify-start items-start inline-flex">
+                  <div className="text-white text-[37px] font-semibold leading-[37px]">
+                    Store
+                    <br />
+                    carbon
+                    <br />
+                    in basalt
+                    <br />
+                    rock
+                  </div>
+                </div>
+                <div className="w-[164.59px] h-[5px] left-0 top-[166px] absolute bg-white bg-opacity-50 rounded-[20px]" />
+                <div className="pr-[3.81px] left-0 top-[182px] absolute opacity-80 justify-start items-start inline-flex">
+                  <div className="text-white text-lg font-normal leading-7">
+                    Wren members
+                    <br />
+                    are funding
+                    <br />
+                    innovative new
+                    <br />
+                    ways to capture
+                    <br />
+                    and store carbon.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Mobile View */}
-      <div className="w-[430px] h-[2357.49px] flex-col justify-start items-start inline-flex">
+      <div className="max-w-[3200px] h-[2357.49px] flex-col justify-start items-start sm:flex md:hidden">
         <div className="h-[234.63px] px-10 pt-[90px] pb-6 bg-white flex-col justify-start items-center flex">
           <div className="pl-[11.59px] pr-[12.41px] pb-[10.60px] flex-col justify-start items-center flex">
             <div className="text-center text-zinc-800 text-[25px] font-semibold leading-[33.60px]">
