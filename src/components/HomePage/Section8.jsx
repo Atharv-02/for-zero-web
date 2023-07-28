@@ -19,7 +19,7 @@ const Section8 = () => {
       </div>
 
       <div className="bg-neutral-50 w-full sm:py-10 md:py-24">
-        <div className="max-w-[1024px] mx-auto">
+        <div className="sm:max-w-[320px] md:max-w-[1024px] mx-auto">
           <div className=" text-center text-zinc-800 text-[37px] font-semibold leading-[46px]">
             All our work is public.
           </div>

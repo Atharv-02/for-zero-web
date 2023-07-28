@@ -456,7 +456,7 @@ const Section7 = () => {
       </div>
 
       {/* Mobile View */}
-      <div className="max-w-[320px] h-[2610.49px] flex-col justify-start items-start sm:flex md:hidden">
+      <div className="max-w-[320px] mx-auto h-[2610.49px] flex-col justify-start items-start sm:flex md:hidden">
         {/* Heading  */}
         <div className="h-[234.63px] px-8 pt-[90px] pb-6 bg-white flex-col justify-start items-center flex">
           <div className="pl-[1.59px] pr-[1.41px] pb-[10.60px] flex-col justify-start items-center flex">
