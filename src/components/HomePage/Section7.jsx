@@ -456,7 +456,7 @@ const Section7 = () => {
       </div>
 
       {/* Mobile View */}
-      <div className="max-w-[320px] mx-auto h-[2610.49px] flex-col justify-start items-start sm:flex md:hidden">
+      <div className="max-w-[100vw] mx-auto h-[2610.49px] flex-col justify-start items-start sm:flex md:hidden">
         {/* Heading  */}
         <div className="h-[234.63px] px-8 pt-[90px] pb-6 bg-white flex-col justify-start items-center flex">
           <div className="pl-[1.59px] pr-[1.41px] pb-[10.60px] flex-col justify-start items-center flex">
@@ -480,10 +480,10 @@ const Section7 = () => {
 
           {/* 1st  */}
         <div className="flex-col justify-start items-start flex">
-          <div className="w-[320px] justify-start items-start inline-flex">
-            <div className="w-[320px] h-[400px] relative  bg-rainforest" />
+          <div className="max-w-[100vw] justify-start items-start inline-flex">
+            <div className="w-[100vw] h-[400px] relative  bg-rainforest" />
           </div>
-          <div className="max-w-[320px] h-[800.63px] bg-black">
+          <div className="max-w-[100vw] h-[800.63px] bg-black">
             <div className="w-[320px] py-[9.56px] px-8  justify-start items-start inline-flex">
               <div className="text-white text-2xl font-semibold leading-relaxed">
                 We search the globe 
@@ -564,11 +564,11 @@ const Section7 = () => {
 
         {/* 2nd  */}
         <div className="h-[1336.25px] flex-col justify-start items-start flex">
-          <div className="w-[320px] justify-start items-start inline-flex">
-            <div className="w-[320px] h-[400px] relative bg-basalt" />
+          <div className="max-w-[100vw] justify-start items-start inline-flex">
+            <div className="w-[100vw] h-[400px] relative bg-basalt" />
           </div>
 
-          <div className="max-w-[320px] h-[820.63px] bg-black">
+          <div className="max-w-[100vw] h-[852.63px] bg-black">
             <div className="w-[320px] py-[9.56px] px-8  justify-start items-start inline-flex">
               <div className="text-white text-2xl font-semibold leading-relaxed">
                 We search the globe 
