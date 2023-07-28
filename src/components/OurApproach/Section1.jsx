@@ -12,14 +12,7 @@ const Section1 = () => {
         <h1>
           We built Wren to make it easier for you to tackle the climate crisis.
         </h1>
-        <video playsInline loop muted>
-          <source src={approachVid} type='video/mp4' />
-          {/* <img
-            src='https://projectwren.imgix.net/approach-thumbnail.png?auto=format%2Ccompress&amp;q=35'
-            alt="Animation of our categories of 'Action', 'Funding', and 'Reach' funneling together."
-            className='css-8atqhb'
-          /> */}
-        </video>
+
         <video
           style={{ maxWidth: "100%", width: "800px", margin: "0 auto" }}
           playsInline
