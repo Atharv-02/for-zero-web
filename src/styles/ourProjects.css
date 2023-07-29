@@ -11,3 +11,26 @@ h1 {
 .arrow {
   margin: 2rem auto 1rem auto;
 }
+.top-image {
+  width: 5rem;
+  height: 5rem;
+  background-color: #fef0e1;
+  border-radius: 50%;
+  margin: 2rem auto;
+}
+.top-image svg {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.header-txt {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto;
+}
+.header-txt p {
+  padding: 1rem 0;
+}
