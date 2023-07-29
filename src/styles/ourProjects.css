@@ -1,0 +1,13 @@
+.four-img img {
+  margin: 100px auto 40px auto;
+  width: 530px;
+}
+.four-img {
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+}
+.arrow {
+  margin: 2rem auto 1rem auto;
+}
