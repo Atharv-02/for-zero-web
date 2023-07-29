@@ -4,7 +4,7 @@ import navImage from "../../assets/12th Project/Logo Files/PNGs & SVGs/2x/Asset 
 const Footer = () => {
   return (
     <div className="w-full pt-3 pb-24 bg-for_zero_blue border-t-8 border-for_zero_green justify-center items-start flex">
-      <div className="max-w-[1024px] mt-[50px] mx-auto sm:hidden md:scale-[85%] lg:scale-100">
+      <div className="max-w-[1024px] mt-[50px] mx-auto sm:hidden md:flex flex-col md:scale-[85%] lg:scale-100">
         <div className="pb-[50px] justify-start items-start flex">
           {/* 1st Col  */}
           <div className="pb-[304.28px] justify-start items-start flex">
@@ -177,7 +177,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-[320px] h-[1589.75px] px-[21.50px] pt-3 pb-4 bg-for_zero_blue justify-center items-start inline-flex">
+      <div className="max-w-[320px] h-[1589.75px] px-[21.50px] pt-3 pb-4 bg-for_zero_blue justify-center items-start sm:flex md:hidden">
         <div className="w-[320px] h-[1561.75px] relative">
           <div className="h-[1417.75px] pb-[50px] left-0 top-[50px] absolute flex-col justify-start items-start gap-[50px] inline-flex">
             <div className="w-[387px] h-[339.38px] relative">
