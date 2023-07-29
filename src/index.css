@@ -95,3 +95,11 @@
 .bg-basalt {
   background-image: url("https://projectwren.imgix.net/scotland-valley-bright.jpg?auto=format%2Ccompress&q=35&h=800");
 }
+
+/* Add your desired styles for the sticky navbar */
+.sticky-navbar {
+  position: fixed;
+  top: 5%;
+  z-index: 100;
+
+}
