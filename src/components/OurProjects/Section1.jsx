@@ -54,7 +54,7 @@ const Section1 = () => {
         <div className={`p-2 bg-emerald-50 rounded-[100px] justify-start items-start inline-flex ${isSticky ? "sticky-navbar" : ""}`}>
           <div className="h-[54px] justify-center items-center gap-[0.01px] flex">
             <div
-              className={`px-6 pt-[15.80px] pb-[15.20px] justify-center items-center flex ${
+              className={`px-6 cursor-pointer pt-[15.80px] pb-[15.20px] justify-center items-center flex ${
                 selected === "Our Projects" ? "text-black" : "text-green-500"
               } text-base font-normal leading-snug`}
               onClick={() => handleTabClick("Our Projects")}
@@ -62,7 +62,7 @@ const Section1 = () => {
               Our projects
             </div>
             <div
-              className={`pl-[23px] pr-[24.48px] pt-[15.80px] pb-[15.20px] justify-center items-center flex ${
+              className={`pl-[23px] cursor-pointer pr-[24.48px] pt-[15.80px] pb-[15.20px] justify-center items-center flex ${
                 selected === "The Wren Classic Portfolio"
                   ? "text-black"
                   : "text-green-500"
@@ -72,7 +72,7 @@ const Section1 = () => {
               The Wren Classic Portfolio
             </div>
             <div
-              className={`pl-[23px] pr-[24.13px] pt-[15.80px] pb-[15.20px] justify-center items-center flex ${
+              className={`pl-[23px] cursor-pointer pr-[24.13px] pt-[15.80px] pb-[15.20px] justify-center items-center flex ${
                 selected === "How we choose our projects"
                   ? "text-black"
                   : "text-green-500"

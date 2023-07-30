@@ -99,7 +99,7 @@
 /* Add your desired styles for the sticky navbar */
 .sticky-navbar {
   position: fixed;
-  top: 5%;
+  top: 3%;
   z-index: 100;
 
 }
