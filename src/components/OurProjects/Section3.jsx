@@ -1,5 +1,6 @@
 import React from "react";
 import topImage from "../../assets/projects-top.png";
+import technology from "../../assets/pacific-biochar-agriculture.avif";
 const Section3 = () => {
   return (
     <>
@@ -39,6 +40,316 @@ const Section3 = () => {
               turn atmospheric CO2 into solid rock—locking up carbon for
               thousands of years.
             </p>
+          </div>
+          <div className='inner'>
+            <div className='inner-body'>
+              <div className='body-img'>
+                <img src={technology} alt='' />
+              </div>
+              <div className='body-txt'>
+                <h1>Biochar in California</h1>
+                <h2>
+                  This project helps prevent wildfires in California’s
+                  old-growth forests by removing dead and flammable trees. They
+                  then use a cutting-edge process to turn the tree biomass into
+                  biochar — keeping carbon out of the air for thousands of
+                  years.
+                </h2>
+                <div className='inner-body-txt'>
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Prevents wildfires</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Prevents wildfires</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Prevents wildfires</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Prevents wildfires</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='inner-body rev'>
+              <div className='body-img'>
+                <img src={technology} alt='' />
+              </div>
+              <div className='body-txt rev-txt'>
+                <h1>Enhanced Mineral Weathering</h1>
+                <h2>
+                  This project adds crushed basalt to forest land, speeding up
+                  Earth's natural carbon cycle– and sequestering carbon for
+                  millions of years.
+                </h2>
+                <div className='inner-body-txt'>
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Supports novel climate research</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Permanently stores carbon in rock</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Fast-growing project with potential to scale</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='inner-body rev'>
+              <div className='body-img'>
+                <img src={technology} alt='' />
+              </div>
+              <div className='body-txt rev-txt'>
+                <h1>Enhanced Mineral Weathering</h1>
+                <h2>
+                  This project adds crushed basalt to forest land, speeding up
+                  Earth's natural carbon cycle– and sequestering carbon for
+                  millions of years.
+                </h2>
+                <div className='inner-body-txt'>
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Supports novel climate research</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Permanently stores carbon in rock</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Fast-growing project with potential to scale</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='inner-body'>
+              <div className='body-img'>
+                <img src={technology} alt='' />
+              </div>
+              <div className='body-txt '>
+                <h1>Enhanced Mineral Weathering</h1>
+                <h2>
+                  This project adds crushed basalt to forest land, speeding up
+                  Earth's natural carbon cycle– and sequestering carbon for
+                  millions of years.
+                </h2>
+                <div className='inner-body-txt'>
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Supports novel climate research</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Permanently stores carbon in rock</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Fast-growing project with potential to scale</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
