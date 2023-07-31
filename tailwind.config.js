@@ -35,9 +35,7 @@ module.exports = {
         for_zero_green : "#12E2A4",
       },
       fontFamily : {
-        Blanco400I : ['Blanco Italic 400', 'sans-serif'],
-        Blanco600I : ['Blanco Italic 600', 'sans-serif'],
-        Blanco: ['Blanco Medium 600', 'sans-serif'],
+        Blanco : ['Blanco', 'sans-serif'],
         Inter : ['Inter', 'sans-serif'],
 
       },

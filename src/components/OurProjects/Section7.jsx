@@ -13,7 +13,7 @@ const Section7 = () => {
       <div className="max-w-[1024px] mx-auto pt-[150px] pb-[60px] justify-center items-start flex">
         <div className="w-full flex flex-col items-center">
           {/* Heading  */}
-          <div className="w-[725px] pb-2.5 justify-center items-start flex">
+          <div className="w-[725px] pb-2.5 justify-center items-start flex font-Inter">
             <div className="text-center text-zinc-800 text-3xl font-semibold leading-9">
               The climate crisis requires massive action, and
               <br />
@@ -21,7 +21,7 @@ const Section7 = () => {
             </div>
           </div>
 
-          <div className="w-[725px]  pb-[11px] justify-center items-start flex mt-5">
+          <div className="w-[725px]  pb-[11px] justify-center items-start flex mt-5 font-Blanco">
             <div className="text-center text-stone-500 text-[17px] font-normal leading-7">
               Carbon offsets alone won't end the climate crisis, but calculating
               and offsetting your
