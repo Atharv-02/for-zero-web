@@ -1,27 +1,24 @@
 import React from "react";
 
-const Part7 = () => {
+const Part10 = () => {
   return (
     <div className='part part-4'>
       <div className='form-top'>
-        <h1>How big is your living space?</h1>
-        <p>
-          If you have shared living spaces, divide it by the number of roommates
-          who use it.
-        </p>
+        <h1>How much do you spend on furniture and appliances per month?</h1>
+        <p>Divide purchases by the number of months they'll be useful for.</p>
       </div>
       <div className='form-choices'>
         <div className='choice'>
-          <h3>Small Apartment</h3>
-          <p>589 square feet</p>
+          <h3>A little</h3>
+          <p>$77 USD</p>
         </div>
         <div className='choice'>
-          <h3>Average home</h3>
-          <p>786 square feet</p>
+          <h3>Average</h3>
+          <p>$154 USD</p>
         </div>
         <div className='choice'>
-          <h3>Larger home</h3>
-          <p>2,357 square feet</p>
+          <h3>A lot </h3>
+          <p>$307 USD</p>
         </div>
         <div className='input-choice'>
           <input type='text' name='' id='' placeholder='Enter a Zipcode' />
@@ -31,4 +28,4 @@ const Part7 = () => {
   );
 };
 
-export default Part7;
+export default Part10;

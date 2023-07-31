@@ -1,6 +1,6 @@
 import React from "react";
 
-const Part3 = () => {
+const Part3 = ({ setCars }) => {
   return (
     <div className='part part-3'>
       <div className='form-top'>
@@ -10,21 +10,20 @@ const Part3 = () => {
         </p>
       </div>
       <div className='form-choices'>
-        <div className='choice' onClick={(e) => console.log(e.currentTarget)}>
+        <div className='choice' onClick={() => setCars(0)}>
+          <h3>None</h3>
+          <p>0 cars</p>
+        </div>
+        <div className='choice' onClick={() => setCars(1)}>
           <h3>1 car</h3>
           <p>1 cars</p>
         </div>
-        <div className='choice'>
+        <div className='choice' onClick={() => setCars(2)}>
           <h3>2 cars</h3>
           <p>2 cars</p>
         </div>
-        <div className='choice'>
-          <h3>3 cars</h3>
-          <p>3 cars</p>
-        </div>
-        <div className='choice'>
-          <h3>4 cars</h3>
-          <p>4 cars</p>
+        <div className='input-choice'>
+          <input type='text' name='' id='' placeholder='Enter a Zipcode' />
         </div>
       </div>
     </div>

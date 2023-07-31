@@ -23,9 +23,8 @@ const Part1 = () => {
           <h3>4 roundtrips</h3>
           <p>8 one way flights</p>
         </div>
-        <div className='choice'>
-          <h3>None</h3>
-          <p>0 one way flights</p>
+        <div className='input-choice'>
+          <input type='text' name='' id='' placeholder='Enter a Zipcode' />
         </div>
       </div>
     </div>

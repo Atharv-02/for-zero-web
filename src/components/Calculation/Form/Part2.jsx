@@ -2,7 +2,7 @@ import React from "react";
 
 const Part2 = () => {
   return (
-    <div className='part part-1'>
+    <div className='part part-2'>
       <div className='form-top'>
         <h1>
           Would you like to calculate your individual or household footprint?
