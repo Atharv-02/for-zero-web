@@ -6,9 +6,9 @@ import Land_4 from "../../assets/land_4.png";
 
 const Section5 = () => {
   return (
-    <div className=" w-full">
+    <div className=" w-full" id="choose">
       {/* Desktop  */}
-      <div className="">
+      <div className="sm:hidden md:flex flex-col">
         <div className="  max-w-[1024px] mx-auto h-[140px] flex-col justify-center items-center gap-[9px] flex">
           <div className="text-center text-zinc-800 text-3xl font-semibold leading-9">
             How we choose our projects
@@ -473,6 +473,8 @@ const Section5 = () => {
           </div>
         </div>
       </div>
+
+      
     </div>
   );
 };

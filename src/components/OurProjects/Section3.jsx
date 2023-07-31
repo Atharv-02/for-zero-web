@@ -4,7 +4,7 @@ import technology from "../../assets/pacific-biochar-agriculture.avif";
 const Section3 = () => {
   return (
     <>
-      <div className='four-img'>
+      <div className='four-img' id="projects">
         <img src={topImage} alt='' />
         <h1>
           Forzero members fund 4 types of <br />
