@@ -189,7 +189,7 @@ const Footer = () => {
                   🌍 Wren Climate Portfolio
                 </div>
               </div>
-              <div className="w-[387px] h-0.5 left-0 top-[69.42px] absolute opacity-20 border border-zinc-800" />
+              <div className="w-[317px] h-0.5 left-0 top-[69.42px] absolute opacity-20 border border-white" />
               <div className="h-[251.94px] pl-4 pr-[104px] pt-0.5 pb-[3.42px] left-0 top-[87.42px] absolute flex-col justify-start items-start gap-[15.42px] inline-flex">
                 <div className="text-white text-[15px] font-normal leading-snug">
                   🪨 Biochar in California
