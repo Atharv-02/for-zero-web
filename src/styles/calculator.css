@@ -112,3 +112,26 @@
   width: 100%;
   column-gap: 1rem;
 }
+.bg-color {
+  background-color: #e8fbf0;
+}
+.input-household {
+  border: 2px solid black;
+  padding: 0.25rem 0.5rem;
+  outline: none;
+  width: 100px;
+  text-align: center;
+}
+.num-choices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-h1 {
+  font-size: 18px;
+}
+.car {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0.2rem;
+}
