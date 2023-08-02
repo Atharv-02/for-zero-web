@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Part2 = () => {
+const Part2 = ({ setDisplayVal, displayVal }) => {
+  const [showFurther, setShowFurther] = useState(false);
+  const colorIt = (id) => {
+    const c = document.querySelectorAll(".household");
+    c.forEach((btn) => {
+      if (btn.id === id) {
+        btn.classList.add("bg-color");
+        console.log(btn);
+      } else {
+        btn.classList.remove("bg-color");
+      }
+    });
+  };
   return (
     <div className='part part-2'>
       <div className='form-top'>
@@ -14,13 +26,52 @@ const Part2 = () => {
       </div>
       <div className='form-choices'>
         <div className='disp-choices'>
-          <div className='choice' onClick={(e) => console.log(e.currentTarget)}>
+          <div
+            className='choice household'
+            id='1'
+            onClick={() => {
+              setShowFurther(false);
+              colorIt("1");
+            }}
+          >
             <h3>Just Me</h3>
           </div>
-          <div className='choice'>
+          {console.log(displayVal)}
+          <div
+            className='choice household'
+            id='2'
+            onClick={() => {
+              colorIt("2");
+              setShowFurther(true);
+            }}
+          >
             <h3>Household</h3>
           </div>
         </div>
+        {showFurther ? (
+          <>
+            <div className='num-choices'>
+              <h1 className='sub-h1'>How many adults?</h1>
+              <input type='number' className='input-household' />
+            </div>
+            <br />
+            <br />
+
+            <div className='num-choices'>
+              <h1 className='sub-h1'>How many children?</h1>
+              <input type='number' className='input-household' />
+            </div>
+            <button
+              className='btn'
+              onClick={() => {
+                console.log(displayVal);
+                setDisplayVal(displayVal + 1);
+              }}
+            >
+              Continue
+            </button>
+          </>
+        ) : null}
       </div>
     </div>
   );

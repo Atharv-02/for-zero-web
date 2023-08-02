@@ -26,9 +26,10 @@ import Part11 from "./Form/Part11";
 import Part12 from "./Form/Part12";
 import Part13 from "./Form/Part13";
 import Part14 from "./Form/Part14";
+import CarSp from "./Form/CarSp";
 const Section1 = () => {
   const [cars, setCars] = useState();
-  const [displayVal, setDisplayVal] = useState(13);
+  const [displayVal, setDisplayVal] = useState(2);
   const [formResponse, setFormResponse] = useState({
     pincode: null,
     household: null,
@@ -38,59 +39,92 @@ const Section1 = () => {
     diet: null,
     home_size: null,
   });
-  const [form, setForm] = useState([
-    <Part1 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
-    <Part2 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
+  const form = [
+    <Part1
+      setDisplayVal={setDisplayVal}
+      displayVal={displayVal}
+      formResponse={formResponse}
+      setFormResponse={setFormResponse}
+    />,
+    <Part2
+      setDisplayVal={setDisplayVal}
+      displayVal={displayVal}
+      formResponse={formResponse}
+      setFormResponse={setFormResponse}
+    />,
     <Part3
       setCars={setCars}
       setDisplayVal={setDisplayVal}
       displayVal={displayVal}
+      formResponse={formResponse}
+      setFormResponse={setFormResponse}
     />,
-    <Part4 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
-    <Part5 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
-    <Part6 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
-    <Part7 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
+    <Part4
+      setDisplayVal={setDisplayVal}
+      displayVal={displayVal}
+      formResponse={formResponse}
+      setFormResponse={setFormResponse}
+    />,
+    <Part5
+      setDisplayVal={setDisplayVal}
+      displayVal={displayVal}
+      formResponse={formResponse}
+      setFormResponse={setFormResponse}
+    />,
+    <Part6
+      setDisplayVal={setDisplayVal}
+      displayVal={displayVal}
+      formResponse={formResponse}
+      setFormResponse={setFormResponse}
+    />,
+    <Part7
+      setDisplayVal={setDisplayVal}
+      displayVal={displayVal}
+      formResponse={formResponse}
+      setFormResponse={setFormResponse}
+    />,
     <Part8 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
     <Part10 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
     <Part10 />,
-    <Part11 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
-    <Part12 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
-    <Part13 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
-    <Part14 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
-  ]);
-
-  const [activeFormIndex, setActiveFormIndex] = useState(0);
-  const formComponents = [
-    <Part1/>,
-    <Part2/>,
-    <Part3/>,
-    <Part4/>,
-    <Part5/>,
-    <Part6/>,
-    <Part7/>,
-    <Part8/>,
-    <Part10/>,
-    <Part11/>,
-    <Part12/>,
-    <Part13/>,
-    <Part14/>,
-  ]
-
-  const handleIconClick = (index) => {
-    setActiveFormIndex(index);
-    // Setting the active form index when an icon is clicked
-  };
-
+    <Part11
+      setDisplayVal={setDisplayVal}
+      displayVal={displayVal}
+      formResponse={formResponse}
+      setFormResponse={setFormResponse}
+    />,
+    <Part12
+      setDisplayVal={setDisplayVal}
+      displayVal={displayVal}
+      formResponse={formResponse}
+      setFormResponse={setFormResponse}
+    />,
+    <Part13
+      setDisplayVal={setDisplayVal}
+      displayVal={displayVal}
+      formResponse={formResponse}
+      setFormResponse={setFormResponse}
+    />,
+    <Part14
+      setDisplayVal={setDisplayVal}
+      displayVal={displayVal}
+      formResponse={formResponse}
+      setFormResponse={setFormResponse}
+    />,
+  ];
+  const [carTypes, setCartTypes] = useState([]);
   useEffect(() => {
     const c = [];
     for (let i = 0; i < cars; i++) {
       c.push({ type: null, miles_driven: null, miles_perweek: null });
+      setCartTypes([...carTypes, <CarSp />]);
     }
+    console.log(carTypes);
     const d = { ...formResponse, cars: c };
     setFormResponse(d);
   }, [cars]);
   return (
     <div className='calc-full'>
+      {console.log(displayVal)}
       <div className='side-icons-inner'>
       {[
           { imgSrc: mailBox, label: "Zipcode" },
