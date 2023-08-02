@@ -59,6 +59,28 @@ const Section1 = () => {
     <Part14 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
   ]);
 
+  const [activeFormIndex, setActiveFormIndex] = useState(0);
+  const formComponents = [
+    <Part1/>,
+    <Part2/>,
+    <Part3/>,
+    <Part4/>,
+    <Part5/>,
+    <Part6/>,
+    <Part7/>,
+    <Part8/>,
+    <Part10/>,
+    <Part11/>,
+    <Part12/>,
+    <Part13/>,
+    <Part14/>,
+  ]
+
+  const handleIconClick = (index) => {
+    setActiveFormIndex(index);
+    // Setting the active form index when an icon is clicked
+  };
+
   useEffect(() => {
     const c = [];
     for (let i = 0; i < cars; i++) {
@@ -70,84 +92,25 @@ const Section1 = () => {
   return (
     <div className='calc-full'>
       <div className='side-icons-inner'>
-        <div className={`side-icon ${displayVal == 0 ? "normal" : null}`}>
-          <img src={mailBox} alt='' />
-          <h2>Zipcode</h2>
-        </div>
-        <div className={`side-icon ${displayVal == 1 ? "normal" : null}`}>
-          <img src={family} alt='' />
-          <h2>Household</h2>
-        </div>
-        <div className={`side-icon ${displayVal == 2 ? "normal" : null}`}>
-          <img src={carImg} alt='' />
-          <h2>Cars</h2>
-        </div>
-        {formResponse.cars.map((car, index) => {
-          return (
-            <div className='side-icon'>
-              <img src={carImg} alt='' />
-              <h2>Cars {index + 1}</h2>
-            </div>
-          );
-        })}
-        <div className={`side-icon ${displayVal == 3 ? "normal" : null}`}>
-          <img src={plane} alt='' />
-          <h2>Short flights</h2>
-        </div>
-        <div className={`side-icon ${displayVal == 4 ? "normal" : null}`}>
-          <img src={plane} alt='' />
-          <h2>Long fLights</h2>
-        </div>
-        <div className={`side-icon ${displayVal == 5 ? "normal" : null}`}>
-          <img src={veggieImg} alt='' />
-          <h2>Diet</h2>
-        </div>
-        <div className={`side-icon ${displayVal == 6 ? "normal" : null}`}>
-          <img src={houseImg} alt='' />
-          <h2>Home size</h2>
-        </div>
-        <div className={`side-icon ${displayVal == 7 ? "normal" : null}`}>
-          <img src={dogImg} alt='' />
-          <h2>Pets</h2>
-        </div>
-        <div className='side-icon'>
-          <img src={mailBox} alt='' />
-          <h2>Public Transit </h2>
-        </div>
-        <div className={`side-icon ${displayVal == 9 ? "normal" : null}`}>
-          <img src={sofaImg} alt='' />
-          <h2>Furnishings</h2>
-        </div>
-        <div className={`side-icon ${displayVal == 10 ? "normal" : null}`}>
-          <img src={clothesImg} alt='' />
-          <h2>Clothes</h2>
-        </div>
-        <div className={`side-icon ${displayVal == 11 ? "normal" : null}`}>
-          <img src={supplies} alt='' />
-          <h2>Supplies</h2>
-        </div>
-        <div className={`side-icon ${displayVal == 12 ? "normal" : null}`}>
-          <img src={services} alt='' />
-          <h2>Services</h2>
-        </div>
-        <div className={`side-icon ${displayVal == 13 ? "normal" : null}`}>
-          <img src={electicity} alt='' />
-          <h2>Electricity</h2>
-        </div>
-        <div className={`side-icon ${displayVal == 14 ? "normal" : null}`}>
-          <img src={renewables} alt='' />
-          <h2>Renewables</h2>
-        </div>
-        <div className={`side-icon ${displayVal == 15 ? "normal" : null}`}>
-          <img src={naturalGas} alt='' />
-          <h2>Natural Gas</h2>
-        </div>
-        <div className='side-icon'>
-          <img src={mailBox} alt='' />
-          <h2>Finish</h2>
-        </div>
+      {[
+          { imgSrc: mailBox, label: "Zipcode" },
+          { imgSrc: family, label: "Household" },
+          { imgSrc: carImg, label: "Cars" },
+          // baaki saare icons wagera idhar add kar diyo
+          { imgSrc: naturalGas, label: "Natural Gas" },
+          { imgSrc: mailBox, label: "Finish" }
+        ].map((icon, index) => (
+          <div
+            key={index}
+            className={`side-icon ${activeFormIndex === index ? "normal" : ""}`}
+            onClick={() => handleIconClick(index)}
+          >
+            <img src={icon.imgSrc} alt='' />
+            <h2>{icon.label}</h2>
+          </div>
+        ))}
       </div>
-      {form[displayVal]}
+      {formComponents[activeFormIndex]}
       <div className='calc-result-box'>
         <div className='inner-result'>
           <h1>Your Carbon footprint</h1>
