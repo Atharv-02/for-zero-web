@@ -39,6 +39,12 @@ const Section1 = () => {
     diet: null,
     home_size: null,
   });
+
+  const [activeFormIndex, setActiveFormIndex] = useState(0);
+  const handleIconClick = (index) => {
+    setActiveFormIndex(index);
+    // Setting the active form index when an icon is clicked
+  };
   const form = [
     <Part1
       setDisplayVal={setDisplayVal}
@@ -144,7 +150,7 @@ const Section1 = () => {
           </div>
         ))}
       </div>
-      {formComponents[activeFormIndex]}
+      {form[activeFormIndex]}
       <div className='calc-result-box'>
         <div className='inner-result'>
           <h1>Your Carbon footprint</h1>
