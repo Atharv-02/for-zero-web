@@ -13,6 +13,7 @@ import services from "../../assets/cloud_services.avif";
 import electicity from "../../assets/cloud_battery.avif";
 import renewables from "../../assets/cloud_renewables.avif";
 import naturalGas from "../../assets/cloud_natural_gas.avif";
+import busImg from "../../assets/cloud_bus.avif";
 import Part1 from "./Form/Part1";
 import Part4 from "./Form/Part4";
 import Part5 from "./Form/Part5";
@@ -29,7 +30,7 @@ import Part14 from "./Form/Part14";
 import CarSp from "./Form/CarSp";
 const Section1 = () => {
   const [cars, setCars] = useState();
-  const [displayVal, setDisplayVal] = useState(2);
+  const [displayVal, setDisplayVal] = useState(0);
   const [formResponse, setFormResponse] = useState({
     pincode: null,
     household: null,
@@ -39,7 +40,8 @@ const Section1 = () => {
     diet: null,
     home_size: null,
   });
-
+  const [carTypes, setCartTypes] = useState([]);
+  const [carImage, setCarImage] = useState([]);
   const [activeFormIndex, setActiveFormIndex] = useState(0);
   const handleIconClick = (index) => {
     setActiveFormIndex(index);
@@ -58,6 +60,7 @@ const Section1 = () => {
       formResponse={formResponse}
       setFormResponse={setFormResponse}
     />,
+
     <Part3
       setCars={setCars}
       setDisplayVal={setDisplayVal}
@@ -65,6 +68,7 @@ const Section1 = () => {
       formResponse={formResponse}
       setFormResponse={setFormResponse}
     />,
+    ...carTypes,
     <Part4
       setDisplayVal={setDisplayVal}
       displayVal={displayVal}
@@ -117,28 +121,40 @@ const Section1 = () => {
       setFormResponse={setFormResponse}
     />,
   ];
-  const [carTypes, setCartTypes] = useState([]);
+  console.log(form);
+
+  const [currCar, setCurrCar] = useState(1);
   useEffect(() => {
-    const c = [];
     for (let i = 0; i < cars; i++) {
-      c.push({ type: null, miles_driven: null, miles_perweek: null });
-      setCartTypes([...carTypes, <CarSp />]);
+      setCartTypes([
+        ...carTypes,
+        <CarSp
+          info={{ type: null, miles_driven: null, miles_perweek: null }}
+          formResponse={formResponse}
+          setFormResponse={setFormResponse}
+        />,
+      ]);
+      setCarImage([{ imgSrc: carImg, label: `car ${i + 1}` }]);
     }
     console.log(carTypes);
-    const d = { ...formResponse, cars: c };
-    setFormResponse(d);
   }, [cars]);
   return (
     <div className='calc-full'>
       {console.log(displayVal)}
       <div className='side-icons-inner'>
-      {[
+        {[
           { imgSrc: mailBox, label: "Zipcode" },
           { imgSrc: family, label: "Household" },
           { imgSrc: carImg, label: "Cars" },
-          // baaki saare icons wagera idhar add kar diyo
+          ...carImage,
+          { imgSrc: plane, label: "Short Flights" },
+          { imgSrc: plane, label: "Long Flights" },
+          { imgSrc: veggieImg, label: "Diet" },
+          { imgSrc: houseImg, label: "Home Size" },
+          { imgSrc: dogImg, label: "Pets" },
+          { imgSrc: busImg, label: "Public Transit" },
           { imgSrc: naturalGas, label: "Natural Gas" },
-          { imgSrc: mailBox, label: "Finish" }
+          { imgSrc: mailBox, label: "Finish" },
         ].map((icon, index) => (
           <div
             key={index}

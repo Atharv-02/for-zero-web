@@ -96,6 +96,7 @@
   width: 100%;
   top: 50px;
   z-index: 90000;
+  white-space: nowrap;
 }
 .black {
   background-color: black;
@@ -110,4 +111,7 @@
   .navbar-full {
     z-index: 30001;
   }
+}
+.sp {
+  overflow: hidden;
 }

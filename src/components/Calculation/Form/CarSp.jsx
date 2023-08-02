@@ -1,6 +1,6 @@
 import React from "react";
 
-const CarSp = () => {
+const CarSp = ({ info, setFormResponse, formResponse }) => {
   return (
     <div className='part part-4'>
       <div className='form-top'>
@@ -46,6 +46,16 @@ const CarSp = () => {
           <input type='text' name='' id='' placeholder='Enter a Zipcode' />
         </div>
       </div>
+      <button
+        onClick={() => {
+          console.log(formResponse);
+          const c = formResponse.cars;
+          c.push(info);
+          setFormResponse({ ...formResponse, cars: c });
+        }}
+      >
+        Continue
+      </button>
     </div>
   );
 };
