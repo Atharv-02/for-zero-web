@@ -56,7 +56,7 @@ const Section6 = () => {
         </div>
       </div>
 
-      <div className="min-w-[274.50px] pt-[94px] pb-16 flex-col justify-center items-center gap-6 flex">
+      <div className="min-w-[274.50px] pt-[94px] pb-16 flex-col justify-center items-center gap-6 sm:flex md:hidden">
         <div className="flex flex-col items-center">
 
           <div className=" bg-gray-200 w-[90px] h-[90px] rounded-full flex items-center justify-center">
