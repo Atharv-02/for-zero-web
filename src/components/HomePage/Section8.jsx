@@ -62,46 +62,6 @@ const Section8 = () => {
                 View live-feed →
               </div>
             </div>
-
-            <div className='md:scale-90 lg:scale-100 w-[306.67px] h-[202.56px] relative'>
-              <img
-                className='w-[64.97px] h-[63px] sm:left-[110px] lg:left-[120.84px] top-0 absolute'
-                src={Public2}
-              />
-              <div className='left-[72.40px] top-[78px] absolute text-center text-zinc-800 text-lg font-bold leading-relaxed'>
-                We show our work
-              </div>
-              <div className='w-[306.67px] pl-[8.51px] pr-[10.16px] left-0 sm:top-[132px] lg:top-[112.18px] absolute justify-center items-start inline-flex'>
-                <div className='text-center text-zinc-800 text-lg font-medium leading-relaxed'>
-                  Read about our revenue and
-                  <br />
-                  funding in our new metrics recap.
-                </div>
-              </div>
-              <div className='left-[98.37px] sm:top-[192px] lg:top-[182.56px] absolute text-center text-blue-500 text-base font-semibold'>
-                View report →
-              </div>
-            </div>
-
-            <div className='md:scale-90 lg:scale-100 w-[306.67px] h-[202.56px] relative'>
-              <img
-                className='w-[96.83px] h-[63px] left-[104.92px] top-0 absolute'
-                src={Public3}
-              />
-              <div className='left-[44.36px] top-[78px] absolute text-center text-zinc-800 text-lg font-bold leading-relaxed'>
-                We publish every receipt
-              </div>
-              <div className='w-[306.67px] pl-[19.28px] pr-[18.39px] sm:-left-[15px] lg:left-0 sm:top-[132px] lg:top-[112.18px] absolute justify-center items-start inline-flex'>
-                <div className='text-center text-zinc-800 text-lg font-medium leading-relaxed'>
-                  See every carbon credit we
-                  <br />
-                  purchase on our receipt ledger.
-                </div>
-              </div>
-              <div className='left-[90.89px] sm:top-[192px] lg:top-[182.56px] absolute text-center text-blue-500 text-base font-semibold'>
-                View receipts →
-              </div>
-            </div>
           </div>
         </div>
       </div>

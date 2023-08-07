@@ -6,9 +6,11 @@ import { FaPlus } from "react-icons/fa";
 const Section25 = () => {
   const showFullPara = (id) => {
     const c = document.querySelectorAll(".hidden-para");
+    console.log(c);
     c[id].classList.toggle("show");
     console.log(c[id]);
     const c1 = document.querySelectorAll(".cross");
+    console.log(c1[id]);
     c1[id].classList.toggle("rotate");
   };
 

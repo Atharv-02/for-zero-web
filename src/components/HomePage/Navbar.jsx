@@ -31,7 +31,7 @@ const Navbar = () => {
             }}
           >
             <div
-              className={`line line-1  ${navShow ? "black cross" : null}`}
+              className={`line line-1  ${navShow ? "black cross-nav" : null}`}
             ></div>
             <div
               className={`line line-2  ${navShow ? "black rev-cross" : null}`}

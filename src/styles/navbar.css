@@ -101,7 +101,7 @@
 .black {
   background-color: black;
 }
-.cross {
+.cross-nav {
   transform: rotate(45deg);
 }
 .rev-cross {
