@@ -8,7 +8,7 @@ const Navbar = () => {
   const [navShow, setNavShow] = useState(false);
   return (
     <div className='navbar-full'>
-      <nav className={`navbar ${navShow ? "do-wh" : null}`} id='navbar'>
+      <nav className={`navbar ${navShow ? "do-wh sp" : null}`} id='navbar'>
         <div className='img-nav'>
           <img src={navImage} alt='' />
         </div>
@@ -27,8 +27,6 @@ const Navbar = () => {
           <div
             className={`lines `}
             onClick={() => {
-              const c = document.querySelector(".root");
-              c.classList.add("sp");
               setNavShow(!navShow);
             }}
           >
