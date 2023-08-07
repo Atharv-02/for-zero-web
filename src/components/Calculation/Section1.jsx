@@ -29,18 +29,19 @@ import Part13 from "./Form/Part13";
 import Part14 from "./Form/Part14";
 import CarSp from "./Form/CarSp";
 const Section1 = () => {
-  const [cars, setCars] = useState();
-  const [displayVal, setDisplayVal] = useState(0);
+  // const [displayVal, setDisplayVal] = useState(0);
   const [formResponse, setFormResponse] = useState({
     pincode: null,
-    household: null,
-    cars: [],
+    household: { adults: null, children: null },
+    carsDist: 0,
     short_flight: null,
     long_flight: null,
     diet: null,
     home_size: null,
+    travel_bus: 0,
+    electicity: 0,
   });
-  const [carTypes, setCartTypes] = useState([]);
+  const [carTypes, setCarTypes] = useState([]);
   const [carImage, setCarImage] = useState([]);
   const [activeFormIndex, setActiveFormIndex] = useState(0);
   const handleIconClick = (index) => {
@@ -49,111 +50,102 @@ const Section1 = () => {
   };
   const form = [
     <Part1
-      setDisplayVal={setDisplayVal}
-      displayVal={displayVal}
+      setActiveFormIndex={setActiveFormIndex}
+      activeFormIndex={activeFormIndex}
       formResponse={formResponse}
       setFormResponse={setFormResponse}
     />,
     <Part2
-      setDisplayVal={setDisplayVal}
-      displayVal={displayVal}
+      setActiveFormIndex={setActiveFormIndex}
+      activeFormIndex={activeFormIndex}
       formResponse={formResponse}
       setFormResponse={setFormResponse}
     />,
 
     <Part3
-      setCars={setCars}
-      setDisplayVal={setDisplayVal}
-      displayVal={displayVal}
+      setActiveFormIndex={setActiveFormIndex}
+      activeFormIndex={activeFormIndex}
       formResponse={formResponse}
       setFormResponse={setFormResponse}
     />,
-    ...carTypes,
     <Part4
-      setDisplayVal={setDisplayVal}
-      displayVal={displayVal}
+      setActiveFormIndex={setActiveFormIndex}
+      activeFormIndex={activeFormIndex}
       formResponse={formResponse}
       setFormResponse={setFormResponse}
     />,
     <Part5
-      setDisplayVal={setDisplayVal}
-      displayVal={displayVal}
+      setActiveFormIndex={setActiveFormIndex}
+      activeFormIndex={activeFormIndex}
       formResponse={formResponse}
       setFormResponse={setFormResponse}
     />,
     <Part6
-      setDisplayVal={setDisplayVal}
-      displayVal={displayVal}
+      setActiveFormIndex={setActiveFormIndex}
+      activeFormIndex={activeFormIndex}
       formResponse={formResponse}
       setFormResponse={setFormResponse}
     />,
     <Part7
-      setDisplayVal={setDisplayVal}
-      displayVal={displayVal}
+      setActiveFormIndex={setActiveFormIndex}
+      activeFormIndex={activeFormIndex}
       formResponse={formResponse}
       setFormResponse={setFormResponse}
     />,
-    <Part8 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
-    <Part10 setDisplayVal={setDisplayVal} displayVal={displayVal} />,
-    <Part10 />,
-    <Part11
-      setDisplayVal={setDisplayVal}
-      displayVal={displayVal}
+    <Part10
+      setActiveFormIndex={setActiveFormIndex}
+      activeFormIndex={activeFormIndex}
       formResponse={formResponse}
       setFormResponse={setFormResponse}
     />,
-    <Part12
-      setDisplayVal={setDisplayVal}
-      displayVal={displayVal}
-      formResponse={formResponse}
-      setFormResponse={setFormResponse}
-    />,
-    <Part13
-      setDisplayVal={setDisplayVal}
-      displayVal={displayVal}
-      formResponse={formResponse}
-      setFormResponse={setFormResponse}
-    />,
+
     <Part14
-      setDisplayVal={setDisplayVal}
-      displayVal={displayVal}
+      setActiveFormIndex={setActiveFormIndex}
+      activeFormIndex={activeFormIndex}
       formResponse={formResponse}
       setFormResponse={setFormResponse}
     />,
   ];
   console.log(form);
+  console.log(formResponse);
 
   const [currCar, setCurrCar] = useState(1);
-  useEffect(() => {
-    for (let i = 0; i < cars; i++) {
-      setCartTypes([
-        ...carTypes,
-        <CarSp
-          info={{ type: null, miles_driven: null, miles_perweek: null }}
-          formResponse={formResponse}
-          setFormResponse={setFormResponse}
-        />,
-      ]);
-      setCarImage([{ imgSrc: carImg, label: `car ${i + 1}` }]);
-    }
-    console.log(carTypes);
-  }, [cars]);
+  // useEffect(() => {
+  //   let ct = [];
+  //   let ci = [];
+  //   setCarImage([]);
+  //   console.log(cars);
+  //   for (let i = 0; i < cars; i++) {
+  //     console.log(carTypes);
+  //     ct = [
+  //       ...ct,
+  //       <CarSp
+  //         info={{ type: null, miles_driven: null, miles_perweek: null }}
+  //         formResponse={formResponse}
+  //         setFormResponse={setFormResponse}
+  //       />,
+  //     ];
+  //     console.log(carImage);
+  //     ci = [...ci, { imgSrc: carImg, label: `car ${i + 1}` }];
+  //   }
+  //   setCarImage(ci);
+  //   setCarTypes(ct);
+  //   console.log(carTypes);
+  // }, [cars]);
   return (
     <div className='calc-full'>
-      {console.log(displayVal)}
+      {console.log(activeFormIndex)}
       <div className='side-icons-inner'>
         {[
           { imgSrc: mailBox, label: "Zipcode" },
           { imgSrc: family, label: "Household" },
           { imgSrc: carImg, label: "Cars" },
-          ...carImage,
           { imgSrc: plane, label: "Short Flights" },
           { imgSrc: plane, label: "Long Flights" },
           { imgSrc: veggieImg, label: "Diet" },
           { imgSrc: houseImg, label: "Home Size" },
-          { imgSrc: dogImg, label: "Pets" },
           { imgSrc: busImg, label: "Public Transit" },
-          { imgSrc: naturalGas, label: "Natural Gas" },
+          { imgSrc: electicity, label: "Electricity" },
           { imgSrc: mailBox, label: "Finish" },
         ].map((icon, index) => (
           <div

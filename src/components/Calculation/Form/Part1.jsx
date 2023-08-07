@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
 const Part1 = ({
-  setDisplayVal,
-  displayVal,
+  activeFormIndex,
+  setActiveFormIndex,
   formResponse,
   setFormResponse,
 }) => {
-  const [pin, setPin] = useState("");
+  const [pin, setPin] = useState(formResponse.pincode);
   return (
     <div className='part part-1'>
       <div className='form-top'>
@@ -30,7 +30,7 @@ const Part1 = ({
             className='calc-btn btn'
             onClick={() => {
               setFormResponse({ ...formResponse, pincode: pin });
-              setDisplayVal(displayVal + 1);
+              setActiveFormIndex(activeFormIndex + 1);
             }}
           >
             Save Zipcode

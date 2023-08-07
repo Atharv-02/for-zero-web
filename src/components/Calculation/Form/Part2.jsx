@@ -1,18 +1,41 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
-const Part2 = ({ setDisplayVal, displayVal }) => {
-  const [showFurther, setShowFurther] = useState(false);
-  const colorIt = (id) => {
+const Part2 = ({
+  activeFormIndex,
+  setActiveFormIndex,
+  formResponse,
+  setFormResponse,
+}) => {
+  const [showFurther, setShowFurther] = useState(
+    formResponse.household["house"] == "Household" ? true : false
+  );
+  const [typeHouse, setTypeHouse] = useState(formResponse.household["house"]);
+  const [adults, setAdults] = useState(formResponse.household["adults"] || 0);
+  const [children, setChildren] = useState(
+    formResponse.household["children"] || 1
+  );
+  // const colorIt = (id) => {
+  //   const c = document.querySelectorAll(".household");
+  //   c.forEach((btn) => {
+  //     if (btn.id === id) {
+  //       btn.classList.add("bg-color");
+  //       console.log(btn);
+  //     } else {
+  //       btn.classList.remove("bg-color");
+  //     }
+  //   });
+  // };
+  useEffect(() => {
     const c = document.querySelectorAll(".household");
     c.forEach((btn) => {
-      if (btn.id === id) {
+      if (btn.innerText == typeHouse) {
         btn.classList.add("bg-color");
         console.log(btn);
       } else {
         btn.classList.remove("bg-color");
       }
     });
-  };
+  }, [typeHouse]);
   return (
     <div className='part part-2'>
       <div className='form-top'>
@@ -31,18 +54,27 @@ const Part2 = ({ setDisplayVal, displayVal }) => {
             id='1'
             onClick={() => {
               setShowFurther(false);
-              colorIt("1");
+              setTypeHouse("Just Me");
+              setFormResponse({
+                ...formResponse,
+                household: {
+                  house: "Just Me",
+                  adults: 1,
+                  children: 0,
+                },
+              });
+              // setActiveFormIndex(activeFormIndex + 1);
             }}
           >
             <h3>Just Me</h3>
           </div>
-          {console.log(displayVal)}
+
           <div
             className='choice household'
             id='2'
             onClick={() => {
-              colorIt("2");
               setShowFurther(true);
+              setTypeHouse("Household");
             }}
           >
             <h3>Household</h3>
@@ -52,20 +84,37 @@ const Part2 = ({ setDisplayVal, displayVal }) => {
           <>
             <div className='num-choices'>
               <h1 className='sub-h1'>How many adults?</h1>
-              <input type='number' className='input-household' />
+              <input
+                type='number'
+                className='input-household'
+                value={adults}
+                onChange={(e) => setAdults(e.target.value)}
+              />
             </div>
             <br />
             <br />
 
             <div className='num-choices'>
               <h1 className='sub-h1'>How many children?</h1>
-              <input type='number' className='input-household' />
+              <input
+                type='number'
+                className='input-household'
+                value={children}
+                onChange={(e) => setChildren(e.target.value)}
+              />
             </div>
             <button
               className='btn'
               onClick={() => {
-                console.log(displayVal);
-                setDisplayVal(displayVal + 1);
+                // setActiveFormIndex(activeFormIndex + 1);
+                setFormResponse({
+                  ...formResponse,
+                  household: {
+                    house: typeHouse,
+                    adults: adults,
+                    children: children,
+                  },
+                });
               }}
             >
               Continue

@@ -1,29 +1,39 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-const Part10 = () => {
+const Part10 = ({
+  setActiveFormIndex,
+  activeFormIndex,
+  formResponse,
+  setFormResponse,
+}) => {
+  const [busTravel, setBusTravel] = useState(formResponse.travel_bus);
+
   return (
     <div className='part part-4'>
       <div className='form-top'>
-        <h1>How much do you spend on furniture and appliances per month?</h1>
-        <p>Divide purchases by the number of months they'll be useful for.</p>
+        <h1>How much do you travel by bus each week?</h1>
+        <p>
+          Buses are pretty efficient, so it's no big deal if your estimate is a
+          little off (in kms).
+        </p>
       </div>
       <div className='form-choices'>
-        <div className='choice'>
-          <h3>A little</h3>
-          <p>$77 USD</p>
-        </div>
-        <div className='choice'>
-          <h3>Average</h3>
-          <p>$154 USD</p>
-        </div>
-        <div className='choice'>
-          <h3>A lot </h3>
-          <p>$307 USD</p>
-        </div>
         <div className='input-choice'>
           <input type='text' name='' id='' placeholder='Enter a Zipcode' />
         </div>
       </div>
+      <button
+        className='btn'
+        onClick={() => {
+          // setActiveFormIndex(activeFormIndex + 1);
+          setFormResponse({
+            ...formResponse,
+            bus_travel: busTravel,
+          });
+        }}
+      >
+        Continue
+      </button>
     </div>
   );
 };
