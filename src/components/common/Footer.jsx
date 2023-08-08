@@ -111,12 +111,6 @@ const Footer = () => {
             <div className='left-0 top-[144.26px] absolute text-white text-[15px] font-normal leading-snug'>
               Contact us
             </div>
-            <div className='left-0 top-[181.69px] absolute text-white text-[15px] font-normal leading-snug'>
-              Product roadmap
-            </div>
-            <div className='left-0 top-[219.11px] absolute text-white text-[15px] font-normal leading-snug'>
-              Affiliate program
-            </div>
           </div>
           {/* 4th Col  */}
           <div className='w-[320.75px] h-[469.06px] relative'>
@@ -232,12 +226,6 @@ const Footer = () => {
               <div className='left-0 top-[144.27px] absolute text-white text-[15px] font-normal leading-snug'>
                 Contact us
               </div>
-              <div className='left-0 top-[181.69px] absolute text-white text-[15px] font-normal leading-snug'>
-                Product roadmap
-              </div>
-              <div className='left-0 top-[219.11px] absolute text-white text-[15px] font-normal leading-snug'>
-                Affiliate program
-              </div>
             </div>
             {/*
             <div className='w-[387px] h-[469.06px] relative'>
@@ -323,11 +311,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className='pb-px left-0 top-[1467.75px] absolute opacity-80 justify-start items-start inline-flex'>
-            <div className='text-white text-base font-semibold'>
-              Forzero Climate, PBC © 2023
-            </div>
-          </div>
 
           <div className=' max-w-[320px] flex flex-wrap px-3'>
             <div className='left-0 top-[1523.75px] absolute opacity-80 text-white text-[15px] font-normal'>
@@ -336,15 +319,7 @@ const Footer = () => {
             <div className='left-[102.63px] top-[1523.75px] absolute text-white text-[15px] font-normal'>
               •
             </div>
-            <div className='left-[115.28px] top-[1523.75px] absolute opacity-80 text-white text-[15px] font-normal'>
-              Data Collection
-            </div>
-            <div className='left-[227.70px] top-[1523.75px] absolute text-white text-[15px] font-normal'>
-              •
-            </div>
-            <div className='left-[0.36px] top-[1553.75px] absolute opacity-80 text-white text-[15px] font-normal'>
-              TrustPilot reviews
-            </div>
+
             <div className='left-[130.88px] top-[1553.75px] absolute text-white text-[15px] font-normal'>
               •
             </div>
