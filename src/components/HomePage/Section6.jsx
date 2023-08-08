@@ -1,4 +1,7 @@
 import React from "react";
+import face_1 from "../../assets/face_1.png";
+import face_2 from "../../assets/face_2.png";
+import face_3 from "../../assets/face_3.png";
 
 const Section6 = () => {
   return (
@@ -19,88 +22,88 @@ const Section6 = () => {
           <div className='w-[1710px] h-[400px] left-0 top-0 absolute'>
             <img
               className='w-[66px] h-[66px] left-[85.50px] top-[80px] absolute rounded-[66px] shadow'
-              src='https://via.placeholder.com/66x66'
+              src={face_1}
             />
             <div className='w-[50px] left-[256.50px] top-[120px] absolute rounded-[50px] justify-start items-start inline-flex'>
               <div className='w-[50px] h-[50px] relative' />
             </div>
             <img
               className='w-16 h-16 left-[427.50px] top-[156px] absolute rounded-[64px]'
-              src='https://via.placeholder.com/64x64'
+              src={face_2}
             />
             <img
               className='w-[66px] h-[66px] left-[598.50px] top-[136px] absolute rounded-[66px]'
-              src='https://via.placeholder.com/66x66'
+              src={face_3}
             />
             <img
               className='w-[50px] h-[50px] left-[769.50px] top-[80px] absolute rounded-[50px]'
-              src='https://via.placeholder.com/50x50'
+              src={face_1}
             />
             <img
               className='w-16 h-16 left-[940.50px] top-[144px] absolute rounded-[64px]'
-              src='https://via.placeholder.com/64x64'
+              src={face_2}
             />
             <img
               className='w-[66px] h-[66px] left-[1111.50px] top-[92px] absolute rounded-[66px]'
-              src='https://via.placeholder.com/66x66'
+              src={face_3}
             />
             <img
               className='w-[50px] h-[50px] left-[1282.50px] top-[120px] absolute rounded-[50px]'
-              src='https://via.placeholder.com/50x50'
+              src={face_1}
             />
             <img
               className='w-16 h-16 left-[1453.50px] top-[80px] absolute rounded-[64px]'
-              src='https://via.placeholder.com/64x64'
+              src={face_2}
             />
             <img
               className='w-[66px] h-[66px] left-[1624.50px] top-[120px] absolute rounded-[66px]'
-              src='https://via.placeholder.com/66x66'
+              src={face_3}
             />
             <img
               className='w-[50px] h-[50px] left-[171px] top-[200px] absolute rounded-[50px]'
-              src='https://via.placeholder.com/50x50'
+              src={face_1}
             />
             <img
               className='w-16 h-16 left-[478.80px] top-[260px] absolute rounded-[64px]'
-              src='https://via.placeholder.com/64x64'
+              src={face_2}
             />
             <img
               className='w-[66px] h-[66px] left-[649.80px] top-[212px] absolute rounded-[66px]'
-              src='https://via.placeholder.com/66x66'
+              src={face_3}
             />
             <img
               className='w-[50px] h-[50px] left-[820.80px] top-[256px] absolute rounded-[50px]'
-              src='https://via.placeholder.com/50x50'
+              src={face_1}
             />
             <img
               className='w-16 h-16 left-[991.80px] top-[224px] absolute rounded-[64px]'
-              src='https://via.placeholder.com/64x64'
+              src={face_2}
             />
             <img
               className='w-[66px] h-[66px] left-[1162.80px] top-[240px] absolute rounded-[66px]'
-              src='https://via.placeholder.com/66x66'
+              src={face_3}
             />
             <img
               className='w-[50px] h-[50px] left-[1333.80px] top-[212px] absolute rounded-[50px]'
-              src='https://via.placeholder.com/50x50'
+              src={face_1}
             />
             <img
               className='w-16 h-16 left-[1504.80px] top-[264px] absolute rounded-[64px]'
-              src='https://via.placeholder.com/64x64'
+              src={face_2}
             />
             <img
               className='w-[66px] h-[66px] left-[85.50px] top-[80px] absolute rounded-[66px]'
-              src='https://via.placeholder.com/66x66'
+              src={face_3}
             />
             <img
               className='w-[50px] h-[50px] left-[342px] top-[280px] absolute rounded-[50px]'
-              src='https://via.placeholder.com/50x50'
+              src={face_1}
             />
           </div>
           <div className='w-[350px] h-[350px] left-[695px] top-[20px] absolute bg-white rounded border border-zinc-900'>
             <img
               className='w-[60px] h-[60px] left-[137.50px] top-[27px] absolute rounded-[60px]'
-              src='https://via.placeholder.com/60x60'
+              src={face_1}
             />
             <div className='left-[121.27px] top-[99px] absolute text-center text-zinc-800 text-base font-semibold leading-snug'>
               Armin Samii
@@ -145,18 +148,18 @@ const Section6 = () => {
           <div className='w-[618px] h-[400px] left-0 top-0 absolute'>
             <img
               className='w-[66px] h-[66px] left-[30.89px] top-[80px] absolute rounded-[66px] shadow'
-              src='https://via.placeholder.com/66x66'
+              src={face_1}
             />
             <div className='w-[50px] left-[92.69px] top-[120px] absolute rounded-[50px] justify-start items-start inline-flex'>
               <div className='w-[50px] h-[50px] relative' />
             </div>
             <img
               className='w-16 h-16 left-[154.50px] top-[156px] absolute rounded-[64px]'
-              src='https://via.placeholder.com/64x64'
+              src={face_2}
             />
             <img
               className='w-[66px] h-[66px] left-[216.30px] top-[136px] absolute rounded-[66px]'
-              src='https://via.placeholder.com/66x66'
+              src={face_1}
             />
             <img
               className='w-[50px] h-[50px] left-[278.09px] top-[80px] absolute rounded-[50px]'
@@ -164,69 +167,69 @@ const Section6 = () => {
             />
             <img
               className='w-16 h-16 left-[339.89px] top-[144px] absolute rounded-[64px]'
-              src='https://via.placeholder.com/64x64'
+              src={face_2}
             />
             <img
               className='w-[66px] h-[66px] left-[401.69px] top-[92px] absolute rounded-[66px]'
-              src='https://via.placeholder.com/66x66'
+              src={face_1}
             />
             <img
               className='w-[50px] h-[50px] left-[463.50px] top-[120px] absolute rounded-[50px]'
-              src='https://via.placeholder.com/50x50'
+              src={face_1}
             />
             <img
               className='w-16 h-16 left-[525.30px] top-[80px] absolute rounded-[64px]'
-              src='https://via.placeholder.com/64x64'
+              src={face_2}
             />
             <img
               className='w-[66px] h-[66px] left-[587.09px] top-[120px] absolute rounded-[66px]'
-              src='https://via.placeholder.com/66x66'
+              src={face_1}
             />
             <img
               className='w-[50px] h-[50px] left-[61.80px] top-[200px] absolute rounded-[50px]'
-              src='https://via.placeholder.com/50x50'
+              src={face_2}
             />
             <img
               className='w-16 h-16 left-[173.03px] top-[260px] absolute rounded-[64px]'
-              src='https://via.placeholder.com/64x64'
+              src={face_2}
             />
             <img
               className='w-[66px] h-[66px] left-[234.83px] top-[212px] absolute rounded-[66px]'
-              src='https://via.placeholder.com/66x66'
+              src={face_1}
             />
             <img
               className='w-[50px] h-[50px] left-[296.63px] top-[256px] absolute rounded-[50px]'
-              src='https://via.placeholder.com/50x50'
+              src={face_3}
             />
             <img
               className='w-16 h-16 left-[358.44px] top-[224px] absolute rounded-[64px]'
-              src='https://via.placeholder.com/64x64'
+              src={face_2}
             />
             <img
               className='w-[66px] h-[66px] left-[420.23px] top-[240px] absolute rounded-[66px]'
-              src='https://via.placeholder.com/66x66'
+              src={face_1}
             />
             <img
               className='w-[50px] h-[50px] left-[482.03px] top-[212px] absolute rounded-[50px]'
-              src='https://via.placeholder.com/50x50'
+              src={face_3}
             />
             <img
               className='w-16 h-16 left-[543.83px] top-[264px] absolute rounded-[64px]'
-              src='https://via.placeholder.com/64x64'
+              src={face_2}
             />
             <img
               className='w-[66px] h-[66px] left-[30.89px] top-[80px] absolute rounded-[66px]'
-              src='https://via.placeholder.com/66x66'
+              src={face_1}
             />
             <img
               className='w-[50px] h-[50px] left-[123.59px] top-[280px] absolute rounded-[50px]'
-              src='https://via.placeholder.com/50x50'
+              src={face_2}
             />
           </div>
           <div className='w-[350px] h-[350px] left-[149px] top-[20px] absolute bg-white rounded border border-zinc-900'>
             <img
               className='w-[60px] h-[60px] left-[145px] top-[27px] absolute rounded-[60px]'
-              src='https://via.placeholder.com/60x60'
+              src={face_1}
             />
             <div className='left-[128.77px] top-[99px] absolute text-center text-zinc-800 text-base font-semibold leading-snug'>
               Armin Samii
@@ -272,48 +275,48 @@ const Section6 = () => {
             <div className='w-[400px] h-[400px] -left-[40px] top-0 absolute'>
               <img
                 className='w-[30px] h-[30px] left-[20px] top-[80px] absolute rounded-[30px] shadow'
-                src='https://via.placeholder.com/30x30'
+                src={face_1}
               />
               <div className='w-10 left-[60px] top-[120px] absolute rounded-[40px] justify-start items-start inline-flex'>
                 <div className='w-10 h-10 relative' />
               </div>
               <img
                 className='w-[45px] h-[45px] left-[100px] top-[156px] absolute rounded-[45px]'
-                src='https://via.placeholder.com/45x45'
+                src={face_2}
               />
               <img
                 className='w-[30px] h-[30px] left-[140px] top-[136px] absolute rounded-[30px]'
-                src='https://via.placeholder.com/30x30'
+                src={face_1}
               />
               <img
                 className='w-10 h-10 left-[180px] top-[80px] absolute rounded-[40px]'
-                src='https://via.placeholder.com/40x40'
+                src={face_3}
               />
               <img
                 className='w-[45px] h-[45px] left-[220px] top-[144px] absolute rounded-[45px]'
-                src='https://via.placeholder.com/45x45'
+                src={face_2}
               />
               <img
                 className='w-[30px] h-[30px] left-[260px] top-[92px] absolute rounded-[30px]'
-                src='https://via.placeholder.com/30x30'
+                src={face_1}
               />
               <img
                 className='w-10 h-10 left-[300px] top-[120px] absolute rounded-[40px]'
-                src='https://via.placeholder.com/40x40'
+                src={face_3}
               />
               <img
                 className='w-[45px] h-[45px] left-[340px] top-[80px] absolute rounded-[45px]'
-                src='https://via.placeholder.com/45x45'
+                src={face_2}
               />
               <img
                 className='w-[30px] h-[30px] left-[380px] top-[120px] absolute rounded-[30px]'
-                src='https://via.placeholder.com/30x30'
+                src={face_1}
               />
             </div>
             <div className='w-[350px] h-[350px] left-[40px] top-[274px] absolute bg-white rounded border border-zinc-900'>
               <img
                 className='w-[60px] h-[60px] left-[145px] top-[27px] absolute rounded-[60px]'
-                src='https://via.placeholder.com/60x60'
+                src={face_1}
               />
               <div className='left-[131.64px] top-[99px] absolute text-center text-zinc-800 text-[15px] font-semibold leading-[21px]'>
                 Armin Samii

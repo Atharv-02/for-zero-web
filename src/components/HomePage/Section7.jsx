@@ -454,7 +454,7 @@ const Section7 = () => {
       </div>
 
       {/* Mobile View */}
-      <div className='max-w-[100vw] mx-auto h-[2610.49px] flex-col justify-start items-start sm:flex md:hidden'>
+      <div className='max-w-[100vw] mx-auto h-[2610.49px] mb-6 flex-col justify-start items-start sm:flex md:hidden'>
         {/* Heading  */}
         <div className='h-[234.63px] px-8 pt-[90px] pb-6 bg-white flex-col justify-start items-center flex'>
           <div className='pl-[1.59px] pr-[1.41px] pb-[10.60px] flex-col justify-start items-center flex'>
@@ -524,12 +524,11 @@ const Section7 = () => {
               </div>
               <div className='flex-col justify-start items-start gap-1 inline-flex'>
                 <div className='text-white text-lg pl-8 font-semibold'>
-                  Precise tracking
+                Regular updates
                 </div>
                 <div className='max-w-[320px]  pb-[0.56px] pl-8 pr-4 opacity-80 justify-start items-start inline-flex'>
                   <div className='text-gray-200 text-lg font-normal leading-relaxed'>
-                    We carefully check how much CO₂ is offset by each project,
-                    so we can promise you lasting impact.
+                  We get data straight from projects on the ground, so you can track your impact, month by month.
                   </div>
                 </div>
               </div>
@@ -542,12 +541,11 @@ const Section7 = () => {
               </div>
               <div className='flex-col justify-start items-start gap-1 inline-flex'>
                 <div className='text-white text-lg pl-8 font-semibold'>
-                  Precise tracking
+                Every dollar makes a difference
                 </div>
                 <div className='max-w-[320px]  pb-[0.56px] pl-8 pr-4 opacity-80 justify-start items-start inline-flex'>
                   <div className='text-gray-200 text-lg font-normal leading-relaxed'>
-                    We carefully check how much CO₂ is offset by each project,
-                    so we can promise you lasting impact.
+                  Our projects wouldn't happen without your support. With Wren, your money makes a real impact.
                   </div>
                 </div>
               </div>
@@ -586,12 +584,11 @@ const Section7 = () => {
               </div>
               <div className='flex-col justify-start items-start gap-1 inline-flex'>
                 <div className='text-white text-lg pl-8 font-semibold'>
-                  Precise tracking
+                Pictures
                 </div>
                 <div className='max-w-[320px]  pb-[0.56px] pl-8 pr-4 opacity-80 justify-start items-start inline-flex'>
                   <div className='text-gray-200 text-lg font-normal leading-relaxed'>
-                    We carefully check how much CO₂ is offset by each project,
-                    so we can promise you lasting impact.
+                  You don't have to imagine your impact. You can see it each month.
                   </div>
                 </div>
               </div>
@@ -604,12 +601,11 @@ const Section7 = () => {
               </div>
               <div className='flex-col justify-start items-start gap-1 inline-flex'>
                 <div className='text-white text-lg pl-8 font-semibold'>
-                  Precise tracking
+                Data
                 </div>
                 <div className='max-w-[320px]  pb-[0.56px] pl-8 pr-4 opacity-80 justify-start items-start inline-flex'>
                   <div className='text-gray-200 text-lg font-normal leading-relaxed'>
-                    We carefully check how much CO₂ is offset by each project,
-                    so we can promise you lasting impact.
+                  We share the details with you. Count every tree planted, every acre reforested, every ton of carbon offset.
                   </div>
                 </div>
               </div>
@@ -622,12 +618,11 @@ const Section7 = () => {
               </div>
               <div className='flex-col justify-start items-start gap-1 inline-flex'>
                 <div className='text-white text-lg pl-8 font-semibold'>
-                  Precise tracking
+                Stories
                 </div>
                 <div className='max-w-[320px]  pb-[0.56px] pl-8 pr-4 opacity-80 justify-start items-start inline-flex'>
                   <div className='text-gray-200 text-lg font-normal leading-relaxed'>
-                    We carefully check how much CO₂ is offset by each project,
-                    so we can promise you lasting impact.
+                  Read stories fresh from farm or forest. See how your choices don't just help the earth. They change lives too.
                   </div>
                 </div>
               </div>
