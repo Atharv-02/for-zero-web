@@ -2,6 +2,7 @@ import React from "react";
 import homeFaq from "../../data/homefaq";
 import questionMark from "../../assets/circle-question-mark.avif";
 import bird from "../../assets/bird.avif";
+import logoLight from "../../assets/12th Project/Logo Files/PNGs & SVGs/1x/Asset 5.png";
 import { FaPlus } from "react-icons/fa";
 const Section25 = () => {
   const showFullPara = (id) => {
@@ -49,7 +50,7 @@ const Section25 = () => {
       </div>
       <div className='lower-faq'>
         <div className='bird'>
-          <img src={bird} alt='' />
+          <img src={logoLight} alt='' />
         </div>
         <h1 className='lower-h1'>
           We all have a part to play. Take climate action today.

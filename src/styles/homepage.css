@@ -112,7 +112,8 @@
   max-width: 200px;
 }
 .bird img {
-  width: 200px;
+  width: 70px;
+  padding-bottom: 1rem;
   margin: 0 auto;
 }
 .lower-h1 {
