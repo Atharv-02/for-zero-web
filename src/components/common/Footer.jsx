@@ -173,9 +173,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='max-w-[320px] h-[1589.75px] px-[21.50px] pt-3 pb-4 bg-for_zero_blue justify-center items-start sm:flex md:hidden'>
-        <div className='w-[320px] h-[1561.75px] relative'>
-          <div className='h-[1417.75px] pb-[50px] left-0 top-[50px] absolute flex-col justify-start items-start gap-[50px] inline-flex'>
+      <div className='max-w-[320px] h-[959.75px] px-[21.50px] pt-3 pb-4 bg-for_zero_blue justify-center items-start sm:flex md:hidden'>
+        <div className='w-[320px] relative'>
+          <div className='pb-[50px] left-0 top-[50px] absolute flex-col justify-start items-start gap-[50px] inline-flex'>
             <div className='w-[387px] h-[339.38px] relative'>
               <div className='left-0 top-0 absolute text-white text-base font-semibold'>
                 Projects
@@ -312,18 +312,16 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=' max-w-[320px] flex flex-wrap px-3'>
-            <div className='left-0 top-[1523.75px] absolute opacity-80 text-white text-[15px] font-normal'>
+          <div className=' max-w-[320px] flex px-3'>
+            <div className='left-0 top-[923.75px] absolute opacity-80 text-white text-[15px] font-normal'>
               Privacy Policy
             </div>
-            <div className='left-[102.63px] top-[1523.75px] absolute text-white text-[15px] font-normal'>
+            <div className='left-[102.63px] top-[923.75px] absolute text-white text-[15px] font-normal'>
               •
             </div>
 
-            <div className='left-[130.88px] top-[1553.75px] absolute text-white text-[15px] font-normal'>
-              •
-            </div>
-            <div className='left-[145px] top-[1553.75px] absolute opacity-80 text-white text-[15px] font-normal'>
+           
+            <div className='left-[125px] top-[925.75px] absolute opacity-80 text-white text-[15px] font-normal'>
               Contact support
             </div>
           </div>
