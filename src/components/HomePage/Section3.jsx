@@ -61,7 +61,7 @@ const Section3 = () => {
         <div className='justify-start items-start flex'>
           <div className=' pt-[15px] pb-[17px] flex-col justify-center items-center gap-1 inline-flex'>
             <div className='text-center text-green-500 text-2xl font-extrabold leading-normal'>
-              $5M+
+              $2M+
             </div>
             <div className='text-center text-zinc-800 text-xs font-normal leading-none'>
               Raised for
