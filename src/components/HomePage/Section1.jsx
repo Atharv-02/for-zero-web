@@ -13,6 +13,11 @@ function Section1() {
             in one subscription.
           </p>
           <div className='hero-btn-container'>
+            <input
+              type='text'
+              className='hero-input'
+              placeholder='Enter the City'
+            />
             <button className='btn hero-btn'>Get Started</button>
           </div>
           <p className='small-para'>
