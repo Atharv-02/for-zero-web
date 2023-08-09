@@ -173,10 +173,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='max-w-[320px] h-[959.75px] px-[21.50px] pt-3 pb-4 bg-for_zero_blue justify-center items-start sm:flex md:hidden'>
-        <div className='w-[320px] relative'>
+      <div className='max-w-[100vw] h-[959.75px] pt-3 pb-4 bg-for_zero_blue justify-center items-start sm:flex md:hidden'>
+        <div className='w-[310px] relative'>
           <div className='pb-[50px] left-0 top-[50px] absolute flex-col justify-start items-start gap-[50px] inline-flex'>
-            <div className='w-[387px] h-[339.38px] relative'>
+            <div className='w-[317px] h-[339.38px] relative'>
               <div className='left-0 top-0 absolute text-white text-base font-semibold'>
                 Projects
               </div>
@@ -185,8 +185,8 @@ const Footer = () => {
                   🌍 Forzero Climate Portfolio
                 </div>
               </div>
-              <div className='w-[317px] h-0.5 left-0 top-[69.42px] absolute opacity-20 border border-white' />
-              <div className='h-[251.94px] pl-4 pr-[104px] pt-0.5 pb-[3.42px] left-0 top-[87.42px] absolute flex-col justify-start items-start gap-[15.42px] inline-flex'>
+              <div className='w-full h-0.5 left-0 top-[69.42px] absolute opacity-20 border border-white' />
+              <div className='h-[251.94px] w-full pl-4 pr-[64px] pt-0.5 pb-[3.42px] left-0 top-[87.42px] absolute flex-col justify-start items-start gap-[15.42px] flex'>
                 <div className='text-white text-[15px] font-normal leading-snug'>
                   🪨 Biochar in California
                 </div>
@@ -210,7 +210,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className='w-[387px] h-[244.53px] relative'>
+            <div className='w-[317px] h-[244.53px] relative'>
               <div className='left-0 top-0 absolute text-white text-base font-semibold'>
                 Resources
               </div>
@@ -270,12 +270,12 @@ const Footer = () => {
               </div>
             </div>
             */}
-            <div className='w-[387px] pr-[172px] justify-start items-start inline-flex'>
-              <div className='pr-[15px] pb-10 flex-col justify-start items-start gap-[13px] inline-flex'>
+            <div className='w-[317px] justify-start items-start flex'>
+              <div className='pr-[15px] pb-10 flex-col justify-start items-start gap-[13px] flex'>
                 <div className='text-white text-base font-semibold'>
                   Forzero
                 </div>
-                <div className='self-stretch pr-3.5 opacity-90 justify-start items-start inline-flex'>
+                <div className='self-stretch opacity-90 justify-start items-start inline-flex'>
                   <div className='text-white text-sm font-normal leading-tight'>
                     Offset your carbon footprint
                     <br />
@@ -284,7 +284,7 @@ const Footer = () => {
                     care about.
                   </div>
                 </div>
-                <div className='self-stretch pr-[90px] justify-start items-start gap-3 inline-flex'>
+                <div className='self-stretch justify-start items-start gap-3 inline-flex'>
                   <div className='pt-[2.06px] pb-1.5 justify-start items-start flex'>
                     <div className='h-[13.94px] justify-center items-start flex'>
                       <div className='h-[13.94px] px-[0.05px] justify-start items-start flex' />
@@ -296,16 +296,16 @@ const Footer = () => {
                     </div>
                   </div>
                   <div className='pb-1 justify-start items-start flex'>
-                    <img
+                    {/* <img
                       className='w-[18px] h-[18px] relative'
                       src='https://via.placeholder.com/18x18'
-                    />
+                    /> */}
                   </div>
                   <div className='pb-1 justify-start items-start flex'>
-                    <img
+                    {/* <img
                       className='w-[18px] h-[18px] relative'
                       src='https://via.placeholder.com/18x18'
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
