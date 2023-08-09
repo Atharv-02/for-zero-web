@@ -106,10 +106,10 @@ const Section6 = () => {
               src={face_1}
             />
             <div className='left-[121.27px] top-[99px] absolute text-center text-zinc-800 text-base font-semibold leading-snug'>
-              Armin Samii
+              Priya Singh
             </div>
             <div className='left-[116.72px] top-[121.39px] absolute opacity-30 text-center text-zinc-800 text-base font-normal leading-snug'>
-              @ArminSamii
+              @PriyaSingh
             </div>
             <div className='h-[135.95px] pl-[0.08px] left-[27px] top-[160.79px] absolute flex-col justify-start items-center gap-[0.95px] inline-flex'>
               <div className='text-center text-zinc-800 text-base font-normal leading-snug'>
@@ -232,7 +232,7 @@ const Section6 = () => {
               src={face_1}
             />
             <div className='left-[128.77px] top-[99px] absolute text-center text-zinc-800 text-base font-semibold leading-snug'>
-              Armin Samii
+              Priya Singh
             </div>
             <div className='left-[124.22px] top-[121.39px] absolute opacity-30 text-center text-zinc-800 text-base font-normal leading-snug'>
               @ArminSamii
@@ -319,10 +319,10 @@ const Section6 = () => {
                 src={face_1}
               />
               <div className='left-[131.64px] top-[99px] absolute text-center text-zinc-800 text-[15px] font-semibold leading-[21px]'>
-                Armin Samii
+                Priya Singh
               </div>
               <div className='left-[127.33px] top-[120px] absolute opacity-30 text-center text-zinc-800 text-[15px] font-normal leading-[21px]'>
-                @ArminSamii
+                @PriyaSingh
               </div>
               <div className='h-[126px] pl-[4.70px] pr-[4.30px] left-[27px] top-[159px] absolute flex-col justify-start items-center inline-flex'>
                 <div className='text-center text-zinc-800 text-[15px] font-normal leading-[21px]'>
