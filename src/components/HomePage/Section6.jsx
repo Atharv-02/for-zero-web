@@ -258,7 +258,7 @@ const Section6 = () => {
       </div>
 
       {/* MOBILE VIEW */}
-      <div className='w-full bg-neutral-50 h-[741.59px] justify-start items-start sm:flex md:hidden'>
+      <div className='max-w-[100vw] bg-neutral-50 h-[741.59px] justify-start items-start sm:flex md:hidden'>
         <div className='max-w-[320px] mx-auto py-[50px] pb-[49.99px]  flex-col justify-start items-center flex'>
           <div className='w-[300px] h-[67.59px] relative'>
             <div className='left-[43.27px] top-[-1px] absolute text-center text-zinc-800 text-[22px] font-semibold leading-7'>
@@ -271,8 +271,8 @@ const Section6 = () => {
               countries love using Forzero!
             </div>
           </div>
-          <div className='w-[430px] h-[624px] relative'>
-            <div className='w-[400px] h-[400px] -left-[40px] top-0 absolute'>
+          <div className='w-[100vw] h-[624px] relative'>
+            <div className='w-[100vw] h-[400px] -left-[40px] top-0 absolute'>
               <img
                 className='w-[30px] h-[30px] left-[20px] top-[80px] absolute rounded-[30px] shadow'
                 src={face_1}

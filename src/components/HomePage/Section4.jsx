@@ -4,6 +4,19 @@ import gif2 from "../../assets/2.gif";
 import gif3 from "../../assets/3.gif";
 import TrustpilotReview from "../../assets/trustpilot-4-9.png";
 import ResearchData from "../../assets/wren-data-and-research-partners.png";
+import car_1 from "../../assets/car_1.png";
+import meat_1 from "../../assets/meat_1.png";
+import house_1 from "../../assets/house_1.png";
+import graph_1 from "../../assets/graph_1.png";
+import energy_1 from "../../assets/energy_1.png";
+
+import human_2 from "../../assets/human_2.png";
+import hooman_2 from "../../assets/hooman_2.png";
+import drone_2 from "../../assets/drone_2.png";
+
+import farmer_3 from "../../assets/farmer_3.png";
+import plant_3 from "../../assets/plant_3.png";
+import plantt_3 from "../../assets/plantt_3.svg";
 
 const Section4 = () => {
   return (
@@ -260,23 +273,23 @@ const Section4 = () => {
             <div className="w-[74px] h-[67px] left-[116.50px] top-[24px] absolute">
               <img
                 className="w-[74px] h-[63px] left-0 top-0 absolute"
-                src="https://via.placeholder.com/74x63"
+                src={graph_1}
               />
               <img
                 className="w-5 h-[19px] left-[-72px] top-[24.01px] absolute"
-                src="https://via.placeholder.com/20x19"
+                src={house_1}
               />
               <img
                 className="w-[33px] h-[33px] left-[-45.33px] top-[11.90px] absolute origin-top-left rotate-[3.18deg]"
-                src="https://via.placeholder.com/33x33"
+                src={meat_1}
               />
               <img
                 className="w-[33px] h-8 left-[80.43px] top-[11.90px] absolute origin-top-left rotate-[3.18deg]"
-                src="https://via.placeholder.com/33x32"
+                src={car_1}
               />
               <img
                 className="w-[23px] h-[23px] left-[115px] top-[24.01px] absolute"
-                src="https://via.placeholder.com/23x23"
+                src={energy_1}
               />
             </div>
             <div className="left-[27.13px] top-[106px] absolute text-center text-zinc-800 text-[17px] font-bold leading-normal">
@@ -296,15 +309,15 @@ const Section4 = () => {
             <div className="w-[105px] h-[102px] left-[101px] top-[24px] absolute">
               <img
                 className="w-[57px] h-[92.98px] left-0 top-[5.02px] absolute"
-                src="https://via.placeholder.com/57x93"
+                src={human_2}
               />
               <img
                 className="w-8 h-[98px] left-[65px] top-0 absolute"
-                src="https://via.placeholder.com/32x98"
+                src={hooman_2}
               />
               <img
                 className="w-12 h-[31px] left-[107px] top-[10px] absolute"
-                src="https://via.placeholder.com/48x31"
+                src={drone_2}
               />
             </div>
             <div className="left-[26.50px] top-[141px] absolute text-center text-zinc-800 text-[17px] font-bold leading-normal">
@@ -324,7 +337,7 @@ const Section4 = () => {
             <div className="w-[214px] h-[56.66px] left-[56.50px] top-[24px] absolute">
               <img
                 className="w-[50px] h-[30.33px] left-[25px] top-[26.33px] absolute"
-                src="https://via.placeholder.com/50x30"
+                src={plant_3}
               />
               <div className="pt-[2.68px] pb-1 left-[58px] top-[18.33px] absolute opacity-50 justify-start items-start inline-flex">
                 <div className="h-[13.31px] justify-center items-start flex">
@@ -334,7 +347,7 @@ const Section4 = () => {
 
               <img
                 className="w-[50px] h-[30.33px] left-[85px] top-[26.33px] absolute"
-                src="https://via.placeholder.com/50x30"
+                src={plantt_3}
               />
               <div className="pt-[2.68px] pb-1 left-[140px] top-[18.33px] absolute opacity-20 justify-start items-start inline-flex">
                 <div className="h-[13.31px] justify-center items-start flex">
@@ -343,7 +356,7 @@ const Section4 = () => {
               </div>
               <img
                 className="w-[50px] h-[56.66px] left-[154px] top-0 absolute"
-                src="https://via.placeholder.com/50x57"
+                src={farmer_3}
               />
             </div>
             <div className="left-[62.78px] top-[95.66px] absolute text-center text-zinc-800 text-[17px] font-bold leading-normal">
