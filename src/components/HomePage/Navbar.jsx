@@ -67,10 +67,14 @@ const Navbar = ({ params }) => {
             }}
           >
             <div
-              className={`line line-1  ${navShow ? "black cross-nav" : null}`}
+              className={`line line-1 bl-line ${
+                navShow ? "black cross-nav" : null
+              }`}
             ></div>
             <div
-              className={`line line-2  ${navShow ? "black rev-cross" : null}`}
+              className={`line line-2 bl-line  ${
+                navShow ? "black rev-cross" : null
+              }`}
             ></div>
           </div>
         </div>
@@ -79,19 +83,25 @@ const Navbar = ({ params }) => {
         <nav className={`sm-nav ${navShow ? "wh " : null}`} id='sm-nav'>
           <ul className='sm-nav-items'>
             <li className='sm-item'>
-              <div className='sm-img'>
+              <div className='sm-img' onClick={() => navigate("/our-approach")}>
                 <img src={co2} alt='' />
               </div>
-              <div className='sm-img-text'>
+              <div
+                className='sm-img-text'
+                onClick={() => navigate("/our-approach")}
+              >
                 Our Approach
                 <p>Understanding the impact of offsets</p>
               </div>
             </li>
             <li className='sm-item'>
-              <div className='sm-img'>
+              <div className='sm-img' onClick={() => navigate("/our-projects")}>
                 <img src={forest} alt='' />
               </div>
-              <div className='sm-img-text'>
+              <div
+                className='sm-img-text'
+                onClick={() => navigate("/our-projects")}
+              >
                 Our Projects
                 <p>See how offset carbon works</p>
               </div>
