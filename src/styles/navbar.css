@@ -140,3 +140,7 @@
 .bl-line {
   background-color: black;
 }
+.sp-hero {
+  position: relative;
+  z-index: 100000;
+}
