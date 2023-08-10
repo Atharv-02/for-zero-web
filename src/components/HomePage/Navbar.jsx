@@ -82,13 +82,19 @@ const Navbar = ({ params }) => {
               <div className='sm-img'>
                 <img src={co2} alt='' />
               </div>
-              <div className='sm-img-text'>Our Approach</div>
+              <div className='sm-img-text'>
+                Our Approach
+                <p>Understanding the impact of offsets</p>
+              </div>
             </li>
             <li className='sm-item'>
               <div className='sm-img'>
                 <img src={forest} alt='' />
               </div>
-              <div className='sm-img-text'>Our Projects</div>
+              <div className='sm-img-text'>
+                Our Projects
+                <p>See how offset carbon works</p>
+              </div>
             </li>
 
             {/* <li className='sm-item'>
