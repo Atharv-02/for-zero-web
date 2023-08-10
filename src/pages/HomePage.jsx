@@ -14,7 +14,7 @@ import Navbar from "../components/HomePage/Navbar";
 const HomePage = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar params={"home"} />
       <Section1 />
       <Section2 />
       <Section3 />

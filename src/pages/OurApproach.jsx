@@ -9,7 +9,7 @@ import Navbar from "../components/HomePage/Navbar";
 const OurApproach = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar params={"our-approach"} />
       <Section1 />
       <Section6 />
       <Footer />
