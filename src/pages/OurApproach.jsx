@@ -4,10 +4,12 @@ import "../styles/ourApproach.css";
 import Footer from "../components/common/Footer";
 
 import Section6 from "../components/HomePage/Section6";
+import Navbar from "../components/HomePage/Navbar";
 
 const OurApproach = () => {
   return (
     <div>
+      <Navbar />
       <Section1 />
       <Section6 />
       <Footer />

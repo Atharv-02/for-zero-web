@@ -159,7 +159,7 @@ const Section1 = () => {
         ))}
       </div>
       {form[activeFormIndex]}
-      <div className='calc-result-box'>
+      {/* <div className='calc-result-box'>
         <div className='inner-result'>
           <h1>Your Carbon footprint</h1>
           <h1 className='large-data'>19</h1>
@@ -170,7 +170,7 @@ const Section1 = () => {
             That's <strong>74% more than</strong> the United States average.
           </em>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

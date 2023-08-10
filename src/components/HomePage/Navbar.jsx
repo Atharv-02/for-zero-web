@@ -4,8 +4,10 @@ import "../../styles/navbar.css";
 import co2 from "../../assets/orange-co2-icon.avif";
 import forest from "../../assets/green-forest-icon.avif";
 import aboutIcon from "../../assets/blue-icon.avif";
+import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const [navShow, setNavShow] = useState(false);
+  const navigate = useNavigate();
   return (
     <div className='navbar-full'>
       <nav className={`navbar ${navShow ? "do-wh sp" : null}`} id='navbar'>
@@ -13,9 +15,13 @@ const Navbar = () => {
           <img src={navImage} alt='' />
         </div>
         <ul className='nav-items'>
-          <li className='item'>Our Projects</li>
-          <li className='item'>Our Approach</li>
-          <li className='item'>Contact Us</li>
+          <li className='item' onClick={() => navigate("/our-projects")}>
+            Our Projects
+          </li>
+          <li className='item' onClick={() => navigate("/our-approach")}>
+            Our Approach
+          </li>
+          {/* <li className='item'>Contact Us</li> */}
           <li className='btn-item item'>
             <button className='btn nav-btn'>Get Started</button>
           </li>
