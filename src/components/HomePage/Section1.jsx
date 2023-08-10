@@ -34,7 +34,7 @@ function Section1() {
         />
       </div>
       <div
-        class='btn-cont'
+        class='btn-cont-sp'
         style={{ textAlign: "center", marginBottom: "1rem" }}
       >
         <a href='https://dancing-frangipane-786e1e.netlify.app/'>

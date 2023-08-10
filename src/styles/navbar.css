@@ -115,6 +115,8 @@
   }
   .btn-cont-sp {
     display: block !important;
+    position: relative;
+    z-index: 500000;
   }
 }
 .btn-cont-sp {
@@ -139,8 +141,4 @@
 }
 .bl-line {
   background-color: black;
-}
-.sp-hero {
-  position: relative;
-  z-index: 100000;
 }
