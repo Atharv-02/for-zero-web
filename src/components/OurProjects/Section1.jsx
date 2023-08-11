@@ -43,7 +43,7 @@ const Section1 = () => {
       <img src={fern} alt='' className='fern fern-1' />
       <img src={fern} alt='' className='fern fern-2' />
 
-      <div className='max-w-[1024px] mx-auto pt-[120px] pb-20 flex-col justify-start items-center gap-6 md:flex sm:hidden '>
+      <div className='max-w-[1024px] mx-auto pt-[120px] pb-20 flex-col justify-start items-center gap-6 md:flex sm:hidden font-Blanco '>
         <div className='w-[909px] pl-[174.94px] pr-[176.06px] pb-2.5 justify-center items-start inline-flex'>
           <div className='text-center text-zinc-800 text-[53px] font-semibold leading-[72px]'>
             Planet-saving,
@@ -56,7 +56,7 @@ const Section1 = () => {
             isSticky ? "sticky-navbar" : ""
           }`}
         >
-          <div className='h-[54px] justify-center items-center gap-[0.01px] flex'>
+          <div className='h-[54px] font-Inter justify-center items-center gap-[0.01px] flex'>
             <div
               className={`px-6 cursor-pointer pt-[15.80px] pb-[15.20px] justify-center items-center flex ${
                 selected === "projects" ? "text-black" : "text-green-500"

@@ -8,13 +8,13 @@ const Section4 = () => {
   return (
     <div className=" w-full" id="portfolio">
       {/* Desktop Version  */}
-      <div className="max-w-[1024px] mx-auto flex-col py-24 justify-start items-center gap-16 sm:hidden md:flex">
+      <div className=" max-w-[1024px] mx-auto flex-col py-24 justify-start items-center gap-16 sm:hidden md:flex">
         {/* Heading Image  */}
         <div className="justify-center items-start inline-flex">
           <img className="w-[626px] h-[297px] relative" src={members} />
         </div>
         {/* Heading Text  */}
-        <div className="justify-center items-start inline-flex">
+        <div className=" font-Blanco  justify-center items-start inline-flex">
           <div className="pl-[14.89px] pr-[14.11px] pb-[11px] flex-col justify-start items-center inline-flex">
             <div className="text-center text-zinc-800 text-4xl font-semibold leading-[48px]">
               Members fund a mix of climate
@@ -67,7 +67,7 @@ const Section4 = () => {
         </div>
 
         {/* Core Sections  */}
-        <div className=" w-full md:hidden lg:flex flex-row-reverse gap-5 flex-wrap">
+        <div className=" font-Inter w-full md:hidden lg:flex flex-row-reverse gap-5 flex-wrap">
           {/* About Section  */}
           <div className="w-[40%]">
             <div className=" text-zinc-800 text-xl font-semibold leading-7">
@@ -546,7 +546,7 @@ const Section4 = () => {
 
       {/* it is just the core section, main section is taken from desktop version */}
 
-      <div className="max-w-[768px] flex-col justify-start items-start py-9 gap-16 sm:hidden md:flex lg:hidden">
+      <div className="max-w-[768px] font-Inter flex-col justify-start items-start py-9 gap-16 sm:hidden md:flex lg:hidden">
         <div className="w-full px-5">
           <div className="text-zinc-800 text-xl font-semibold leading-7">
             About
@@ -1018,7 +1018,7 @@ const Section4 = () => {
         </div>
 
         {/* 4 headings  */}
-        <div className="min-w-[320px] justify-between items-start gap-2 flex">
+        <div className="min-w-[320px] font-Inter justify-between items-start gap-2 flex">
           <div className="flex-col justify-start items-center gap-3 flex">
             <div className="w-[50px] p-[12.50px] bg-emerald-50 rounded-[50px] justify-center items-center flex">
               <div className="w-[25px] h-[25px] relative" />

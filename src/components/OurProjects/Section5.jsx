@@ -6,7 +6,7 @@ import Land_4 from "../../assets/land_4.png";
 
 const Section5 = () => {
   return (
-    <div className=' w-full' id='choose'>
+    <div className=' w-full font-Blanco' id='choose'>
       {/* Desktop  */}
       <div className='sm:hidden md:flex flex-col'>
         <div className='  max-w-[1024px] mx-auto h-[140px] flex-col justify-center items-center gap-[9px] flex'>

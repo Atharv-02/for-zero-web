@@ -22,7 +22,7 @@ const Section3 = () => {
           <path d='M7.5 81.5005L1.60935e-06 74.0005L15 74.0005L7.5 81.5005Z'></path>
         </svg>
       </div>
-      <div className='all-projects-inner'>
+      <div className='all-projects-inner font-Blanco'>
         <div className='upper-header'>
           <div className='top-image'>
             <svg
