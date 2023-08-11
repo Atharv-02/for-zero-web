@@ -46,7 +46,7 @@ const Section5 = () => {
             </div>
           </div>
 
-          <div className='max-w-[1024px] mx-auto mt-5 flex'>
+          <div className='max-w-[1024px] mx-auto mt-5 flex lg:gap-16'>
             <div className='w-[30%] pr-[63.69px] pb-2.5 justify-start items-start flex'>
               <div className='text-zinc-800 text-3xl font-semibold leading-9'>
                 1. Measurable
@@ -168,7 +168,7 @@ const Section5 = () => {
         <div className='w-full pb-16 justify-start items-start flex flex-col'>
           <img className='w-full h-[373px] object-cover' src={Land_2} />
 
-          <div className='max-w-[1024px] h-[20.59px] mx-auto pr-[28.71px] mt-5 justify-start items-start gap-[7.38px] flex'>
+          <div className='max-w-[95%] h-[20.59px] mx-auto pr-[28.71px] mt-5 justify-start items-start gap-[7.38px] flex'>
             <div className='pb-[0.59px] justify-start items-start flex'>
               <div className='text-stone-500 text-sm font-normal leading-tight'>
                 ↑
@@ -182,7 +182,7 @@ const Section5 = () => {
             </div>
           </div>
 
-          <div className='max-w-[1024px] mx-auto flex mt-10 gap-16'>
+          <div className='max-w-[95%] mx-auto flex mt-10 gap-16'>
             <div className='w-[262.69px] pb-2.5 justify-start items-start flex'>
               <div className='text-zinc-800 text-3xl font-semibold leading-9'>
                 2. Lasting impact
@@ -276,7 +276,7 @@ const Section5 = () => {
             </div>
           </div>
 
-          <div className='max-w-[1024px] mx-auto flex mt-10 gap-16 '>
+          <div className='max-w-[95%] mx-auto flex mt-10 lg:gap-16 '>
             <div className='w-[262.69px] pr-[34.69px] pb-2.5 justify-start items-start inline-flex'>
               <div className='text-zinc-800 text-3xl font-semibold leading-9'>
                 3. Wouldn’t
@@ -389,7 +389,7 @@ const Section5 = () => {
             </div>
           </div>
 
-          <div className='max-w-[1024px] mx-auto flex mt-10 gap-16'>
+          <div className='max-w-[95%] mx-auto flex mt-10 lg:gap-16'>
             <div className='w-[262.69px] pr-[79.69px] pb-2.5 justify-start items-start flex'>
               <div className='text-zinc-800 text-3xl font-semibold leading-9'>
                 4. No double

@@ -85,7 +85,7 @@ const Section1 = () => {
         </div>
       </div>
 
-      <div className='max-w-[320px] pt-[120px] mx-auto pb-[9.78px] justify-center items-start flex'>
+      <div className='max-w-[320px] pt-[120px] mx-auto pb-[9.78px] justify-center items-start sm:flex md:hidden'>
         <div className='text-center text-zinc-800 text-[33px] font-semibold leading-[45.60px]'>
           Planet-saving,
           <br />
