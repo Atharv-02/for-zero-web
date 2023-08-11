@@ -97,8 +97,7 @@
   position: fixed;
   width: 100%;
   top: 50px;
-  z-index: 90000;
-  white-space: nowrap;
+  z-index: 9000;
 }
 .black {
   background-color: black;
@@ -111,12 +110,12 @@
 }
 @media screen and (max-width: 431px) {
   .navbar-full {
-    z-index: 30001;
+    z-index: 300000;
   }
   .btn-cont-sp {
     display: block !important;
     position: relative;
-    z-index: 500000;
+    z-index: 50000;
   }
 }
 .btn-cont-sp {
