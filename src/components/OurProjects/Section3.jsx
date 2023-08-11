@@ -4,7 +4,7 @@ import technology from "../../assets/pacific-biochar-agriculture.avif";
 const Section3 = () => {
   return (
     <>
-      <div className='four-img' id="projects">
+      <div className='four-img' id='projects'>
         <img src={topImage} alt='' />
         <h1>
           Forzero members fund 4 types of <br />
@@ -43,6 +43,7 @@ const Section3 = () => {
           </div>
           <div className='inner'>
             <div className='inner-body'>
+              <h1 className='inner-h1'>Biochar in California</h1>
               <div className='body-img'>
                 <img src={technology} alt='' />
               </div>
@@ -136,6 +137,7 @@ const Section3 = () => {
             </div>
 
             <div className='inner-body rev'>
+              <h1 className='inner-h1'>Enhanced Mineral Weathering</h1>
               <div className='body-img'>
                 <img src={technology} alt='' />
               </div>
@@ -208,11 +210,12 @@ const Section3 = () => {
             </div>
 
             <div className='inner-body rev'>
+              <h1 className='inner-h1'>Refrigerant Destruction</h1>
               <div className='body-img'>
                 <img src={technology} alt='' />
               </div>
               <div className='body-txt rev-txt'>
-                <h1>Enhanced Mineral Weathering</h1>
+                <h1>Refrigerant Destruction</h1>
                 <h2>
                   This project adds crushed basalt to forest land, speeding up
                   Earth's natural carbon cycle– and sequestering carbon for
@@ -280,11 +283,12 @@ const Section3 = () => {
             </div>
 
             <div className='inner-body'>
+              <h1 className='inner-h1'>Adipic acid nitrous oxide abatement </h1>
               <div className='body-img'>
                 <img src={technology} alt='' />
               </div>
               <div className='body-txt '>
-                <h1>Enhanced Mineral Weathering</h1>
+                <h1>Adipic acid nitrous oxide abatement </h1>
                 <h2>
                   This project adds crushed basalt to forest land, speeding up
                   Earth's natural carbon cycle– and sequestering carbon for
@@ -372,6 +376,7 @@ const Section3 = () => {
           </div>
           <div className='inner'>
             <div className='inner-body rev'>
+              <h1 className='inner-h1'>Adipic acid nitrous oxide abatement </h1>
               <div className='body-img'>
                 <img src={technology} alt='' />
               </div>
@@ -465,6 +470,7 @@ const Section3 = () => {
           </div>
           <div className='inner'>
             <div className='inner-body '>
+              <h1 className='inner-h1'>Adipic acid nitrous oxide abatement </h1>
               <div className='body-img'>
                 <img src={technology} alt='' />
               </div>

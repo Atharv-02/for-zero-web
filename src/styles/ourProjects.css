@@ -35,7 +35,7 @@ h1 {
   padding: 1rem 0;
 }
 .inner-body {
-  max-width: 1160px;
+  max-width: min(1160px, 90vw);
   margin: 50px auto 100px auto;
   display: flex;
   align-items: center;
@@ -107,4 +107,40 @@ h2 {
 }
 .top-3 {
   background-color: #e8e2fe;
+}
+.inner-h1 {
+  display: none;
+}
+@media screen and (max-width: 976px) {
+  .inner-body-txt {
+    display: block;
+  }
+  .tick-body {
+    margin-bottom: 2rem;
+  }
+  .body-img {
+    max-width: 320px;
+    height: 420px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .inner-body {
+    display: block;
+  }
+  .body-img {
+    max-width: 100%;
+    height: 280px;
+    margin-bottom: 24px;
+  }
+  .inner-h1 {
+    display: block;
+    margin-bottom: 2rem;
+  }
+  .body-txt h1 {
+    display: none;
+  }
+  .body-txt {
+    width: 100%;
+    margin-left: 0;
+  }
 }
