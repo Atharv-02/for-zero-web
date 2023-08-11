@@ -58,18 +58,7 @@
 .nav-items {
   justify-self: flex-end;
 }
-@media screen and (max-width: 640px) {
-  .btn-lines {
-    display: flex;
-    align-items: center;
-  }
-  .btn-cont {
-    margin-right: 1rem;
-  }
-  .nav-items {
-    display: none;
-  }
-}
+
 .wh {
   background-color: white;
   height: 100vh;
@@ -117,6 +106,19 @@
     position: relative;
     z-index: 50000;
   }
+  .btn-lines {
+    display: flex;
+    align-items: center;
+  }
+  .btn-cont {
+    margin-right: 1rem;
+  }
+  .nav-items {
+    display: none;
+  }
+  .nav-btn {
+    font-size: 16px !important;
+  }
 }
 .btn-cont-sp {
   display: none;
@@ -140,4 +142,28 @@
 }
 .bl-line {
   background-color: black;
+}
+@media screen and (max-width: 535px) {
+  .nav-items .item {
+    font-size: 14px;
+  }
+  .nav-btn {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 496px) {
+  .nav-items .item {
+    font-size: 12px;
+  }
+  .nav-btn {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .nav-items .item {
+    font-size: 10px;
+  }
+  .nav-btn {
+    font-size: 10px;
+  }
 }
