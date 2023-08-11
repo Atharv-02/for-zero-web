@@ -371,7 +371,8 @@ const Section3 = () => {
             <h1>2. Tree Planting</h1>
             <p>
               Trees are nature’s soldiers in the fight against climate change,
-              and Wren members help plant millions of native species every year.
+              and Forzero members help plant millions of native species every
+              year.
             </p>
           </div>
           <div className='inner'>
@@ -463,9 +464,9 @@ const Section3 = () => {
           <div className='header-txt'>
             <h1>3. Policy</h1>
             <p>
-              Wren members support leading policy groups that push for changes
-              to our economies, agriculture, infrastructure, power grid—every
-              system that influences our planet’s climate.
+              Forzero members support leading policy groups that push for
+              changes to our economies, agriculture, infrastructure, power
+              grid—every system that influences our planet’s climate.
             </p>
           </div>
           <div className='inner'>
