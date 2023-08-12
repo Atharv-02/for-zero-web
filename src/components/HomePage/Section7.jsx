@@ -28,9 +28,9 @@ const Section7 = () => {
                   <div className='text-white text-[37px] font-semibold leading-[37px]'>
                     Protect
                     <br />
-                    rainforest in the
+                    rainforests in the
                     <br />
-                    Amazon
+                    North-East 
                   </div>
                 </div>
                 <div className='w-[294px] h-[5px] left-0 top-[129px] absolute bg-white bg-opacity-50 rounded-[20px]' />
@@ -188,13 +188,13 @@ const Section7 = () => {
             </div>
           </div>
           <div className='h-[650px] justify-start items-start flex'>
-            <div className='w-[450px] pl-[46px] pr-[110px] pt-[409.22px] pb-[46px] bg-basalt rounded flex-col justify-end items-start inline-flex'>
+            <div className='w-[450px] min-h-[650px] pl-[46px] pr-[110px] pt-[409.22px] pb-[46px] bg-basalt rounded flex-col justify-end items-start inline-flex'>
               <div className='w-[294px] h-[194.78px] relative'>
-                <div className='w-[294px] pr-[21px] pb-2.5 left-0 top-0 absolute justify-start items-start inline-flex'>
+                <div className='w-[294px] pr-[21px] pb-2.5 left-0 -top-16 absolute justify-start items-start inline-flex'>
                   <div className='text-white text-[37px] font-semibold leading-[37px]'>
-                    Store carbon in
+                    Store carbon in mangrove forests
                     <br />
-                    basalt rock
+                    of Sundarbans
                   </div>
                 </div>
                 <div className='w-[294px] h-[5px] left-0 top-[92px] absolute bg-white bg-opacity-50 rounded-[20px]' />
