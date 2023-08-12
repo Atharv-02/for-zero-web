@@ -313,7 +313,7 @@ const Section6 = () => {
                 src={face_1}
               />
             </div>
-            <div className='w-[320px] h-[350px] left-[10px] top-[274px] absolute bg-white rounded border border-zinc-900'>
+            <div className='w-[320px] h-[350px] left-[40px] top-[274px] absolute bg-white rounded border border-zinc-900'>
               <img
                 className='w-[60px] h-[60px] left-[145px] top-[27px] absolute rounded-[60px]'
                 src={face_1}
