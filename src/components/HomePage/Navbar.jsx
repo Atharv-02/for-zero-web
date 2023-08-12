@@ -19,7 +19,6 @@ const Navbar = ({ params }) => {
       c.classList.add("bl-nav");
     } else if (params == "home") {
       c.classList.remove("bl-nb");
-
       if (window.pageYOffset > 970) {
         c.classList.add("fix-nb");
         c1.classList.add("bl-line");
