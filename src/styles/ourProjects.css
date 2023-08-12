@@ -111,6 +111,22 @@ h2 {
 .inner-h1 {
   display: none;
 }
+.img-main-project {
+  width: min(1000px, 90vw);
+  margin: 0 auto;
+}
+.bottom-txt {
+  margin-top: 16px;
+  color: #666666;
+  font-size: 14px;
+}
+.top-img img {
+  border-radius: 6px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  width: 100%;
+  max-height: 522px;
+}
 @media screen and (max-width: 976px) {
   .inner-body-txt {
     display: block;

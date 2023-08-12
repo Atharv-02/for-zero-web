@@ -8,12 +8,14 @@ import Section5 from "../components/OurProjects/Section5";
 import Section6 from "../components/OurProjects/Section6";
 import Section7 from "../components/OurProjects/Section7";
 import Footer from "../components/common/Footer";
+import Section2 from "../components/OurProjects/Section2";
 
 const OurProjects = () => {
   return (
     <div>
       <Navbar params={"our-projects"} />
       <Section1 />
+      <Section2 />
       <Section3 />
       <Section4 />
       <Section5 />

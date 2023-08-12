@@ -15,7 +15,7 @@ const Navbar = ({ params }) => {
     const c = document.getElementById("navbar-full");
     const c1 = document.querySelector(".line-1");
     const c2 = document.querySelector(".line-2");
-    if (params == "our-approach") {
+    if (params == "our-approach" || params == "our-projects") {
       c.classList.add("bl-nav");
     } else if (params == "home") {
       c.classList.remove("bl-nb");
