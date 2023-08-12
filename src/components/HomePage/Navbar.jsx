@@ -19,19 +19,17 @@ const Navbar = ({ params }) => {
       c.classList.add("bl-nav");
     } else if (params == "home") {
       c.classList.remove("bl-nb");
-      window.addEventListener("scroll", () => {
-        if (window.pageYOffset > 970) {
-          c.classList.add("fix-nb");
-          c1.classList.add("bl-line");
-          c2.classList.add("bl-line");
-          setNewImg(true);
-        } else {
-          c.classList.remove("fix-nb");
-          c1.classList.remove("bl-line");
-          c2.classList.remove("bl-line");
-          setNewImg(false);
-        }
-      });
+      if (window.pageYOffset > 970) {
+        c.classList.add("fix-nb");
+        c1.classList.add("bl-line");
+        c2.classList.add("bl-line");
+        setNewImg(true);
+      } else {
+        c.classList.remove("fix-nb");
+        c1.classList.remove("bl-line");
+        c2.classList.remove("bl-line");
+        setNewImg(false);
+      }
     }
   });
   return (
@@ -67,14 +65,10 @@ const Navbar = ({ params }) => {
             }}
           >
             <div
-              className={`line line-1 bl-line ${
-                navShow ? "black cross-nav" : null
-              }`}
+              className={`line line-1  ${navShow ? "black cross-nav" : null}`}
             ></div>
             <div
-              className={`line line-2 bl-line  ${
-                navShow ? "black rev-cross" : null
-              }`}
+              className={`line line-2 ${navShow ? "black rev-cross" : null}`}
             ></div>
           </div>
         </div>
