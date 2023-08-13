@@ -15,7 +15,7 @@ function App() {
         <Route path='/our-approach' element={<OurApproach />} />
         <Route path='/our-projects' element={<OurProjects />} />
         {/* <Route path='/calculator' element={<Calculator />} /> */}
-        {/* <Route path='/calculator-result' element={<CalculatorResults />} /> */}
+        <Route path='/calculator-result' element={<CalculatorResults />} />
         <Route path='*' element={<h1>404 Not Found</h1>} />
       </Routes>
     </div>

@@ -122,7 +122,7 @@ const Footer = () => {
                 🌍 Forzero Climate Portfolio
               </div>
             </div>
-            <div className='h-[251.94px] pl-4 pr-[37.75px] pt-0.5 pb-[3.42px] left-0 top-[77.42px] absolute flex-col justify-start items-start gap-[15.42px] inline-flex'>
+            {/* <div className='h-[251.94px] pl-4 pr-[37.75px] pt-0.5 pb-[3.42px] left-0 top-[77.42px] absolute flex-col justify-start items-start gap-[15.42px] inline-flex'>
               <div className='text-white text-[15px] font-normal leading-snug'>
                 🪨 Biochar in California
               </div>
@@ -144,7 +144,7 @@ const Footer = () => {
               <div className='text-white text-[15px] font-normal leading-snug'>
                 🔬 Carbon180
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -186,7 +186,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className='w-full h-0.5 left-0 top-[69.42px] absolute opacity-20 border border-white' />
-              <div className='h-[251.94px] w-full pl-4 pr-[64px] pt-0.5 pb-[3.42px] left-0 top-[87.42px] absolute flex-col justify-start items-start gap-[15.42px] flex'>
+              {/* <div className='h-[251.94px] w-full pl-4 pr-[64px] pt-0.5 pb-[3.42px] left-0 top-[87.42px] absolute flex-col justify-start items-start gap-[15.42px] flex'>
                 <div className='text-white text-[15px] font-normal leading-snug'>
                   🪨 Biochar in California
                 </div>
@@ -208,7 +208,7 @@ const Footer = () => {
                 <div className='text-white text-[15px] font-normal leading-snug'>
                   🔬 Carbon180
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className='w-[317px] h-[244.53px] relative'>
               <div className='left-0 top-0 absolute text-white text-base font-semibold'>
@@ -320,7 +320,6 @@ const Footer = () => {
               •
             </div>
 
-           
             <div className='left-[125px] top-[925.75px] absolute opacity-80 text-white text-[15px] font-normal'>
               Contact support
             </div>
