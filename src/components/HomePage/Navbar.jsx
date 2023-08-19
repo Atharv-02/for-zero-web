@@ -8,6 +8,7 @@ import aboutIcon from "../../assets/blue-icon.avif";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = ({ params }) => {
+  console.log(params);
   const [navShow, setNavShow] = useState(false);
   const [newImg, setNewImg] = useState(params == "home" ? false : true);
   const navigate = useNavigate();
@@ -19,17 +20,20 @@ const Navbar = ({ params }) => {
       c.classList.add("bl-nav");
     } else if (params == "home") {
       c.classList.remove("bl-nb");
-      if (window.pageYOffset > 970) {
-        c.classList.add("fix-nb");
-        c1.classList.add("bl-line");
-        c2.classList.add("bl-line");
-        setNewImg(true);
-      } else {
-        c.classList.remove("fix-nb");
-        c1.classList.remove("bl-line");
-        c2.classList.remove("bl-line");
-        setNewImg(false);
-      }
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 970) {
+          console.log("hi");
+          c.classList.add("fix-nb");
+          c1.classList.add("bl-line");
+          c2.classList.add("bl-line");
+          setNewImg(true);
+        } else {
+          c.classList.remove("fix-nb");
+          c1.classList.remove("bl-line");
+          c2.classList.remove("bl-line");
+          setNewImg(false);
+        }
+      });
     }
   });
   return (
@@ -65,10 +69,24 @@ const Navbar = ({ params }) => {
             }}
           >
             <div
-              className={`line line-1  ${navShow ? "black cross-nav" : null}`}
+              className={`line line-1  ${
+                navShow
+                  ? "black cross-nav"
+                  : window.scrollY > 970
+                  ? "bl-line"
+                  : null
+              }`}
             ></div>
             <div
-              className={`line line-2 ${navShow ? "black rev-cross" : null}`}
+              className={`line line-2 ${
+                navShow
+                  ? "black rev-cross"
+                  : navShow
+                  ? "black cross-nav"
+                  : window.scrollY > 970
+                  ? "bl-line"
+                  : null
+              }`}
             ></div>
           </div>
         </div>
