@@ -1,5 +1,6 @@
 import React from "react";
 import navImage from "../../assets/12th Project/Logo Files/PNGs & SVGs/2x/Asset 1@2x.png";
+import { AiOutlineInstagram, AiFillLinkedin } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className='max-w-[1024px] mt-[50px] mx-auto sm:hidden md:flex flex-col md:scale-[85%] lg:scale-100'>
         <div className='pb-[50px] justify-start items-start flex'>
           {/* 1st Col  */}
-          <div className='pb-[304.28px] justify-start items-start flex'>
+          <div className='pb-[104.28px] justify-start items-start flex'>
             <div className='justify-start items-start gap-4 flex'>
               <img className='w-[42px] h-[42px] relative' src={navImage} />
               <div className='grow shrink basis-0 h-[164.78px] pr-[28.89px] justify-start items-start flex'>
@@ -37,15 +38,17 @@ const Footer = () => {
                     </div>
                     <div className='pb-1 justify-start items-start flex'>
                       <img
-                        className='w-[18px] h-[18px] relative'
-                        src='https://via.placeholder.com/18x18'
+                        className='w-[28px] h-[28px] relative'
+                        src='https://cdn-icons-png.flaticon.com/128/174/174855.png'
                       />
+                      {/* <AiOutlineInstagram/> */}
                     </div>
                     <div className='pb-1 justify-start items-start flex'>
                       <img
-                        className='w-[18px] h-[18px] relative'
-                        src='https://via.placeholder.com/18x18'
+                        className='w-[28px] h-[28px] relative'
+                        src='https://cdn-icons-png.flaticon.com/128/3536/3536505.png'
                       />
+                      {/* <AiFillLinkedin/> */}
                     </div>
                   </div>
                 </div>
@@ -113,7 +116,7 @@ const Footer = () => {
             </div>
           </div>
           {/* 4th Col  */}
-          <div className='w-[320.75px] h-[469.06px] relative'>
+          <div className='w-[320.75px] h-[269.06px] relative'>
             <div className='left-0 top-0 absolute text-white text-base font-semibold'>
               Projects
             </div>
@@ -173,6 +176,7 @@ const Footer = () => {
         </div>
       </div>
 
+      {/* Mobile Footer */} 
       <div className='max-w-[100vw] h-[959.75px] pt-3 pb-4 bg-for_zero_blue justify-center items-start sm:flex md:hidden'>
         <div className='w-[310px] relative'>
           <div className='pb-[50px] left-0 top-[50px] absolute flex-col justify-start items-start gap-[50px] inline-flex'>
