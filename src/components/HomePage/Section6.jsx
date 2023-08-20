@@ -26,7 +26,7 @@ const Section6 = () => {
       name: "Priya Singh",
       title: "CEO of ABC Company",
       review:
-        "New company but seems incredibly transparent and realistic. Looked into other carbon offsets and felt they were just doing lip service [...] Forzero feels real, with obvious,researchable, meaningful offsets.",
+        "ForZero has been a game-changer for me. Finally, a carbon offset company that's not just all talk! Their transparency and commitment to meaningful offsets are truly commendable.",
       image: face_1,
     },
     {
@@ -34,7 +34,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc.",
+        "I was skeptical at first, but ForZero blew me away with their genuine approach to offsetting. Unlike other companies, they provide clear, research-backed solutions that actually make a difference.",
       image: face_2,
     },
     {
@@ -42,7 +42,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc.",
+        "Impressed by ForZero's dedication to transparency and real impact. It's refreshing to see a startup that walks the talk when it comes to offsetting personal footprints.",
       image: face_3,
     },
     {
@@ -50,7 +50,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc.",
+        "ForZero is a breath of fresh air in the world of carbon offsets. Their straightforward approach and concrete results set them apart from the rest.",
       image: face_4,
     },
     {
@@ -58,7 +58,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc.",
+        "ForZero's commitment to transparency is what won me over. Unlike other offsetting options, they provide detailed information and evidence of their impact, making me a loyal supporter.",
       image: face_5,
     },
     {
@@ -66,7 +66,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc.",
+        "I'm thrilled to have found ForZero! Their authenticity shines through, and I can trust that my efforts to offset my footprint are making a true impact.",
       image: face_6,
     },
     {
@@ -74,7 +74,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc.",
+        "Kudos to ForZero for bringing transparency to the forefront of carbon offsetting. They've gained my trust by going beyond mere lip service and delivering substantial, researched solutions.",
       image: face_7,
     },
     {
@@ -82,7 +82,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc.",
+        "ForZero has redefined carbon offsetting for me. Their well-researched methods and meaningful offsets prove that they're not just another company in the space.",
       image: face_8,
     },
     {
@@ -90,7 +90,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, justo eu ultrices viverra, ex quam aliquet enim, vitae lacinia quam nisl quis nunc.",
+        "I've tried other carbon offset platforms, but ForZero's genuine approach and real impact have made me a believer. They're the real deal.",
       image: face_9,
     },
     {
@@ -98,7 +98,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "ForZero's sincerity is evident in everything they do. From their realistic approach to the way they communicate, they've set a new standard for carbon offset startups.",
       image: face_10,
     },
     {
@@ -106,7 +106,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "I'm thrilled to have found ForZero! Their authenticity shines through, and I can trust that my efforts to offset my footprint are making a true impact.",
       image: face_11,
     },
     {
@@ -114,7 +114,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Kudos to ForZero for bringing transparency to the forefront of carbon offsetting. They've gained my trust by going beyond mere lip service and delivering substantial, researched solutions.",
       image: face_12,
     },
     {
@@ -122,7 +122,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "I've tried other carbon offset platforms, but ForZero's genuine approach and real impact have made me a believer. They're the real deal.",
       image: face_13,
     },
     {
@@ -130,7 +130,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "ForZero has been a game-changer for me. Finally, a carbon offset company that's not just all talk! Their transparency and commitment to meaningful offsets are truly commendable.",
       image: face_14,
     },
     {
@@ -138,7 +138,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "ForZero's sincerity is evident in everything they do. From their realistic approach to the way they communicate, they've set a new standard for carbon offset startups",
       image: face_15,
     },
     {
@@ -146,7 +146,7 @@ const Section6 = () => {
       name: "John Doe",
       title: "CEO of ABC Company",
       review:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "ForZero is a breath of fresh air in the world of carbon offsets. Their straightforward approach and concrete results set them apart from the rest.",
       image: face_16,
     },
   ];

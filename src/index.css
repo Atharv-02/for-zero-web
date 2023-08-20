@@ -88,13 +88,13 @@
   font-stretch: normal;
 }
 .bg-rainforest {
-  background-image: url("./assets/rainforest.jpeg");
+  background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.73) ), url("./assets/rainforest.jpeg");
   background-size: cover;
   background-position: center;
 
 }
 .bg-basalt {
-  background-image: url("./assets/two.jpeg");
+  background-image:linear-gradient( to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.73) ), url("./assets/two.jpeg");
   background-size: cover;
   background-position: center;
 

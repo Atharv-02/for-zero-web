@@ -62,6 +62,42 @@ const Section8 = () => {
                 View live-feed →
               </div>
             </div>
+
+            <div className='md:scale-90 lg:scale-100 w-[306.66px] h-[202.56px] relative'>
+              <img
+                className='w-[147.53px] h-[63px] left-[79.56px] top-0 absolute'
+                src={Public1}
+              />
+              <div className='left-[49.84px] top-[78px] absolute text-center text-zinc-800 text-lg font-bold leading-relaxed'>
+              Peek into our operations
+              </div>
+              <div className='w-[320px] pl-[7.80px] pr-[7.86px] sm:-left-[10px] lg:left-0 sm:top-[132px] lg:top-[112.18px] absolute justify-center items-start inline-flex'>
+                <div className='text-center text-zinc-800 text-lg font-medium leading-relaxed'>
+                Dive into our live impact journal to witness every move we make.
+                </div>
+              </div>
+              <div className='sm:left-[77px] lg:left-[87.94px] sm:top-[192px] lg:top-[182.56px] absolute text-center text-blue-500 text-base font-semibold'>
+                View live-feed →
+              </div>
+            </div>
+
+            <div className='md:scale-90 lg:scale-100 w-[306.66px] h-[202.56px] relative'>
+              <img
+                className='w-[147.53px] h-[63px] left-[79.56px] top-0 absolute'
+                src={Public1}
+              />
+              <div className='left-[52.84px] top-[78px] absolute text-center text-zinc-800 text-lg font-bold leading-relaxed'>
+              Transparency in action.
+              </div>
+              <div className='w-[320px] pl-[7.80px] pr-[7.86px] sm:-left-[10px] lg:left-0 sm:top-[132px] lg:top-[112.18px] absolute justify-center items-start inline-flex'>
+                <div className='text-center text-zinc-800 text-lg font-medium leading-relaxed'>
+                Where every decision and action is showcased for you to see.
+                </div>
+              </div>
+              <div className='sm:left-[77px] lg:left-[87.94px] sm:top-[192px] lg:top-[182.56px] absolute text-center text-blue-500 text-base font-semibold'>
+                View live-feed →
+              </div>
+            </div>
           </div>
         </div>
       </div>
