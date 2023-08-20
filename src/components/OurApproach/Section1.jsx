@@ -10,7 +10,8 @@ const Section1 = () => {
 
       <div className='first-text'>
         <h1>
-          We built Wren to make it easier for you to tackle the climate crisis.
+          We built Forzero to make it easier for you to tackle the climate
+          crisis.
         </h1>
 
         <video

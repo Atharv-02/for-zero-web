@@ -40,7 +40,7 @@
   margin-right: 2px;
   font-size: 16px;
   padding: 4px 8px;
-
+  cursor: pointer;
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -73,6 +73,7 @@
   height: 63px;
   display: flex;
   margin: 20px 0px;
+  cursor: pointer;
 }
 .sm-img {
   height: 100%;
