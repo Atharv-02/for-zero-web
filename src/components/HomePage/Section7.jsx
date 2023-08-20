@@ -37,10 +37,8 @@ const Section7 = () => {
                 <div className='w-[294px] pr-8 pb-[0.38px] left-0 top-[145px] absolute opacity-80 justify-start items-start inline-flex'>
                   <div className='text-white text-lg font-normal leading-7'>
                     Forzero members fund a project
-                    <br />
                     that works with indigenous
-                    <br />
-                    peoples to protect their land, a<br />
+                    peoples to protect their land, a
                     natural carbon sink.
                   </div>
                 </div>
