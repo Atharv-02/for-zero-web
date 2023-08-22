@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import face_1 from "../../assets/face_1.png";
 import face_2 from "../../assets/face_2.png";
@@ -162,6 +162,20 @@ const Section6 = () => {
     }
   };
 
+  var i = 0;
+
+  //function such that the review changes every 5 seconds
+  function changeReview() {
+    setInterval(() => {
+        setCurrentReview(reviewList[i]);
+        console.log("Changing review", i);
+    }, 5000);
+    i++;
+  }
+
+
+
+
   return (
     <div className='w-full justify-start items-start'>
       <div className='w-full p-[60px] bg-neutral-50 flex-col justify-start items-center gap-[30px] sm:hidden lg:flex '>
@@ -179,7 +193,7 @@ const Section6 = () => {
         <div className='w-[1740px] h-[430.39px] relative'>
           <div className='w-[1710px] h-[400px] left-0 top-0 absolute'>
             <img
-              className='w-[66px] h-[66px] left-[85.50px] top-[80px] absolute rounded-[66px] shadow cursor-pointer hover:scale-95'
+              className='w-[66px] h-[66px] left-[5%] top-[20%] absolute rounded-[66px] shadow cursor-pointer hover:scale-95'
               src={face_1}
               onClick={() => handleNextReview(1)}
             />
@@ -187,92 +201,92 @@ const Section6 = () => {
               <div className='w-[50px] h-[50px] relative' />
             </div>
             <img
-              className='w-16 h-16 left-[427.50px] top-[156px] absolute rounded-[64px] cursor-pointer hover:scale-95'
+              className='w-16 h-16 left-[10%] top-[50%] absolute rounded-[64px] cursor-pointer hover:scale-95'
               src={face_2}
               onClick={() => handleNextReview(2)}
             />
             <img
-              className='w-[66px] h-[66px] left-[598.50px] top-[136px] absolute rounded-[66px] cursor-pointer hover:scale-95'
+              className='w-[66px] h-[66px] left-[15%] top-[30%] absolute rounded-[66px] cursor-pointer hover:scale-95'
               src={face_3}
               onClick={() => handleNextReview(3)}
             />
             <img
-              className='w-[50px] h-[50px] left-[769.50px] top-[80px] absolute rounded-[50px] cursor-pointer hover:scale-95'
+              className='w-[50px] h-[50px] left-[20%] top-[70%] absolute rounded-[50px] cursor-pointer hover:scale-95'
               src={face_4}
               onClick={() => handleNextReview(4)}
             />
             <img
-              className='w-16 h-16 left-[940.50px] top-[144px] absolute rounded-[64px] cursor-pointer hover:scale-95'
+              className='w-16 h-16 left-[25%] top-[39%] absolute rounded-[64px] cursor-pointer hover:scale-95'
               src={face_5}
               onClick={() => handleNextReview(5)}
             />
             <img
-              className='w-[66px] h-[66px] left-[1111.50px] top-[92px] absolute rounded-[66px] cursor-pointer hover:scale-95'
+              className='w-[66px] h-[66px] left-[28%] top-[65%] absolute rounded-[66px] cursor-pointer hover:scale-95'
               src={face_6}
               onClick={() => handleNextReview(6)}
             />
             <img
-              className='w-[50px] h-[50px] left-[1282.50px] top-[120px] absolute rounded-[50px] cursor-pointer hover:scale-95'
+              className='w-[50px] h-[50px] left-[65%] top-[23%] absolute rounded-[50px] cursor-pointer hover:scale-95'
               src={face_7}
               onClick={() => handleNextReview(7)}
             />
             <img
-              className='w-16 h-16 left-[1453.50px] top-[80px] absolute rounded-[64px] cursor-pointer hover:scale-95'
+              className='w-16 h-16 left-[68%] top-[60%] absolute rounded-[64px] cursor-pointer hover:scale-95'
               src={face_8}
               onClick={() => handleNextReview(8)}
             />
             <img
-              className='w-[66px] h-[66px] left-[1624.50px] top-[120px] absolute rounded-[66px] cursor-pointer hover:scale-95'
+              className='w-[66px] h-[66px] left-[75%] top-[30%] absolute rounded-[66px] cursor-pointer hover:scale-95'
               src={face_9}
               onClick={() => handleNextReview(9)}
             />
             <img
-              className='w-[50px] h-[50px] left-[171px] top-[200px] absolute rounded-[50px] cursor-pointer hover:scale-95'
+              className='w-[50px] h-[50px] left-[78%] top-[53%] absolute rounded-[50px] cursor-pointer hover:scale-95'
               src={face_10}
               onClick={() => handleNextReview(10)}
             />
             <img
-              className='w-16 h-16 left-[478.80px] top-[260px] absolute rounded-[64px] cursor-pointer hover:scale-95'
+              className='w-16 h-16 left-[85%] top-[20%] absolute rounded-[64px] cursor-pointer hover:scale-95'
               src={face_11}
               onClick={() => handleNextReview(11)}
             />
             <img
-              className='w-[66px] h-[66px] left-[649.80px] top-[212px] absolute rounded-[66px] cursor-pointer hover:scale-95'
+              className='w-[66px] h-[66px] left-[88%] top-[66%] absolute rounded-[66px] cursor-pointer hover:scale-95'
               src={face_12}
               onClick={() => handleNextReview(12)}
             />
             <img
-              className='w-[50px] h-[50px] left-[820.80px] top-[256px] absolute rounded-[50px] cursor-pointer hover:scale-95'
+              className='w-[50px] h-[50px] left-[95%] top-[30%] absolute rounded-[50px] cursor-pointer hover:scale-95'
               src={face_13}
               onClick={() => handleNextReview(13)}
             />
             <img
-              className='w-16 h-16 left-[991.80px] top-[224px] absolute rounded-[64px] cursor-pointer hover:scale-95'
+              className='w-16 h-16 left-[82%] top-[80%] absolute rounded-[64px] cursor-pointer hover:scale-95'
               src={face_14}
               onClick={() => handleNextReview(14)}
             />
             <img
-              className='w-[66px] h-[66px] left-[1162.80px] top-[240px] absolute rounded-[66px] cursor-pointer hover:scale-95'
+              className='w-[66px] h-[66px] left-[35%] top-[10%] absolute rounded-[66px] cursor-pointer hover:scale-95'
               src={face_15}
               onClick={() => handleNextReview(15)}
             />
             <img
-              className='w-[50px] h-[50px] left-[1333.80px] top-[212px] absolute rounded-[50px] cursor-pointer hover:scale-95'
+              className='w-[50px] h-[50px] left-[65%] top-[51%] absolute rounded-[50px] cursor-pointer hover:scale-95'
               src={face_16}
               onClick={() => handleNextReview(16)}
             />
             <img
-              className='w-16 h-16 left-[1504.80px] top-[264px] absolute rounded-[64px] cursor-pointer hover:scale-95 '
+              className='w-16 h-16 left-[8%] top-[79%] absolute rounded-[64px] cursor-pointer hover:scale-95 '
               src={face_1}
               onClick={() => handleNextReview(1)}  
             />
             <img
-              className='w-[66px] h-[66px] left-[85.50px] top-[80px] absolute rounded-[66px] cursor-pointer hover:scale-95'
+              className='w-[66px] h-[66px] left-[1%] top-[48%] absolute rounded-[66px] cursor-pointer hover:scale-95'
               src={face_12}
               onClick={() => handleNextReview(12)}
             />
             <img
-              className='w-[50px] h-[50px] left-[342px] top-[280px] absolute rounded-[50px] cursor-pointer hover:scale-95'
+              className='w-[50px] h-[50px] left-[55%] top-[5%] absolute rounded-[50px] cursor-pointer hover:scale-95'
               src={face_13}
               onClick={() => handleNextReview(13)}
             />
@@ -313,15 +327,15 @@ const Section6 = () => {
         <div className='w-[648px] h-[430.39px] relative'>
           <div className='w-[618px] h-[400px] left-0 top-0 absolute'>
             <img
-              className='w-[66px] h-[66px] left-[30.89px] top-[80px] absolute rounded-[66px] shadow'
+              className='w-[66px] h-[66px] left-[5%] top-[20%] absolute rounded-[66px] shadow'
               src={face_1}
               onClick={() => handleNextReview(1)}
             />
-            <div className='w-[50px] left-[92.69px] top-[120px] absolute rounded-[50px] justify-start items-start inline-flex'>
+            <div className='w-[50px] left-[10%] top-[50%] absolute rounded-[50px] justify-start items-start inline-flex'>
               <div className='w-[50px] h-[50px] relative' />
             </div>
             <img
-              className='w-16 h-16 left-[154.50px] top-[156px] absolute rounded-[64px]'
+              className='w-16 h-16 left-[15%] top-[156px] absolute rounded-[64px]'
               src={face_2}
               onClick={() => handleNextReview(2)}
             />
@@ -449,7 +463,7 @@ const Section6 = () => {
           <div className='w-[100vw] h-[624px] relative'>
             <div className='w-[100vw] h-[400px] -left-[40px] top-0 absolute'>
               <img
-                className='w-[30px] h-[30px] left-[20px] top-[80px] absolute rounded-[30px] shadow'
+                className='w-[30px] h-[30px] left-[5%] top-[20%] absolute rounded-[30px] shadow'
                 src={face_1}
                 onClick={() => handleNextReview(1)}
               />
@@ -457,7 +471,7 @@ const Section6 = () => {
                 <div className='w-10 h-10 relative' />
               </div>
               <img
-                className='w-[45px] h-[45px] left-[100px] top-[156px] absolute rounded-[45px]'
+                className='w-[45px] h-[45px] left-[10%] top-[50%] absolute rounded-[45px]'
                 src={face_2}
                 onClick={() => handleNextReview(2)}
               />
