@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../styles/homepage.css";
 
 function Section1() {
+  const [email, setEmail] = useState("");
+  function isValidEmail(email) {
+    return /\S+@\S+\.\S+/.test(email);
+  }
   return (
     <div className='hero-full'>
       <div className='hero-bg-overlay'></div>
@@ -14,13 +18,22 @@ function Section1() {
           </p>
           <div className='hero-btn-container'>
             <input
-              type='text'
-              className='hero-input'
+              type='email'
+              className={`hero-input `}
               placeholder='Enter the City'
+              value={email}
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
             />
-            <a href='https://dancing-frangipane-786e1e.netlify.app/'>
+
+            {isValidEmail(email) ? (
+              <a href='https://dancing-frangipane-786e1e.netlify.app/'>
+                <button className='btn hero-btn'>Get Started</button>
+              </a>
+            ) : (
               <button className='btn hero-btn'>Get Started</button>
-            </a>
+            )}
           </div>
           <p className='small-para'>
             Join the 6,207 people who signed up this month!
