@@ -6,7 +6,7 @@ const Section7 = () => {
   return (
     <div className=" relative">
       <img src={fern} alt="" className=" absolute left-0 w-[150px] rotate-90" />
-      <img src={fern} alt="" className="fern fern-2" />
+      <img src={fern} alt="" className="fern ferny-2" />
       <img
         src={fern}
         alt=""

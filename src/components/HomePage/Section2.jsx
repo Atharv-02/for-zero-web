@@ -55,7 +55,7 @@ const Section2 = () => {
         <div className='px-3 justify-start items-start flex'>
           <div className='pb-2.5 flex-col justify-start items-center  flex'>
             <img
-              className='h-[28.50px] opacity-80 scale-150 mb-1'
+              className='h-[28.50px] opacity-80 scale-[3] mb-1'
               src={Bloomberg}
             />
             <div className='lg:pl-[3.58px] lg:pr-[3.42px] pt-0.5 opacity-60 flex-col justify-start items-center flex'>

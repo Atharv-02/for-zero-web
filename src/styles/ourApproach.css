@@ -25,6 +25,12 @@
   right: 0;
   transform: rotate(-90deg);
 }
+
+.ferny-2 {
+  right: 5%;
+  width : 100px;
+  transform: rotate(-90deg);
+}
 .total-header {
   max-width: 600px;
   margin: 0 auto 96px auto;

@@ -41,7 +41,7 @@ const Section1 = () => {
   return (
     <div className='w-screen'>
       <img src={fern} alt='' className='fern fern-1' />
-      <img src={fern} alt='' className='fern fern-2' />
+      <img src={fern} alt='' className='fern ferny-2' />
 
       <div className='max-w-[1024px] mx-auto pt-[120px] pb-20 flex-col justify-start items-center gap-6 md:flex sm:hidden font-Blanco '>
         <div className='w-[909px] pl-[174.94px] pr-[176.06px] pb-2.5 justify-center items-start inline-flex'>
