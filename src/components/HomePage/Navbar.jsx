@@ -18,6 +18,8 @@ const Navbar = ({ params }) => {
     const c2 = document.querySelector(".line-2");
     if (params == "our-approach" || params == "our-projects") {
       c.classList.add("bl-nav");
+      c1.classList.add("bl-line");
+      c2.classList.add("bl-line");
     } else if (params == "home") {
       c.classList.remove("bl-nb");
       window.addEventListener("scroll", () => {
