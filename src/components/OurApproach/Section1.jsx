@@ -41,14 +41,14 @@ const Section1 = () => {
             solutions to the climate crisis ready for action today.
           </span>
           <span className='inner-p'>
-            We built Wren for the millions of people who want to help, but
+            We built Forzero for the millions of people who want to help, but
             aren’t sure where they can have a real impact.
           </span>
         </p>
       </div>
       <div className='three-approaches'>
         <h1 className='overall-header'>
-          How Wren helps you have an impact today:
+          How Forzero helps you have an impact today:
         </h1>
         <div className='approach-1'>
           <div className='image'>
@@ -67,26 +67,26 @@ const Section1 = () => {
           </div>
 
           <div className='approach-inner'>
-            <h1>1. Wren helps you fund key solutions</h1>
+            <h1>1. Forzero helps you fund key solutions</h1>
             <p className='app-p'>
               Make an impact by funding offsets, conservation, and policy.
             </p>
             <div className='inner-p'>
               <p>
                 For those who can spare some money, funding climate solutions is
-                the easiest way you can help. Wren makes this easy through our
-                monthly subscription: Sign up in 5 minutes to fund the best
+                the easiest way you can help. Forzero makes this easy through
+                our monthly subscription: Sign up in 5 minutes to fund the best
                 groups doing tree planting, conservation, technology R&D, and
                 policy work.
               </p>
               <div className='approach-inner-img'>
                 <img src={approach1} alt='' />
 
-                <h2>Wren member impact by month</h2>
+                <h2>Forzero member impact by month</h2>
                 <img src={approach1} alt='' />
                 <p>
-                  Thousands of Wren members send millions of dollars each year
-                  to key climate solutions.
+                  Thousands of Forzero members send millions of dollars each
+                  year to key climate solutions.
                 </p>
               </div>
 
@@ -128,7 +128,7 @@ const Section1 = () => {
           </div>
 
           <div className='approach-inner'>
-            <h1>2. Wren helps you take action</h1>
+            <h1>2. Forzero helps you take action</h1>
             <p className='app-p'>
               Make an impact by making sustainable lifestyle changes and pushing
               for political change.
@@ -137,15 +137,15 @@ const Section1 = () => {
               <p>
                 For anyone willing to put time and energy into helping with the
                 climate crisis, it can be hard to tell what moves the needle.
-                Wren makes this easy by suggesting actions you can take based on
-                your lifestyle and interests.
+                Forzero makes this easy by suggesting actions you can take based
+                on your lifestyle and interests.
               </p>
               <div className='approach-inner-img'>
                 <img src={approach1} alt='' />
 
                 <p>
-                  Wren helps you take action, from buying sustainable groceries
-                  to decarbonizing your savings.
+                  Forzero helps you take action, from buying sustainable
+                  groceries to decarbonizing your savings.
                 </p>
               </div>
 
@@ -179,7 +179,7 @@ const Section1 = () => {
           </div>
 
           <div className='approach-inner'>
-            <h1>3. Wren helps you spread the word</h1>
+            <h1>3. Forzero helps you spread the word</h1>
             <p className='app-p'>Make an impact by reaching more people.</p>
             <div className='inner-p'>
               <p>
@@ -187,7 +187,7 @@ const Section1 = () => {
                 hundreds of governments, thousands of businesses, and millions
                 of regular people. While doing something on your own is a great
                 way to get started, we need to spread the word if we want to end
-                the climate crisis. That’s why we build Wren to be shareable,
+                the climate crisis. That’s why we build Forzero to be shareable,
                 and incentivize our community to bring their friends into
                 climate action.
               </p>
