@@ -28,7 +28,7 @@
 
 .ferny-2 {
   right: 5%;
-  width : 100px;
+  width: 100px;
   transform: rotate(-90deg);
 }
 .total-header {
@@ -183,4 +183,9 @@ h1 {
   .total-header {
     max-width: 90vw;
   }
+}
+.upper-approach {
+  position: relative;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
