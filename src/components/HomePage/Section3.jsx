@@ -21,7 +21,7 @@ const Section3 = () => {
             </span>
           </div>
         </div>
-        <div className='w-[1000px] pl-[212.36px] pr-[212.37px] justify-center items-start inline-flex'>
+        <div className='md:max-w-fit lg:w-[1000px] lg:pl-[212.36px] lg:pr-[212.37px] justify-center items-start inline-flex'>
           <div className='justify-start items-start flex'>
             <div className='pl-[15.41px] pr-[15.22px] pt-4 pb-[17px] flex-col justify-center items-start gap-[3px] inline-flex'>
               <div className='text-center text-[#073356] text-4xl font-extrabold leading-9'>
