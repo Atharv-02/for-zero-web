@@ -4,9 +4,11 @@ import { AiOutlineRight } from "react-icons/ai";
 import fern from "../../assets/fern-img.avif";
 const Section7 = () => {
   return (
-    <div className=" relative">
+    <div className="max-w-[100vw] overflow-hidden relative">
       <img src={fern} alt="" className=" absolute left-0 w-[150px] rotate-90" />
-      <img src={fern} alt="" className="fern ferny-2" />
+      <img src={fern} alt="" className="fern ferny-2 " />
+
+      //only for tablets and desktops
       <img
         src={fern}
         alt=""

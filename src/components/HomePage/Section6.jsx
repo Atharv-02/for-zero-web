@@ -31,7 +31,7 @@ const Section6 = () => {
     },
     {
       id: 2,
-      name: "John Doe",
+      name: "Yash Chopra",
       title: "CEO of ABC Company",
       review:
         "I was skeptical at first, but ForZero blew me away with their genuine approach to offsetting. Unlike other companies, they provide clear, research-backed solutions that actually make a difference.",
@@ -39,7 +39,7 @@ const Section6 = () => {
     },
     {
       id: 3,
-      name: "John Doe",
+      name: "Aarav Sharma",
       title: "CEO of ABC Company",
       review:
         "Impressed by ForZero's dedication to transparency and real impact. It's refreshing to see a startup that walks the talk when it comes to offsetting personal footprints.",
@@ -47,7 +47,7 @@ const Section6 = () => {
     },
     {
       id: 4,
-      name: "John Doe",
+      name: "Divya Patel",
       title: "CEO of ABC Company",
       review:
         "ForZero is a breath of fresh air in the world of carbon offsets. Their straightforward approach and concrete results set them apart from the rest.",
@@ -55,7 +55,7 @@ const Section6 = () => {
     },
     {
       id: 5,
-      name: "John Doe",
+      name: "Anjali Gupta",
       title: "CEO of ABC Company",
       review:
         "ForZero's commitment to transparency is what won me over. Unlike other offsetting options, they provide detailed information and evidence of their impact, making me a loyal supporter.",
@@ -63,7 +63,7 @@ const Section6 = () => {
     },
     {
       id: 6,
-      name: "John Doe",
+      name: "Arjun Mehta",
       title: "CEO of ABC Company",
       review:
         "I'm thrilled to have found ForZero! Their authenticity shines through, and I can trust that my efforts to offset my footprint are making a true impact.",
@@ -71,7 +71,7 @@ const Section6 = () => {
     },
     {
       id: 7,
-      name: "John Doe",
+      name: "Smita Joshi",
       title: "CEO of ABC Company",
       review:
         "Kudos to ForZero for bringing transparency to the forefront of carbon offsetting. They've gained my trust by going beyond mere lip service and delivering substantial, researched solutions.",
@@ -79,7 +79,7 @@ const Section6 = () => {
     },
     {
       id: 8,
-      name: "John Doe",
+      name: "Ravi Yadav",
       title: "CEO of ABC Company",
       review:
         "ForZero has redefined carbon offsetting for me. Their well-researched methods and meaningful offsets prove that they're not just another company in the space.",
@@ -87,7 +87,7 @@ const Section6 = () => {
     },
     {
       id: 9,
-      name: "John Doe",
+      name: "Aditya Bhatia",
       title: "CEO of ABC Company",
       review:
         "I've tried other carbon offset platforms, but ForZero's genuine approach and real impact have made me a believer. They're the real deal.",
@@ -95,7 +95,7 @@ const Section6 = () => {
     },
     {
       id: 10,
-      name: "John Doe",
+      name: "Radhika Chauhan",
       title: "CEO of ABC Company",
       review:
         "ForZero's sincerity is evident in everything they do. From their realistic approach to the way they communicate, they've set a new standard for carbon offset startups.",
@@ -103,7 +103,7 @@ const Section6 = () => {
     },
     {
       id: 11,
-      name: "John Doe",
+      name: "Nisha Mehta",
       title: "CEO of ABC Company",
       review:
         "I'm thrilled to have found ForZero! Their authenticity shines through, and I can trust that my efforts to offset my footprint are making a true impact.",
@@ -111,7 +111,7 @@ const Section6 = () => {
     },
     {
       id: 12,
-      name: "John Doe",
+      name: "Anjali Gupta",
       title: "CEO of ABC Company",
       review:
         "Kudos to ForZero for bringing transparency to the forefront of carbon offsetting. They've gained my trust by going beyond mere lip service and delivering substantial, researched solutions.",
@@ -119,7 +119,7 @@ const Section6 = () => {
     },
     {
       id: 13,
-      name: "John Doe",
+      name: "Tarun Chauhan",
       title: "CEO of ABC Company",
       review:
         "I've tried other carbon offset platforms, but ForZero's genuine approach and real impact have made me a believer. They're the real deal.",
@@ -127,7 +127,7 @@ const Section6 = () => {
     },
     {
       id: 14,
-      name: "John Doe",
+      name: "Bhavna Agarwal",
       title: "CEO of ABC Company",
       review:
         "ForZero has been a game-changer for me. Finally, a carbon offset company that's not just all talk! Their transparency and commitment to meaningful offsets are truly commendable.",
@@ -135,7 +135,7 @@ const Section6 = () => {
     },
     {
       id: 15,
-      name: "John Doe",
+      name: "Sandeep Goyal",
       title: "CEO of ABC Company",
       review:
         "ForZero's sincerity is evident in everything they do. From their realistic approach to the way they communicate, they've set a new standard for carbon offset startups",
@@ -143,7 +143,7 @@ const Section6 = () => {
     },
     {
       id: 16,
-      name: "John Doe",
+      name: "Aishwarya Iyer",
       title: "CEO of ABC Company",
       review:
         "ForZero is a breath of fresh air in the world of carbon offsets. Their straightforward approach and concrete results set them apart from the rest.",
@@ -461,7 +461,7 @@ const Section6 = () => {
             </div>
           </div>
           <div className='w-[100vw] h-[624px] relative'>
-            <div className='w-[100vw] h-[400px] -left-[40px] top-0 absolute'>
+            <div className='w-[100vw] h-[400px] -left-[0px] top-0 absolute'>
               <img
                 className='w-[30px] h-[30px] left-[5%] top-[20%] absolute rounded-[30px] shadow'
                 src={face_1}
@@ -471,58 +471,58 @@ const Section6 = () => {
                 <div className='w-10 h-10 relative' />
               </div>
               <img
-                className='w-[45px] h-[45px] left-[10%] top-[50%] absolute rounded-[45px]'
+                className='w-[45px] h-[45px] left-[15%] top-[30%] absolute rounded-[45px]'
                 src={face_2}
                 onClick={() => handleNextReview(2)}
               />
               <img
-                className='w-[30px] h-[30px] left-[140px] top-[136px] absolute rounded-[30px]'
+                className='w-[30px] h-[30px] left-[25%] top-[39%] absolute rounded-[30px]'
                 src={face_3}
                 onClick={() => handleNextReview(3)}
               />
               <img
-                className='w-10 h-10 left-[180px] top-[80px] absolute rounded-[40px]'
+                className='w-10 h-10 left-[35%] top-[34%] absolute rounded-[40px]'
                 src={face_4}
                 onClick={() => handleNextReview(4)}
               />
               <img
-                className='w-[45px] h-[45px] left-[220px] top-[144px] absolute rounded-[45px]'
+                className='w-[45px] h-[45px] left-[45%] top-[20%] absolute rounded-[45px]'
                 src={face_5}
                 onClick={() => handleNextReview(5)}
               />
               <img
-                className='w-[30px] h-[30px] left-[260px] top-[92px] absolute rounded-[30px]'
+                className='w-[30px] h-[30px] left-[55%] top-[36%] absolute rounded-[30px]'
                 src={face_6}
                 onClick={() => handleNextReview(6)}
               />
               <img
-                className='w-10 h-10 left-[300px] top-[120px] absolute rounded-[40px]'
+                className='w-10 h-10 left-[65%] top-[23%] absolute rounded-[40px]'
                 src={face_7}
                 onClick={() => handleNextReview(7)}
               />
               <img
-                className='w-[45px] h-[45px] left-[340px] top-[80px] absolute rounded-[45px]'
+                className='w-[45px] h-[45px] left-[75%] top-[30%] absolute rounded-[45px]'
                 src={face_8}
                 onClick={() => handleNextReview(8)}
               />
               <img
-                className='w-[30px] h-[30px] left-[380px] top-[120px] absolute rounded-[30px]'
+                className='w-[30px] h-[30px] left-[90%] top-[15%] absolute rounded-[30px]'
                 src={face_9}
                 onClick={() => handleNextReview(9)}
               />
             </div>
-            <div className='w-[320px] h-[350px] left-[40px] top-[274px] absolute bg-white rounded border border-zinc-900'>
+            <div className='w-[320px] h-[350px] left-[13%] right-4 top-[274px] absolute bg-white rounded border border-zinc-900'>
               <img
-                className='w-[60px] h-[60px] left-[145px] top-[27px] absolute rounded-[60px]'
+                className='w-[60px] h-[60px] left-[135px] top-[27px] absolute rounded-[60px]'
                 src={currentReview.image}
               />
-              <div className='left-[131.64px] top-[99px] absolute text-center text-zinc-800 text-[15px] font-semibold leading-[21px]'>
+              <div className='left-[111.64px] top-[99px] absolute text-center text-zinc-800 text-[15px] font-semibold leading-[21px]'>
                 {currentReview.name}
               </div>
-              <div className='left-[127.33px] top-[120px] absolute opacity-30 text-center text-zinc-800 text-[15px] font-normal leading-[21px]'>
+              <div className='left-[108.33px] top-[120px] absolute opacity-30 text-center text-zinc-800 text-[15px] font-normal leading-[21px]'>
                 {`@${currentReview.name}`}
               </div>
-              <div className='h-[126px] pl-[4.70px] pr-[4.30px] left-[27px] top-[159px] absolute flex-col justify-start items-center inline-flex'>
+              <div className='h-[126px] pl-[4.70px] pr-[4.30px] left-[7px] top-[159px] absolute flex-col justify-start items-center inline-flex'>
                 <div className='text-center text-zinc-800 text-[15px] font-normal leading-[21px]'>
                   {currentReview.review}
                 </div>

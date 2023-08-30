@@ -561,12 +561,13 @@ const Section4 = () => {
               Forzero's impact beyond
               <br />
               carbon offsets.
+              <br />
+              The Portfolio's allocation is periodically updated to maximize
+              impact.
             </div>
           </div>
-          <div className='left-0 top-[150.17px] absolute text-zinc-800 text-base font-normal leading-snug'>
-            The Portfolio's allocation is periodically updated to maximize
-            impact.
-          </div>
+            
+
         </div>
 
         <div className='w-full px-5'>
@@ -994,6 +995,7 @@ const Section4 = () => {
         </div>
       </div>
 
+      {/* Mobile view  */}
       <div className=' min-w-[320px] mx-auto sm:flex md:hidden flex-col'>
         <div className='min-w-[320px] justify-center items-start flex'>
           <img className='w-[313px] h-[148.50px] relative' src={members} />

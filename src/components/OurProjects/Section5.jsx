@@ -594,11 +594,9 @@ const Section5 = () => {
             <div className='px-[4.13px] pb-[0.38px] justify-start items-start flex'>
               <div className='text-black text-opacity-70 text-sm font-normal leading-tight'>
                 Forzero members are funding enhanced
-                <br />
+                
                 mineral weathering, above, which
-                <br />
                 sequesters carbon with high-
-                <br />
                 permanence in basalt rocks.
               </div>
             </div>
@@ -663,9 +661,7 @@ const Section5 = () => {
             <div className='pb-[39.78px] pl-6 justify-start items-start flex'>
               <div className='text-stone-500 text-sm font-normal leading-tight'>
                 ↑ The production of these clean
-                <br />
                 briquettes was funded by Forzero
-                <br />
                 members.
               </div>
             </div>
@@ -755,11 +751,8 @@ const Section5 = () => {
             <div className='pr-[9.13px] py-[0.38px] justify-start items-start flex'>
               <div className='text-black text-opacity-70 text-sm font-normal leading-tight'>
                 For most projects, Forzero is one of the
-                <br />
                 sole purchasers of carbon credits,
-                <br />
                 limiting the risk of double counted
-                <br />
                 credits.
               </div>
             </div>

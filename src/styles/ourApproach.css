@@ -27,9 +27,10 @@
 }
 
 .ferny-2 {
-  right: 5%;
+  right: -15%;
   width: 100px;
-  transform: rotate(-90deg);
+  transform: rotate(210deg);
+  overflow: hidden;
 }
 .total-header {
   max-width: 600px;
@@ -134,6 +135,7 @@ h1 {
 .img-3 {
   background-color: #faf2fb;
 }
+
 @media screen and (min-width: 1000px) {
   .first-text {
     padding: 120px 50px 50px;
@@ -150,6 +152,10 @@ h1 {
   }
   .fern-2 {
     width: 200px;
+  }
+  .ferny-2 {
+    right: 0%;
+    overflow: hidden;
   }
 }
 @media screen and (max-width: 720px) {

@@ -39,9 +39,14 @@ const Section1 = () => {
   }, []);
 
   return (
-    <div className='w-screen'>
+    <div className='max-w-screen overflow-hidden relative'>
       <img src={fern} alt='' className='fern fern-1' />
-      <img src={fern} alt='' className='fern ferny-2' />
+      <div className="sm:hidden md:block">
+        <img src={fern} alt='' className='fern fern-2' />
+      </div>
+      <div className="sm:block md:hidden">
+        <img src={fern} alt='' className='fern ferny-2' />
+      </div>
 
       <div className='max-w-[1024px] mx-auto pt-[120px] pb-20 flex-col justify-start items-center gap-6 md:flex sm:hidden font-Blanco '>
         <div className='w-[909px] pl-[174.94px] pr-[176.06px] pb-2.5 justify-center items-start inline-flex'>
@@ -85,7 +90,7 @@ const Section1 = () => {
         </div>
       </div>
 
-      <div className='max-w-[320px] pt-[120px] mx-auto pb-[9.78px] justify-center items-start sm:flex md:hidden'>
+      <div className='max-w-[320px] overflow-x-hidden pt-[120px] mx-auto pb-[9.78px] justify-center items-start sm:flex md:hidden'>
         <div className='text-center text-zinc-800 text-[33px] font-semibold leading-[45.60px]'>
           Planet-saving,
           <br />
