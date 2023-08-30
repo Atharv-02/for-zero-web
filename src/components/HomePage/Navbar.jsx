@@ -42,7 +42,11 @@ const Navbar = ({ params }) => {
     <div className='navbar-full' id='navbar-full'>
       <nav className={`navbar ${navShow ? "do-wh sp" : null}`} id='navbar'>
         <div className='img-nav'>
-          <img src={newImg ? navNewImg : navImage} alt='' />
+          <img
+            src={newImg ? navNewImg : navImage}
+            alt=''
+            onClick={() => navigate("/")}
+          />
         </div>
         <ul className='nav-items'>
           <li className='item' onClick={() => navigate("/our-projects")}>

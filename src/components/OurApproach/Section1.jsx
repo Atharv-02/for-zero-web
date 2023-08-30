@@ -2,6 +2,7 @@ import React from "react";
 import approachVid from "../../assets/approach-animation-720.mp4";
 import fern from "../../assets/fern-img.avif";
 import approach1 from "../../assets/you-funded-rainforest-protection.avif";
+import app_action from "../../assets/actions-feature-showcase.avif";
 const Section1 = () => {
   return (
     <div className='upper-approach'>
@@ -19,6 +20,7 @@ const Section1 = () => {
           playsInline
           loop
           muted
+          autoPlay={true}
           alt='All the devices'
           src={approachVid}
         />
@@ -141,7 +143,7 @@ const Section1 = () => {
                 on your lifestyle and interests.
               </p>
               <div className='approach-inner-img'>
-                <img src={approach1} alt='' />
+                <img src={app_action} alt='' />
 
                 <p>
                   Forzero helps you take action, from buying sustainable

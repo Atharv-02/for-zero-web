@@ -160,3 +160,8 @@ h2 {
     margin-left: 0;
   }
 }
+@media screen and (max-width: 431px) {
+  .body-img {
+    height: 185px;
+  }
+}
