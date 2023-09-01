@@ -5,6 +5,8 @@ import enhanced_mineral from "../../assets/future-forest-stream.avif";
 import factory from "../../assets/ascend_decatur.avif";
 import refrigerant from "../../assets/tradewater-gas-destruction-warehouse.avif";
 import sap from "../../assets/cot-saplings3.avif";
+import air_task from "../../assets/clean-air-task-force.avif";
+import carbon from "../../assets/carbon180.avif";
 const Section3 = () => {
   return (
     <>
@@ -475,16 +477,16 @@ const Section3 = () => {
           </div>
           <div className='inner'>
             <div className='inner-body '>
-              <h1 className='inner-h1'>Adipic acid nitrous oxide abatement </h1>
+              <h1 className='inner-h1'>Clean Air Task Force</h1>
               <div className='body-img'>
-                <img src={technology} alt='' />
+                <img src={air_task} alt='' />
               </div>
               <div className='body-txt '>
-                <h1>Enhanced Mineral Weathering</h1>
+                <h1>Clean Air Task Force</h1>
                 <h2>
-                  This project adds crushed basalt to forest land, speeding up
-                  Earth's natural carbon cycle– and sequestering carbon for
-                  millions of years.
+                  This organization is a policy group that advocates for new
+                  technologies and policies needed to get to a zero-emissions,
+                  high-energy planet at an affordable cost.
                 </h2>
                 <div className='inner-body-txt'>
                   <div className='tick-body'>
@@ -503,7 +505,7 @@ const Section3 = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div>Supports novel climate research</div>
+                    <div>Influences politicians on climate policy</div>
                   </div>
 
                   <div className='tick-body'>
@@ -522,7 +524,7 @@ const Section3 = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div>Permanently stores carbon in rock</div>
+                    <div>Promotes key climate solutions</div>
                   </div>
 
                   <div className='tick-body'>
@@ -541,23 +543,42 @@ const Section3 = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div>Fast-growing project with potential to scale</div>
+                    <div>Top-rated climate charity</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>25+ years of success</div>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className='inner-body rev '>
-              <h1 className='inner-h1'>Adipic acid nitrous oxide abatement </h1>
+              <h1 className='inner-h1'>Carbon180</h1>
               <div className='body-img'>
-                <img src={technology} alt='' />
+                <img src={carbon} alt='' />
               </div>
               <div className='body-txt rev-txt'>
-                <h1>Enhanced Mineral Weathering</h1>
+                <h1>Carbon180</h1>
                 <h2>
-                  This project adds crushed basalt to forest land, speeding up
-                  Earth's natural carbon cycle– and sequestering carbon for
-                  millions of years.
+                  This organization helps improve the transparency and
+                  scientific integrity of carbon removal and climate solutions
+                  through open data, tools, and leadership.
                 </h2>
                 <div className='inner-body-txt'>
                   <div className='tick-body'>
@@ -576,7 +597,7 @@ const Section3 = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div>Supports novel climate research</div>
+                    <div>Promotes better climate policy</div>
                   </div>
 
                   <div className='tick-body'>
@@ -595,7 +616,7 @@ const Section3 = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div>Permanently stores carbon in rock</div>
+                    <div>Tracks carbon removal legislation</div>
                   </div>
 
                   <div className='tick-body'>
@@ -614,7 +635,192 @@ const Section3 = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div>Fast-growing project with potential to scale</div>
+                    <div>Promotes carbon-removal on U.S. farmland</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='upper-header'>
+          <div className='top-image top-3'>
+            <svg
+              fill='#5B27F0'
+              viewBox='-0.5 -1 15 15'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <path d='M13.52 5.865h-.156l-1.538-3.197a.709.709 0 1 0-1.06-.914l-.653-.507A2.645 2.645 0 0 0 7.928.754a.708.708 0 0 0-1.401 0 2.645 2.645 0 0 0-2.19.497l-.652.507a.708.708 0 1 0-1.06.914L1.09 5.865H.935a.182.182 0 0 0-.18.196 2.34 2.34 0 0 0 4.662 0 .182.182 0 0 0-.18-.196h-.154L3.54 2.668l.013-.012.823-.503a1.966 1.966 0 0 1 1.792-.13c.085.03.173.055.261.073v7.711l-3.317 1.054a.522.522 0 0 0-.369.503v.034a.522.522 0 0 0 .523.522h7.915a.522.522 0 0 0 .522-.522v-.04a.523.523 0 0 0-.363-.497L8.027 9.817V2.093a1.75 1.75 0 0 0 .261-.073 1.967 1.967 0 0 1 1.793.13l.823.503.013.012-1.546 3.2h-.152a.182.182 0 0 0-.18.196 2.34 2.34 0 0 0 4.662 0 .182.182 0 0 0-.182-.196Zm-9.198 0H1.84l1.238-2.568 1.243 2.568Zm5.809 0 1.238-2.568 1.237 2.568h-2.475Z'></path>
+            </svg>
+          </div>
+          <div className='header-txt'>
+            <h1>3. Policy</h1>
+            <p>
+              Forzero members support leading policy groups that push for
+              changes to our economies, agriculture, infrastructure, power
+              grid—every system that influences our planet’s climate.
+            </p>
+          </div>
+          <div className='inner'>
+            <div className='inner-body '>
+              <h1 className='inner-h1'>Clean Air Task Force</h1>
+              <div className='body-img'>
+                <img src={air_task} alt='' />
+              </div>
+              <div className='body-txt '>
+                <h1>Clean Air Task Force</h1>
+                <h2>
+                  This organization is a policy group that advocates for new
+                  technologies and policies needed to get to a zero-emissions,
+                  high-energy planet at an affordable cost.
+                </h2>
+                <div className='inner-body-txt'>
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Influences politicians on climate policy</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Promotes key climate solutions</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Top-rated climate charity</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>25+ years of success</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='inner-body rev '>
+              <h1 className='inner-h1'>Carbon180</h1>
+              <div className='body-img'>
+                <img src={carbon} alt='' />
+              </div>
+              <div className='body-txt rev-txt'>
+                <h1>Carbon180</h1>
+                <h2>
+                  This organization helps improve the transparency and
+                  scientific integrity of carbon removal and climate solutions
+                  through open data, tools, and leadership.
+                </h2>
+                <div className='inner-body-txt'>
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Promotes better climate policy</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Tracks carbon removal legislation</div>
+                  </div>
+
+                  <div className='tick-body'>
+                    <div className='tick-mark'>
+                      <svg
+                        id='Layer_1'
+                        data-name='Layer 1'
+                        xmlns='http://www.w3.org/2000/svg'
+                        viewBox='0 0 40 40'
+                        width='20'
+                        height='20'
+                      >
+                        <path
+                          d='M39.2929 10.7071C39.6834 10.3166 39.6834 9.68345 39.2929 9.29293L35.7071 5.70711C35.3165 5.31658 34.6834 5.31658 34.2929 5.70711L15.7071 24.293C15.3166 24.6836 14.6834 24.6836 14.2929 24.293L5.70714 15.7072C5.31662 15.3167 4.68345 15.3167 4.29292 15.7072L0.70711 19.293C0.316585 19.6835 0.316586 20.3167 0.707114 20.7072L14.2929 34.2928C14.6834 34.6833 15.3165 34.6833 15.7071 34.2928L39.2929 10.7071Z'
+                          fill='var(--wren-orange)'
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>Promotes carbon-removal on U.S. farmland</div>
                   </div>
                 </div>
               </div>
