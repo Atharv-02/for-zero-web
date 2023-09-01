@@ -8,7 +8,7 @@ const Section7 = () => {
       <img src={fern} alt="" className=" absolute left-0 w-[150px] rotate-90" />
       <img src={fern} alt="" className="fern ferny-2 " />
 
-      //only for tablets and desktops
+      {/* only for tablets and desktops */}
       <img
         src={fern}
         alt=""
