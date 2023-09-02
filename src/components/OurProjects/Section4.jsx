@@ -236,7 +236,7 @@ const Section4 = () => {
           </div>
 
           {/* Portfolio updates */}
-          <div className='w-[40%] py-12'>
+          {/* <div className='w-[40%] py-12'>
             <div className=' text-zinc-800 text-xl font-semibold leading-7'>
               Portfolio updates
             </div>
@@ -299,6 +299,9 @@ const Section4 = () => {
                 </div>
               </div>
             </div>
+          </div> */}
+          <div className="w-[17%]">
+
           </div>
 
           <div className='w-[50%] mr-7 max-h-[400px] overflow-y-scroll py-12'>
@@ -556,7 +559,6 @@ const Section4 = () => {
       </div>
 
       {/* it is just the core section, main section is taken from desktop version */}
-
       <div className='max-w-[768px] font-Inter flex-col justify-start items-start py-9 gap-16 sm:hidden md:flex lg:hidden'>
         <div className='w-full px-5'>
           <div className='text-zinc-800 text-xl font-semibold leading-7'>
@@ -696,7 +698,7 @@ const Section4 = () => {
           />
         </div>
 
-        <div className='w-full px-5'>
+        {/* <div className='w-full px-5'>
           <div className=' text-zinc-800 text-xl font-semibold leading-7'>
             Portfolio updates
           </div>
@@ -748,7 +750,7 @@ const Section4 = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className='w-full px-5'>
           <div className='text-zinc-800 w-full text-xl font-semibold leading-7'>
@@ -1247,7 +1249,7 @@ const Section4 = () => {
           </div>
 
           {/* Portfolio updates */}
-          <div className='min-w-[320px] mx-auto px-4'>
+          {/* <div className='min-w-[320px] mx-auto px-4'>
             <div className=' text-zinc-800 text-lg font-semibold leading-relaxed'>
               Portfolio updates
             </div>
@@ -1317,7 +1319,7 @@ const Section4 = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Recent supporters */}
           <div className='min-w-[100vw] mx-auto px-4'>
