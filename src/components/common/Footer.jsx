@@ -177,10 +177,10 @@ const Footer = () => {
       </div>
 
       {/* Mobile Footer */} 
-      <div className='max-w-[100vw] h-[959.75px] pt-3 pb-4 bg-for_zero_blue justify-center items-start sm:flex md:hidden'>
+      <div className='max-w-[100vw] h-[659.75px] pt-3 pb-4 bg-for_zero_blue justify-center items-start sm:flex md:hidden'>
         <div className='w-[310px] relative'>
           <div className='pb-[50px] left-0 top-[50px] absolute flex-col justify-start items-start gap-[50px] inline-flex'>
-            <div className='w-[317px] h-[339.38px] relative'>
+            <div className='w-[317px] h-[76.38px] relative'>
               <div className='left-0 top-0 absolute text-white text-base font-semibold'>
                 Projects
               </div>
@@ -317,14 +317,14 @@ const Footer = () => {
           </div>
 
           <div className=' max-w-[320px] flex px-3'>
-            <div className='left-0 top-[923.75px] absolute opacity-80 text-white text-[15px] font-normal'>
+            <div className='left-0 top-[623.75px] absolute opacity-80 text-white text-[15px] font-normal'>
               Privacy Policy
             </div>
-            <div className='left-[102.63px] top-[923.75px] absolute text-white text-[15px] font-normal'>
+            <div className='left-[102.63px] top-[623.75px] absolute text-white text-[15px] font-normal'>
               •
             </div>
 
-            <div className='left-[125px] top-[925.75px] absolute opacity-80 text-white text-[15px] font-normal'>
+            <div className='left-[125px] top-[625.75px] absolute opacity-80 text-white text-[15px] font-normal'>
               Contact support
             </div>
           </div>

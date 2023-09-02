@@ -3,6 +3,17 @@ import members from "../../assets/members.png";
 import PieChart from "../../assets/pie-chart.svg";
 import graph from "../../assets/graph.png";
 import worldMap from "../../assets/world_map.png";
+import wand from "../../assets/wand.svg";
+import shock from "../../assets/shock.svg";
+import graphy from "../../assets/graph.svg";
+import tag from "../../assets/tag.svg";
+import face_1 from "../../assets/face_1.png";
+import face_4 from "../../assets/face_4.png";
+import face_7 from "../../assets/face_5.png";
+import face_12 from "../../assets/face_12.png";
+import face_14 from "../../assets/face_14.png";
+import face_15 from "../../assets/face_15.png";
+
 
 const Section4 = () => {
   return (
@@ -34,7 +45,7 @@ const Section4 = () => {
         <div className='justify-between items-start gap-[12.50px] inline-flex'>
           <div className='pl-[2.63px] pr-[2.37px] flex-col justify-start items-center gap-[13px] inline-flex'>
             <div className='w-[70px] p-[17.50px] bg-emerald-50 rounded-[70px] justify-center items-center inline-flex'>
-              <div className='w-[35px] h-[35px] relative' />
+              <img className='w-[35px] h-[35px] relative' src={wand} />
             </div>
             <div className='text-center text-zinc-800 text-[15px] font-normal'>
               Managed automatically
@@ -42,15 +53,15 @@ const Section4 = () => {
           </div>
           <div className='pl-[16.70px] pr-[16.30px] flex-col justify-start items-center gap-[13px] inline-flex'>
             <div className='w-[70px] p-[17.50px] bg-emerald-50 rounded-[70px] justify-center items-center inline-flex'>
-              <div className='w-[35px] h-[35px] relative' />
+              <img className='w-[35px] h-[35px] relative' src={graphy} />
             </div>
             <div className='text-center text-zinc-800 text-[15px] font-normal'>
               Diversified projects
             </div>
           </div>
           <div className='pl-[10.91px] pr-[10.09px] flex-col justify-center items-center gap-[13px] inline-flex'>
-            <div className='self-stretch p-[17.50px] bg-emerald-50 rounded-[70px] justify-center items-center inline-flex'>
-              <div className='h-[35px] px-[4.12px] justify-start items-start flex' />
+            <div className='w-[70px] p-[17.50px] bg-emerald-50 rounded-[70px] justify-center items-center inline-flex'>
+              <img className='h-[35px] w-[35px] relative' src={shock}/>
             </div>
             <div className='text-center text-zinc-800 text-[15px] font-normal'>
               Optimized for impact
@@ -58,7 +69,7 @@ const Section4 = () => {
           </div>
           <div className='pl-[28.05px] pr-[27.95px] flex-col justify-start items-center gap-[13px] inline-flex'>
             <div className='w-[70px] p-[17.50px] bg-emerald-50 rounded-[70px] justify-center items-center inline-flex'>
-              <div className='w-[35px] h-[35px] relative' />
+              <img className='w-[35px] h-[35px] relative' src={tag} />
             </div>
             <div className='text-center text-zinc-800 text-[15px] font-normal'>
               Affordable price
@@ -301,7 +312,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_1}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -328,7 +339,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_4}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -355,7 +366,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_7}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -382,7 +393,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_12}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -409,7 +420,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_14}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -436,7 +447,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_15}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -463,7 +474,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_1}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -490,7 +501,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_4}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -517,7 +528,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_7}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -752,7 +763,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_1}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -779,7 +790,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_4}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -806,7 +817,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_7}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -833,7 +844,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_12}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -860,7 +871,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_14}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -887,7 +898,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_15}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -914,7 +925,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_1}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -941,7 +952,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_4}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -968,7 +979,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_7}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -1023,7 +1034,7 @@ const Section4 = () => {
         <div className='min-w-[320px] font-Inter justify-between items-start gap-2 flex'>
           <div className='flex-col justify-start items-center gap-3 flex'>
             <div className='w-[50px] p-[12.50px] bg-emerald-50 rounded-[50px] justify-center items-center flex'>
-              <div className='w-[25px] h-[25px] relative' />
+              <img className='w-[25px] h-[25px] relative' src={wand} />
             </div>
             <div className='pl-[2.27px] pr-[3.73px] flex-col justify-center items-center flex'>
               <div className='text-center text-zinc-800 text-xs font-normal'>
@@ -1036,7 +1047,7 @@ const Section4 = () => {
           </div>
           <div className='flex-col justify-start items-center gap-3 flex'>
             <div className='w-[50px] p-[12.50px] bg-emerald-50 rounded-[50px] justify-center items-center flex'>
-              <div className='w-[25px] h-[25px] relative' />
+              <img className='w-[25px] h-[25px] relative' src={graphy} />
             </div>
             <div className='h-[30px] pl-[10.94px] pr-[10.06px] flex-col justify-start items-center flex'>
               <div className='text-center text-zinc-800 text-xs font-normal'>
@@ -1049,7 +1060,7 @@ const Section4 = () => {
           </div>
           <div className='flex-col justify-start items-center gap-3 flex'>
             <div className='w-[50px] p-[12.50px] bg-emerald-50 rounded-[50px] justify-center items-center inline-flex'>
-              <div className='h-[25px] px-[2.94px] justify-start items-start flex' />
+              <img className='h-[25px] relative' src={shock} />
             </div>
             <div className='h-[30px] pl-[2.63px] pr-[2.37px] flex-col justify-start items-center flex'>
               <div className='text-center text-zinc-800 text-xs font-normal'>
@@ -1062,7 +1073,7 @@ const Section4 = () => {
           </div>
           <div className='flex-col justify-start items-center gap-3 flex'>
             <div className='w-[50px] p-[12.50px] bg-emerald-50 rounded-[50px] justify-center items-center inline-flex'>
-              <div className='w-[25px] h-[25px] relative' />
+              <img className='w-[25px] h-[25px] relative' src={tag} />
             </div>
             <div className='pl-[10.28px] pr-[11.72px] flex-col justify-center items-center flex'>
               <div className='text-center text-zinc-800 text-xs font-normal'>
@@ -1319,7 +1330,34 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_1}
+                  />
+                  <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
+                    <div className='  pb-px justify-start items-start flex'>
+                      <div className='text-zinc-800 text-md font-normal leading-snug'>
+                        Rajshree
+                      </div>
+                    </div>
+                    <div className=' pb-px justify-start items-start flex'>
+                      <div className='text-black text-opacity-30 text-md font-normal leading-snug'>
+                        24 minutes ago
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='   bg-emerald-50 rounded-full justify-center items-center flex'>
+                  <div className='text-emerald-600 px-2 p-1 text-base font-semibold leading-relaxed'>
+                    0.53 tons
+                  </div>
+                </div>
+              </div>
+
+              <div className=' w-[95%] relative border-b border-black border-opacity-10 justify-between items-center flex'>
+                <div className=' flex gap-4'>
+                  <img
+                    className='w-[42px] h-[42px] mt-4 rounded-[42px]'
+                    src={face_4}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -1346,7 +1384,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_7}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -1373,7 +1411,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_12}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -1400,7 +1438,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_14}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -1427,7 +1465,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_15}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -1454,7 +1492,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_1}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -1481,7 +1519,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_7}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
@@ -1508,34 +1546,7 @@ const Section4 = () => {
                 <div className=' flex gap-4'>
                   <img
                     className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
-                  />
-                  <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
-                    <div className='  pb-px justify-start items-start flex'>
-                      <div className='text-zinc-800 text-md font-normal leading-snug'>
-                        Sofia
-                      </div>
-                    </div>
-                    <div className=' pb-px justify-start items-start flex'>
-                      <div className='text-black text-opacity-30 text-md font-normal leading-snug'>
-                        24 minutes ago
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className='   bg-emerald-50 rounded-full justify-center items-center flex'>
-                  <div className='text-emerald-600 px-2 p-1 text-base font-semibold leading-relaxed'>
-                    0.53 tons
-                  </div>
-                </div>
-              </div>
-
-              <div className=' w-[95%] relative border-b border-black border-opacity-10 justify-between items-center flex'>
-                <div className=' flex gap-4'>
-                  <img
-                    className='w-[42px] h-[42px] mt-4 rounded-[42px]'
-                    src='https://via.placeholder.com/42x42'
+                    src={face_12}
                   />
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
