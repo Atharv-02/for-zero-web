@@ -14,7 +14,6 @@ import face_12 from "../../assets/face_12.png";
 import face_14 from "../../assets/face_14.png";
 import face_15 from "../../assets/face_15.png";
 
-
 const Section4 = () => {
   return (
     <div className=' w-full' id='portfolio'>
@@ -61,7 +60,7 @@ const Section4 = () => {
           </div>
           <div className='pl-[10.91px] pr-[10.09px] flex-col justify-center items-center gap-[13px] inline-flex'>
             <div className='w-[70px] p-[17.50px] bg-emerald-50 rounded-[70px] justify-center items-center inline-flex'>
-              <img className='h-[35px] w-[35px] relative' src={shock}/>
+              <img className='h-[35px] w-[35px] relative' src={shock} />
             </div>
             <div className='text-center text-zinc-800 text-[15px] font-normal'>
               Optimized for impact
@@ -300,9 +299,7 @@ const Section4 = () => {
               </div>
             </div>
           </div> */}
-          <div className="w-[17%]">
-
-          </div>
+          <div className='w-[17%]'></div>
 
           <div className='w-[50%] mr-7 max-h-[400px] overflow-y-scroll py-12'>
             <div className=' text-zinc-800 text-xl font-semibold leading-7'>
@@ -768,7 +765,7 @@ const Section4 = () => {
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
                       <div className='text-zinc-800 text-lg font-normal leading-snug'>
-                        Sofia
+                        Rajshree
                       </div>
                     </div>
                     <div className='pr-[169.94px] pb-px justify-start items-start flex'>
@@ -795,12 +792,12 @@ const Section4 = () => {
                   <div className='h-[86px] pl-1.5 pt-[15px] pb-4 flex-col justify-start items-start gap-[9px] inline-flex'>
                     <div className='  pb-px justify-start items-start flex'>
                       <div className='text-zinc-800 text-lg font-normal leading-snug'>
-                        Sofia
+                        Siya
                       </div>
                     </div>
                     <div className='pr-[169.94px] pb-px justify-start items-start flex'>
                       <div className='text-black text-opacity-30 text-lg font-normal leading-snug'>
-                        24 minutes ago
+                        29 minutes ago
                       </div>
                     </div>
                   </div>
@@ -808,7 +805,7 @@ const Section4 = () => {
 
                 <div className='   bg-emerald-50 rounded-[21px] justify-center items-center flex'>
                   <div className='text-emerald-600 p-1 text-base font-semibold leading-relaxed'>
-                    0.53 tons
+                    0.90 tons
                   </div>
                 </div>
               </div>
