@@ -579,8 +579,6 @@ const Section4 = () => {
               impact.
             </div>
           </div>
-            
-
         </div>
 
         <div className='w-full px-5'>
