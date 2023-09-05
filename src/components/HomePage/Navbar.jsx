@@ -57,14 +57,14 @@ const Navbar = ({ params }) => {
           </li>
           {/* <li className='item'>Contact Us</li> */}
           <li className='btn-item item'>
-            <a href='http://calculator.forzero.in/'>
+            <a href='https://calculator.forzero.in/'>
               <button className='btn nav-btn'>Get Started</button>
             </a>
           </li>
         </ul>
         <div className='btn-lines'>
           <div className='btn-cont'>
-            <a href='http://calculator.forzero.in/'>
+            <a href='https://calculator.forzero.in/'>
               <button className='btn nav-btn'>Get Started</button>
             </a>
           </div>
