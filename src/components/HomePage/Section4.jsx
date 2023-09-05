@@ -374,9 +374,7 @@ const Section4 = () => {
 
         <button className='pl-[37px] pr-[36.80px] py-2 bg-[#12e2a4] rounded shadow border border-[#12e2a4] justify-center items-center inline-flex'>
           <div className='text-center text-white text-[22px] font-medium leading-snug'>
-            <a href="https://dancing-frangipane-786e1e.netlify.app/">
-              Get started
-            </a>
+            <a href='http://calculator.forzero.in/'>Get started</a>
           </div>
         </button>
       </div>

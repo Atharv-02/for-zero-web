@@ -41,7 +41,7 @@ const Navbar = ({ params }) => {
   return (
     <div className='navbar-full' id='navbar-full'>
       <nav className={`navbar ${navShow ? "do-wh sp" : null}`} id='navbar'>
-        <div className='img-nav'>
+        <div className='img-nav' onClick={() => navigate("/")}>
           <img
             src={newImg ? navNewImg : navImage}
             alt=''
@@ -57,14 +57,14 @@ const Navbar = ({ params }) => {
           </li>
           {/* <li className='item'>Contact Us</li> */}
           <li className='btn-item item'>
-            <a href='https://dancing-frangipane-786e1e.netlify.app/'>
+            <a href='http://calculator.forzero.in/'>
               <button className='btn nav-btn'>Get Started</button>
             </a>
           </li>
         </ul>
         <div className='btn-lines'>
           <div className='btn-cont'>
-            <a href='https://dancing-frangipane-786e1e.netlify.app/'>
+            <a href='http://calculator.forzero.in/'>
               <button className='btn nav-btn'>Get Started</button>
             </a>
           </div>
