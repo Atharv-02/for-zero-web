@@ -36,6 +36,7 @@ const Section7 = () => {
           </div>
 
           <div className="bg-for_zero_green p-2 px-4 gap-2 rounded-full justify-center items-center flex">
+            
             <div className="text-center text-white text-base font-medium">
               Get Started
             </div>
