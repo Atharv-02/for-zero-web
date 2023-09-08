@@ -1,6 +1,8 @@
 import React from "react";
 import navImage from "../../assets/12th Project/Logo Files/PNGs & SVGs/2x/Asset 1@2x.png";
 import { AiOutlineInstagram, AiFillLinkedin } from "react-icons/ai";
+import x from '../../assets/x-light.svg'
+import facebook from '../../assets/facebook.svg'
 
 const Footer = () => {
   return (
@@ -27,29 +29,30 @@ const Footer = () => {
                   </div>
                   <div className='self-stretch pr-[90px] justify-start items-start gap-3 inline-flex'>
                     <div className='pt-[2.06px] pb-1.5 justify-start items-start flex'>
-                      <div className='h-[13.94px] justify-center items-start flex'>
-                        <div className='h-[13.94px] px-[0.04px] justify-start items-start flex' />
-                      </div>
+                      <a className='h-[23.94px] justify-center items-start flex' href="https://www.facebook.com/profile.php?id=61550874727804" target="_blank">
+                        <img className='h-[27.94px]' src='https://cdn-icons-png.flaticon.com/128/747/747374.png' />
+                      </a>
                     </div>
+                    {/* Twitter  */}
                     <div className='pb-1 justify-start items-start flex'>
-                      <div className='h-[18px] justify-center items-start flex'>
-                        <div className='h-[18px] px-[0.02px] py-[1.70px] justify-start items-start flex' />
-                      </div>
+                      <a className='h-[28px] justify-center items-start flex' href="https://twitter.com/_ForZero_" target="_blank">
+                        <img className='h-[28px]' src={x} />
+                      </a>
                     </div>
-                    <div className='pb-1 justify-start items-start flex'>
+                    <a className='pb-1 justify-start items-start flex' href="https://www.instagram.com/forzero__/" target="_blank">
                       <img
                         className='w-[28px] h-[28px] relative'
                         src='https://cdn-icons-png.flaticon.com/128/174/174855.png'
                       />
                       {/* <AiOutlineInstagram/> */}
-                    </div>
-                    <div className='pb-1 justify-start items-start flex'>
+                    </a>
+                    <a className='pb-1 justify-start items-start flex' href="https://www.linkedin.com/company/99966407/admin/feed/posts/" target="_blank">
                       <img
                         className='w-[28px] h-[28px] relative'
                         src='https://cdn-icons-png.flaticon.com/128/3536/3536505.png'
                       />
                       {/* <AiFillLinkedin/> */}
-                    </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -218,17 +221,17 @@ const Footer = () => {
               <div className='left-0 top-0 absolute text-white text-base font-semibold'>
                 Resources
               </div>
-              <div className='left-0 top-[32px] absolute text-white text-[15px] font-normal leading-snug'>
+              <a className='left-0 top-[32px] absolute text-white text-[15px] font-normal leading-snug' href="https://twitter.com/_ForZero_" target="_blank">
                 Follow on Twitter
-              </div>
-              <div className='left-0 top-[69.43px] absolute text-white text-[15px] font-normal leading-snug'>
+              </a>
+              <div className='left-0 top-[69.43px] absolute text-white text-[15px] font-normal leading-snug' href="https://www.instagram.com/forzero__/" target="_blank">
                 Follow on Instagram
               </div>
-              <div className='left-0 top-[106.85px] absolute text-white text-[15px] font-normal leading-snug'>
-                Support
+              <div className='left-0 top-[106.85px] absolute text-white text-[15px] font-normal leading-snug' href="https://www.linkedin.com/company/99966407/admin/feed/posts/" target="_blank">
+                Follow on Linkedin
               </div>
-              <div className='left-0 top-[144.27px] absolute text-white text-[15px] font-normal leading-snug'>
-                Contact us
+              <div className='left-0 top-[144.27px] absolute text-white text-[15px] font-normal leading-snug' href="https://www.facebook.com/profile.php?id=61550874727804" target="_blank">
+                Follow on Facebook
               </div>
             </div>
             {/*
@@ -317,14 +320,14 @@ const Footer = () => {
           </div>
 
           <div className=' max-w-[320px] flex px-3'>
-            <div className='left-0 top-[623.75px] absolute opacity-80 text-white text-[15px] font-normal'>
+            <div className='left-0 top-[623.75px] absolute text-white text-[15px] font-normal'>
               Privacy Policy
             </div>
             <div className='left-[102.63px] top-[623.75px] absolute text-white text-[15px] font-normal'>
               •
             </div>
 
-            <div className='left-[125px] top-[625.75px] absolute opacity-80 text-white text-[15px] font-normal'>
+            <div className='left-[125px] top-[625.75px] absolute text-white text-[15px] font-normal'>
               Contact support
             </div>
           </div>
