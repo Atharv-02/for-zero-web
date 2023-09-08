@@ -2,7 +2,7 @@ import React from "react";
 import navImage from "../../assets/12th Project/Logo Files/PNGs & SVGs/2x/Asset 1@2x.png";
 import { AiOutlineInstagram, AiFillLinkedin } from "react-icons/ai";
 import x from "../../assets/x-light.svg";
-import facebook from "../../assets/facebook.svg";
+import facebook from "../../assets/facebook.png";
 
 const Footer = () => {
   return (
@@ -36,18 +36,18 @@ const Footer = () => {
                       >
                         <img
                           className='h-[27.94px]'
-                          src='https://cdn-icons-png.flaticon.com/128/747/747374.png'
+                          src={facebook}
                         />
                       </a>
                     </div>
                     {/* Twitter  */}
                     <div className='pb-1 justify-start items-start flex'>
                       <a
-                        className='h-[28px] justify-center items-start flex'
+                        className='h-[23px] justify-center items-start flex'
                         href='https://twitter.com/_ForZero_'
                         target='_blank'
                       >
-                        <img className='h-[28px]' src={x} />
+                        <img className='h-[28px] pt-1' src={x} />
                       </a>
                     </div>
                     <a
