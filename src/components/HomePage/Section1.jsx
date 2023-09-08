@@ -28,7 +28,7 @@ function Section1() {
             />
 
             {isValidEmail(email) ? (
-              <a href='https://dancing-frangipane-786e1e.netlify.app/'>
+              <a href='https://calculator.forzero.in/'>
                 <button className='btn hero-btn'>Get Started</button>
               </a>
             ) : (
@@ -50,7 +50,7 @@ function Section1() {
         class='btn-cont-sp'
         style={{ textAlign: "center", marginBottom: "1rem" }}
       >
-        <a href='https://dancing-frangipane-786e1e.netlify.app/'>
+        <a href='https://calculator.forzero.in/'>
           <button class='btn sp-hero'>Get Started</button>
         </a>
       </div>
