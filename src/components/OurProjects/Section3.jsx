@@ -491,7 +491,7 @@ const Section3 = () => {
                         ></path>
                       </svg>
                     </div>
-                    <div></div>
+                    <div>Improves farmland</div>
                   </div>
                 </div>
               </div>

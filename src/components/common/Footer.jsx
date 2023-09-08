@@ -1,8 +1,8 @@
 import React from "react";
 import navImage from "../../assets/12th Project/Logo Files/PNGs & SVGs/2x/Asset 1@2x.png";
 import { AiOutlineInstagram, AiFillLinkedin } from "react-icons/ai";
-import x from '../../assets/x-light.svg'
-import facebook from '../../assets/facebook.svg'
+import x from "../../assets/x-light.svg";
+import facebook from "../../assets/facebook.svg";
 
 const Footer = () => {
   return (
@@ -29,24 +29,43 @@ const Footer = () => {
                   </div>
                   <div className='self-stretch pr-[90px] justify-start items-start gap-3 inline-flex'>
                     <div className='pt-[2.06px] pb-1.5 justify-start items-start flex'>
-                      <a className='h-[23.94px] justify-center items-start flex' href="https://www.facebook.com/profile.php?id=61550874727804" target="_blank">
-                        <img className='h-[27.94px]' src='https://cdn-icons-png.flaticon.com/128/747/747374.png' />
+                      <a
+                        className='h-[23.94px] justify-center items-start flex'
+                        href='https://www.facebook.com/profile.php?id=61550874727804'
+                        target='_blank'
+                      >
+                        <img
+                          className='h-[27.94px]'
+                          src='https://cdn-icons-png.flaticon.com/128/747/747374.png'
+                        />
                       </a>
                     </div>
                     {/* Twitter  */}
                     <div className='pb-1 justify-start items-start flex'>
-                      <a className='h-[28px] justify-center items-start flex' href="https://twitter.com/_ForZero_" target="_blank">
+                      <a
+                        className='h-[28px] justify-center items-start flex'
+                        href='https://twitter.com/_ForZero_'
+                        target='_blank'
+                      >
                         <img className='h-[28px]' src={x} />
                       </a>
                     </div>
-                    <a className='pb-1 justify-start items-start flex' href="https://www.instagram.com/forzero__/" target="_blank">
+                    <a
+                      className='pb-1 justify-start items-start flex'
+                      href='https://www.instagram.com/forzero__/'
+                      target='_blank'
+                    >
                       <img
                         className='w-[28px] h-[28px] relative'
                         src='https://cdn-icons-png.flaticon.com/128/174/174855.png'
                       />
                       {/* <AiOutlineInstagram/> */}
                     </a>
-                    <a className='pb-1 justify-start items-start flex' href="https://www.linkedin.com/company/99966407/admin/feed/posts/" target="_blank">
+                    <a
+                      className='pb-1 justify-start items-start flex'
+                      href='https://www.linkedin.com/company/99966407/admin/feed/posts/'
+                      target='_blank'
+                    >
                       <img
                         className='w-[28px] h-[28px] relative'
                         src='https://cdn-icons-png.flaticon.com/128/3536/3536505.png'
@@ -156,7 +175,7 @@ const Footer = () => {
 
         <div className='opacity-80 justify-start items-start border-b-2 border-gray-200 py-3 flex'>
           <div className='text-white text-base font-semibold'>
-            For Zero Climate, PBC © 2023
+            For Zero Climate © 2023
           </div>
         </div>
 
@@ -179,7 +198,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Mobile Footer */} 
+      {/* Mobile Footer */}
       <div className='max-w-[100vw] h-[659.75px] pt-3 pb-4 bg-for_zero_blue justify-center items-start sm:flex md:hidden'>
         <div className='w-[310px] relative'>
           <div className='pb-[50px] left-0 top-[50px] absolute flex-col justify-start items-start gap-[50px] inline-flex'>
@@ -221,16 +240,32 @@ const Footer = () => {
               <div className='left-0 top-0 absolute text-white text-base font-semibold'>
                 Resources
               </div>
-              <a className='left-0 top-[32px] absolute text-white text-[15px] font-normal leading-snug' href="https://twitter.com/_ForZero_" target="_blank">
+              <a
+                className='left-0 top-[32px] absolute text-white text-[15px] font-normal leading-snug'
+                href='https://twitter.com/_ForZero_'
+                target='_blank'
+              >
                 Follow on Twitter
               </a>
-              <div className='left-0 top-[69.43px] absolute text-white text-[15px] font-normal leading-snug' href="https://www.instagram.com/forzero__/" target="_blank">
+              <div
+                className='left-0 top-[69.43px] absolute text-white text-[15px] font-normal leading-snug'
+                href='https://www.instagram.com/forzero__/'
+                target='_blank'
+              >
                 Follow on Instagram
               </div>
-              <div className='left-0 top-[106.85px] absolute text-white text-[15px] font-normal leading-snug' href="https://www.linkedin.com/company/99966407/admin/feed/posts/" target="_blank">
+              <div
+                className='left-0 top-[106.85px] absolute text-white text-[15px] font-normal leading-snug'
+                href='https://www.linkedin.com/company/99966407/admin/feed/posts/'
+                target='_blank'
+              >
                 Follow on Linkedin
               </div>
-              <div className='left-0 top-[144.27px] absolute text-white text-[15px] font-normal leading-snug' href="https://www.facebook.com/profile.php?id=61550874727804" target="_blank">
+              <div
+                className='left-0 top-[144.27px] absolute text-white text-[15px] font-normal leading-snug'
+                href='https://www.facebook.com/profile.php?id=61550874727804'
+                target='_blank'
+              >
                 Follow on Facebook
               </div>
             </div>
